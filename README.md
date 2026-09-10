@@ -2,6 +2,17 @@
 
 Runs RepeatModeler (via the Dfam TE Tools Docker image) over a directory of gzipped genome FASTAs, spread across parallel workers.
 
+## Configuration
+
+Everything is configured in **`rmodeler.conf`**, next to the scripts. It is the only way to configure them: there are no command-line options and no environment variables. Both scripts refuse to start (exit 2) if the file is missing, if any setting is missing from it, if a setting name is misspelled, or if a value is nonsense.
+
+```bash
+cp rmodeler.conf.example rmodeler.conf
+$EDITOR rmodeler.conf
+```
+
+Values inherited from the environment are discarded before the file is read, so `THREADS=2 ./worker.sh` has no effect. This is deliberate: workers share `STATE_DIR`, `OUT_DIR` and `WORK_DIR`, and they only behave if every one of them was configured identically.
+
 ## Commands
 
 ```bash
@@ -9,44 +20,42 @@ Runs RepeatModeler (via the Dfam TE Tools Docker image) over a directory of gzip
 docker pull dfam/tetools:latest
 
 # single worker, foreground -- good for a first test run
-IN_DIR=/data/genomes THREADS=6 ./worker.sh
+./worker.sh
 
 # multiple workers via the supervisor
-export IN_DIR=/data/genomes WORK_DIR=/scratch/rmodeler/work THREADS=6
-./workers.sh start 4      # launch 4 workers
+./workers.sh start        # launch WORKERS workers
 ./workers.sh status       # check progress (also runs if you pass nothing)
 ./workers.sh stop         # stop all workers gracefully
 ```
 
-### Or skip the env vars: use a config file
-
-Copy `rmodeler.conf.example` to `rmodeler.conf` (same directory as the scripts), uncomment and edit whatever you want set permanently, then just run:
-
-```bash
-./worker.sh
-./workers.sh start 4
-```
-
-no env vars needed. A setting you *do* pass inline (e.g. `THREADS=2 ./worker.sh`) still overrides the config file; the config file overrides the built-in defaults. Use a config file at a different path with `CONFIG_FILE=/path/to/file`.
-
 ## Inputs needed
 
-- Docker installed (or `podman` / `sudo docker` -- set via `$DOCKER`), with `dfam/tetools:latest` already pulled
-- `$IN_DIR`: a directory of gzipped genome FASTAs (`*.fna.gz` by default, change with `$GLOB`)
-- `$STATE_DIR` and `$WORK_DIR` on a local filesystem, not NFS
+- Docker installed (or `podman` / `sudo docker` -- set `DOCKER`), with `dfam/tetools:latest` already pulled
+- `IN_DIR`: a directory of gzipped genome FASTAs (`*.fna.gz` by default, change with `GLOB`)
+- `STATE_DIR` and `WORK_DIR` on a local filesystem, not NFS
 
-Variables you'll typically set (all optional -- defaults shown), via env var or in `rmodeler.conf`:
+Every setting in `rmodeler.conf` is required. `rmodeler.conf.example` is a complete, working file with all of them:
 
-| Variable | Default | Meaning |
-|---|---|---|
-| `IN_DIR` | `/data/genomes` | Where the genome `.fna.gz` files live |
-| `WORK_DIR` | `/scratch/rmodeler/work` | Per-genome scratch space; needs to be big and fast |
-| `OUT_DIR` | `/data/rmodeler/out` | Where the final output lands |
-| `STATE_DIR` | `/data/rmodeler/state` | Progress tracking; must be local disk |
-| `LOG_DIR` | `/data/rmodeler/logs` | Logs |
-| `THREADS` | `6` | Cores per genome |
+| Setting | Meaning |
+|---|---|
+| `IN_DIR` | Where the genome `.fna.gz` files live; must exist |
+| `WORK_DIR` | Per-genome scratch space; needs to be big, fast, and local |
+| `OUT_DIR` | Where the final output lands |
+| `STATE_DIR` | Progress tracking; must be local disk |
+| `LOG_DIR` | Logs |
+| `RUN_DIR` | Worker pid files, written by `workers.sh` |
+| `RM_IMAGE` | Container image holding RepeatModeler |
+| `DOCKER` | `docker`, `sudo docker`, or `podman` |
+| `WORKERS` | How many workers `./workers.sh start` launches |
+| `THREADS` | Cores per genome; also the container `--cpus` cap |
+| `MEM_LIMIT` | Per-container memory cap, e.g. `28g`. Empty = unlimited |
+| `GLOB` | Which files in `IN_DIR` count as input |
+| `LTRSTRUCT` | `1` adds `-LTRStruct`; roughly doubles wall time and disk |
+| `KEEP_WORK` | `1` keeps the `RM_*` rounds dirs on success |
+| `RETRY_FAILED` | `1` re-attempts samples marked failed |
+| `STOP_GRACE` | Seconds Docker waits before SIGKILLing a container on shutdown |
 
-`rmodeler.conf.example` lists the rest (`RM_IMAGE`, `DOCKER`, `MEM_LIMIT`, `ENGINE`, `GLOB`, `LTRSTRUCT`, `KEEP_WORK`, `RETRY_FAILED`, `STOP_GRACE`, `RUN_DIR`).
+Total cores used is roughly `WORKERS * THREADS`. On a 24-core / 124 GB box, `WORKERS=4` with `THREADS=6` is a sane starting point.
 
 ## Artifacts generated
 
@@ -56,6 +65,7 @@ Variables you'll typically set (all optional -- defaults shown), via env var or 
 - `$STATE_DIR/claimed/<sample>/` -- marker: genome currently being worked on
 - `$LOG_DIR/<sample>.log` -- full BuildDatabase/RepeatModeler output for that genome
 - `$LOG_DIR/worker-N.out` -- one per worker, only when launched via `workers.sh`
+- `$RUN_DIR/worker-N.pid` -- one per worker slot, written by `workers.sh`
 - `$WORK_DIR/<sample>/` -- scratch working directory; deleted automatically on success (unless `KEEP_WORK=1`), kept on failure for debugging
 
-For everything else (full variable list, concurrency model, crash recovery), see the comments at the top of `worker.sh` and `workers.sh`.
+For everything else (concurrency model, crash recovery, operating it by hand), see the comments at the top of `worker.sh` and `workers.sh`.

@@ -12,21 +12,37 @@
 #------------------------------------------------------------------------------
 # USAGE
 #
+#   This script takes no arguments and reads no environment variables. All
+#   configuration lives in rmodeler.conf, next to this script, and that file
+#   is required -- see "CONFIGURATION" below.
+#
 #   Pull the image once, before starting any workers:
 #       docker pull dfam/tetools:latest
 #
 #   Foreground (one worker, useful for a first test run):
-#       IN_DIR=/data/genomes THREADS=6 ./worker.sh
+#       ./worker.sh
 #
 #   Daemonized:
 #       setsid nohup ./worker.sh >>/data/rmodeler/logs/w1.out 2>&1 </dev/null &
 #
 #   Several at once -- just launch it more than once, or use workers.sh,
 #   which handles pid files, staggering, and stop/status:
-#       ./workers.sh start 4
+#       ./workers.sh start
 #
 #   Stop a worker with SIGTERM (plain `kill`, no -9). It stops the running
 #   container, leaves that genome unclaimed for a later retry, and exits.
+#
+#------------------------------------------------------------------------------
+# CONFIGURATION
+#
+# Copy rmodeler.conf.example to rmodeler.conf and edit it. Every setting it
+# lists must be present; the script exits 2 if the file is missing, if a
+# setting is missing, if a name is misspelled, or if a value is nonsense.
+#
+# Nothing can be set any other way. `THREADS=2 ./worker.sh` does not work --
+# inherited values are discarded before the file is read -- and there are no
+# command-line flags. Workers sharing a $STATE_DIR must agree on where
+# everything is, and one mandatory file is the only way to guarantee they do.
 #
 #------------------------------------------------------------------------------
 # CONCURRENCY
@@ -99,6 +115,7 @@
 # EXIT STATUS
 #
 #   0    queue exhausted, worker finished normally
+#   2    configuration problem: no rmodeler.conf, or a bad/missing setting
 #   127  docker missing, or the image is not present locally
 #   143  stopped by SIGTERM (128 + 15)
 #
@@ -110,82 +127,110 @@
 set -uo pipefail
 
 #=================================================================== config file
-# Optional. Lets you write settings once instead of exporting/typing them on
-# every invocation. Format is plain KEY=value lines -- '#' starts a comment,
-# blank lines are ignored, values may be quoted. This is a small hand-rolled
-# reader, not `source`: a typo or a stray line can only fail to set one
-# variable, it can never execute code.
+# There are no command-line options and no environment overrides. Every
+# setting comes from rmodeler.conf, which sits next to this script and is
+# mandatory: if it is missing, or if any setting is missing from it, the
+# script refuses to start rather than quietly falling back to a default.
 #
-# Looked up in this order:
-#   1. $CONFIG_FILE, if you set it
-#   2. <this script's directory>/rmodeler.conf
+# Why it is this strict: several workers share $STATE_DIR, $OUT_DIR and
+# $WORK_DIR, and they only behave if every one of them was configured
+# identically. A per-invocation override is exactly how two workers end up
+# disagreeing about where the queue lives. One file, one answer, for every
+# worker on the box.
 #
-# Precedence: a setting already present in the environment always wins over
-# the config file -- so `THREADS=2 ./worker.sh` still overrides a config file
-# that sets THREADS=6 -- and the config file only fills in what the
-# environment didn't already set. The ${VAR:-default} lines below fill in
-# whatever neither did.
+# Format is plain KEY=value lines -- '#' starts a comment, blank lines are
+# ignored, values may be quoted. This is a small hand-rolled reader, not
+# `source`: the file cannot execute shell commands, only set the names below.
+#
+# Values inherited from the environment are discarded before the file is
+# read, so `THREADS=2 ./worker.sh` has no effect whatsoever -- it does not
+# override the file, and it does not survive as a leftover either.
 HERE=$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)
-_CONFIG_LOADED_FROM=""
+CONFIG_FILE="$HERE/rmodeler.conf"
+
+# The complete set of recognised settings. Both scripts accept all of them --
+# a few are only used by one of the two -- so a single config file serves
+# both. Anything else in the file is a typo, and treated as one.
+CONFIG_KEYS=(IN_DIR WORK_DIR OUT_DIR STATE_DIR LOG_DIR RUN_DIR
+             RM_IMAGE DOCKER THREADS MEM_LIMIT GLOB
+             LTRSTRUCT KEEP_WORK RETRY_FAILED STOP_GRACE WORKERS)
+
+die() { printf 'config error: %s\n' "$*" >&2; exit 2; }
+
 load_config() {
-    local file="${CONFIG_FILE:-$HERE/rmodeler.conf}"
-    [[ -f $file ]] || return 0
+    [[ -f $CONFIG_FILE ]] || die "no config file at $CONFIG_FILE
+  Copy rmodeler.conf.example to rmodeler.conf and edit it. The config file is
+  the only way to configure these scripts; there are no options or env vars."
 
-    local line key value
+    # Drop anything inherited from the environment first, so the file is the
+    # only thing that can set these names.
+    local k
+    for k in "${CONFIG_KEYS[@]}"; do unset "$k"; done
+
+    local -A seen=()
+    local lineno=0 line key value
     while IFS= read -r line || [[ -n $line ]]; do
-        line="${line%%#*}"
-        line="${line#"${line%%[![:space:]]*}"}"   # trim leading whitespace
-        line="${line%"${line##*[![:space:]]}"}"   # trim trailing whitespace
-        [[ -z $line || $line != *=* ]] && continue
+        (( ++lineno ))
+        line="${line%%#*}"                          # strip comment
+        line="${line#"${line%%[![:space:]]*}"}"     # trim leading whitespace
+        line="${line%"${line##*[![:space:]]}"}"     # trim trailing whitespace
+        [[ -z $line ]] && continue
 
+        [[ $line == *=* ]] || die "$CONFIG_FILE line $lineno: not a KEY=value line: $line"
         key="${line%%=*}"
         value="${line#*=}"
-        [[ $key =~ ^[A-Za-z_][A-Za-z0-9_]*$ ]] || continue    # skip junk lines
+        key="${key%"${key##*[![:space:]]}"}"        # allow "KEY = value"
+        value="${value#"${value%%[![:space:]]*}"}"
+
+        # A bad key is a hard error, not a skipped line: a typo'd setting that
+        # is silently ignored looks exactly like one that was applied.
+        [[ $key =~ ^[A-Za-z_][A-Za-z0-9_]*$ ]] || die "$CONFIG_FILE line $lineno: bad setting name: $key"
+        [[ " ${CONFIG_KEYS[*]} " == *" $key "* ]] || die "$CONFIG_FILE line $lineno: unknown setting: $key"
+        [[ -z ${seen[$key]+x} ]] || die "$CONFIG_FILE line $lineno: $key set more than once"
 
         if [[ $value == \"*\" ]]; then value="${value#\"}"; value="${value%\"}"
         elif [[ $value == \'*\' ]]; then value="${value#\'}"; value="${value%\'}"
         fi
 
-        # ${!key+x} is bash's indirect "is this variable set" test -- true
-        # even if it's set to an empty string. Only claim the name if nothing
-        # (env or an earlier config line) has already claimed it.
-        if [[ -z ${!key+x} ]]; then
-            printf -v "$key" '%s' "$value"
-            export "$key"
-        fi
-    done < "$file"
-    _CONFIG_LOADED_FROM=$file
+        printf -v "$key" '%s' "$value"
+        export "$key"
+        seen[$key]=1
+    done < "$CONFIG_FILE"
+
+    # Every setting must be present. No built-in defaults: a value you never
+    # wrote down is a value you cannot check when a run goes wrong.
+    local missing=()
+    for k in "${CONFIG_KEYS[@]}"; do
+        [[ -n ${seen[$k]+x} ]] || missing+=("$k")
+    done
+    (( ${#missing[@]} )) && die "$CONFIG_FILE is missing: ${missing[*]}"
 }
+
+# Catch the bad values here, once, rather than as a puzzling failure three
+# hours into a run.
+validate_config() {
+    local k
+    for k in IN_DIR WORK_DIR OUT_DIR STATE_DIR LOG_DIR RUN_DIR RM_IMAGE DOCKER GLOB; do
+        [[ -n ${!k} ]] || die "$k must not be empty"
+    done
+    for k in THREADS WORKERS; do
+        [[ ${!k} =~ ^[1-9][0-9]*$ ]] || die "$k must be a positive integer (got '${!k}')"
+    done
+    for k in LTRSTRUCT KEEP_WORK RETRY_FAILED; do
+        [[ ${!k} == 0 || ${!k} == 1 ]] || die "$k must be 0 or 1 (got '${!k}')"
+    done
+    [[ $STOP_GRACE =~ ^[0-9]+$ ]] || die "STOP_GRACE must be a whole number of seconds (got '$STOP_GRACE')"
+    [[ -d $IN_DIR ]] || die "IN_DIR does not exist: $IN_DIR"
+}
+
 load_config
+validate_config
 
-#=============================================================== configuration
-# Every setting reads ${VAR:-default}, so anything here can be overridden from
-# the environment, the config file above, or both, without editing this file.
-# That is how workers.sh passes configuration down to the workers it launches.
-
-IN_DIR="${IN_DIR:-/data/genomes}"                # where the *.fna.gz live
-WORK_DIR="${WORK_DIR:-/scratch/rmodeler/work}"   # per-genome scratch; big and fast
-OUT_DIR="${OUT_DIR:-/data/rmodeler/out}"         # final -families.fa / .stk land here
-STATE_DIR="${STATE_DIR:-/data/rmodeler/state}"   # claimed/ done/ failed/; must be local
-LOG_DIR="${LOG_DIR:-/data/rmodeler/logs}"        # one <sample>.log per genome
-
-RM_IMAGE="${RM_IMAGE:-dfam/tetools:latest}"  # image holding RepeatModeler
-DOCKER="${DOCKER:-docker}"                   # "sudo docker" or "podman" also work
-THREADS="${THREADS:-6}"                      # cores per genome; also the --cpus cap
-MEM_LIMIT="${MEM_LIMIT:-}"                   # e.g. 28g. Empty = unlimited. See note
-                                             #   at docker_run() before setting this
-ENGINE="${ENGINE:-ncbi}"                     # ncbi (rmblast) | abblast
-GLOB="${GLOB:-*.fna.gz}"                     # which files in $IN_DIR count as input
-LTRSTRUCT="${LTRSTRUCT:-0}"                  # 1 = add -LTRStruct; roughly doubles
-                                             #   wall time and disk. Only if you want
-                                             #   the LTR pipeline's output
-KEEP_WORK="${KEEP_WORK:-0}"                  # 1 = keep the RM_* rounds dirs on success
-RETRY_FAILED="${RETRY_FAILED:-0}"            # 1 = re-attempt samples marked failed
-STOP_GRACE="${STOP_GRACE:-10}"               # seconds docker waits before SIGKILLing
-                                             #   the container on shutdown
-
-# Identifies this worker in the log lines. workers.sh sets it to w1, w2, ...
-WORKER_ID="${WORKER_ID:-$(hostname -s)-$$}"
+# Identifies this worker in its own log lines and in the owner file of every
+# claim it takes. Derived, never configured: workers on one box must be
+# distinguishable, and a pid is the one thing guaranteed to differ. Match a
+# tag back to a workers.sh slot through $RUN_DIR/worker-N.pid.
+WORKER_ID="$(hostname -s)-$$"
 
 # Brace expansion: the shell turns the second line into three separate
 # arguments before mkdir ever runs. -p makes this idempotent, so every worker
@@ -454,9 +499,15 @@ run_pipeline() {
     # below.
     (( SHUTDOWN )) && return 130
 
+    # No -engine: current RepeatModeler (checked against 2.0.9) dropped
+    # AB-Blast support and removed the option from BuildDatabase's argument
+    # list, so passing it is a hard "Unknown option: engine" failure. The
+    # database is always built with makeblastdb now. RepeatModeler itself
+    # still parses -engine but hardcodes rmblast and ignores the value, so
+    # the flag is gone from both calls rather than only from this one.
     log "[$sample] BuildDatabase"
     docker_run "${cname}-db" "$logf" "$jobdir" \
-        BuildDatabase -engine "$ENGINE" -name "$sample" "$sample.fa" \
+        BuildDatabase -name "$sample" "$sample.fa" \
         || { rc=$?
              # A non-zero exit caused by US stopping the container (SIGTERM
              # landed while BuildDatabase was running) is an abort, not a
@@ -472,7 +523,7 @@ run_pipeline() {
 
     log "[$sample] RepeatModeler (${RM_THREAD_ARGS[*]})"
     docker_run "${cname}-rm" "$logf" "$jobdir" \
-        RepeatModeler -database "$sample" -engine "$ENGINE" \
+        RepeatModeler -database "$sample" \
         "${RM_THREAD_ARGS[@]}" "${ltr[@]}" \
         || { rc=$?
              # A non-zero exit caused by US stopping the container is an abort,
@@ -547,7 +598,7 @@ fi
 detect_thread_flag
 reap_stale_claims
 
-log "starting: IN_DIR=$IN_DIR IMAGE=$RM_IMAGE THREADS=$THREADS LTRSTRUCT=$LTRSTRUCT${_CONFIG_LOADED_FROM:+ (config: $_CONFIG_LOADED_FROM)}"
+log "starting: config=$CONFIG_FILE IN_DIR=$IN_DIR IMAGE=$RM_IMAGE THREADS=$THREADS LTRSTRUCT=$LTRSTRUCT"
 
 processed=0
 
