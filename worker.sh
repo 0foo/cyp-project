@@ -109,10 +109,59 @@
 # Deliberately no -e: one genome failing must not kill the worker.
 set -uo pipefail
 
+#=================================================================== config file
+# Optional. Lets you write settings once instead of exporting/typing them on
+# every invocation. Format is plain KEY=value lines -- '#' starts a comment,
+# blank lines are ignored, values may be quoted. This is a small hand-rolled
+# reader, not `source`: a typo or a stray line can only fail to set one
+# variable, it can never execute code.
+#
+# Looked up in this order:
+#   1. $CONFIG_FILE, if you set it
+#   2. <this script's directory>/rmodeler.conf
+#
+# Precedence: a setting already present in the environment always wins over
+# the config file -- so `THREADS=2 ./worker.sh` still overrides a config file
+# that sets THREADS=6 -- and the config file only fills in what the
+# environment didn't already set. The ${VAR:-default} lines below fill in
+# whatever neither did.
+HERE=$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)
+_CONFIG_LOADED_FROM=""
+load_config() {
+    local file="${CONFIG_FILE:-$HERE/rmodeler.conf}"
+    [[ -f $file ]] || return 0
+
+    local line key value
+    while IFS= read -r line || [[ -n $line ]]; do
+        line="${line%%#*}"
+        line="${line#"${line%%[![:space:]]*}"}"   # trim leading whitespace
+        line="${line%"${line##*[![:space:]]}"}"   # trim trailing whitespace
+        [[ -z $line || $line != *=* ]] && continue
+
+        key="${line%%=*}"
+        value="${line#*=}"
+        [[ $key =~ ^[A-Za-z_][A-Za-z0-9_]*$ ]] || continue    # skip junk lines
+
+        if [[ $value == \"*\" ]]; then value="${value#\"}"; value="${value%\"}"
+        elif [[ $value == \'*\' ]]; then value="${value#\'}"; value="${value%\'}"
+        fi
+
+        # ${!key+x} is bash's indirect "is this variable set" test -- true
+        # even if it's set to an empty string. Only claim the name if nothing
+        # (env or an earlier config line) has already claimed it.
+        if [[ -z ${!key+x} ]]; then
+            printf -v "$key" '%s' "$value"
+            export "$key"
+        fi
+    done < "$file"
+    _CONFIG_LOADED_FROM=$file
+}
+load_config
+
 #=============================================================== configuration
 # Every setting reads ${VAR:-default}, so anything here can be overridden from
-# the environment without editing this file. That is how workers.sh passes
-# configuration down to the workers it launches.
+# the environment, the config file above, or both, without editing this file.
+# That is how workers.sh passes configuration down to the workers it launches.
 
 IN_DIR="${IN_DIR:-/data/genomes}"                # where the *.fna.gz live
 WORK_DIR="${WORK_DIR:-/scratch/rmodeler/work}"   # per-genome scratch; big and fast
@@ -498,7 +547,7 @@ fi
 detect_thread_flag
 reap_stale_claims
 
-log "starting: IN_DIR=$IN_DIR IMAGE=$RM_IMAGE THREADS=$THREADS LTRSTRUCT=$LTRSTRUCT"
+log "starting: IN_DIR=$IN_DIR IMAGE=$RM_IMAGE THREADS=$THREADS LTRSTRUCT=$LTRSTRUCT${_CONFIG_LOADED_FROM:+ (config: $_CONFIG_LOADED_FROM)}"
 
 processed=0
 

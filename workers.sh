@@ -59,6 +59,48 @@ set -uo pipefail
 HERE=$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)
 WORKER="$HERE/worker.sh"
 
+#=================================================================== config file
+# Optional. Same reader as worker.sh (kept duplicated on purpose -- these are
+# standalone scripts with no shared library, matching how the rest of the
+# configuration is handled). See worker.sh's copy of this comment for the
+# full rationale; short version: plain KEY=value lines, not `source`, looked
+# up from $CONFIG_FILE or <script dir>/rmodeler.conf, and only used to fill
+# in settings the environment didn't already set.
+#
+# Every variable this loads is exported, not just plain-assigned -- workers
+# started below only inherit what's in the environment, so a config-file
+# setting that isn't on the hardcoded `export` list further down (GLOB,
+# MEM_LIMIT, ENGINE, ...) would otherwise silently fail to reach them.
+_CONFIG_LOADED_FROM=""
+load_config() {
+    local file="${CONFIG_FILE:-$HERE/rmodeler.conf}"
+    [[ -f $file ]] || return 0
+
+    local line key value
+    while IFS= read -r line || [[ -n $line ]]; do
+        line="${line%%#*}"
+        line="${line#"${line%%[![:space:]]*}"}"
+        line="${line%"${line##*[![:space:]]}"}"
+        [[ -z $line || $line != *=* ]] && continue
+
+        key="${line%%=*}"
+        value="${line#*=}"
+        [[ $key =~ ^[A-Za-z_][A-Za-z0-9_]*$ ]] || continue
+
+        if [[ $value == \"*\" ]]; then value="${value#\"}"; value="${value%\"}"
+        elif [[ $value == \'*\' ]]; then value="${value#\'}"; value="${value%\'}"
+        fi
+
+        if [[ -z ${!key+x} ]]; then
+            printf -v "$key" '%s' "$value"
+            export "$key"
+        fi
+    done < "$file"
+    _CONFIG_LOADED_FROM=$file
+}
+load_config
+[[ -n $_CONFIG_LOADED_FROM ]] && echo "config: $_CONFIG_LOADED_FROM" >&2
+
 #=============================================================== configuration
 # Exported, so every worker launched below inherits the same values. Each is
 # ${VAR:-default}, so anything already set in your environment wins.

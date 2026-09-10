@@ -1,0 +1,30 @@
+# Copy this file to rmodeler.conf, in the same directory as worker.sh /
+# workers.sh, and uncomment + edit whatever you want to set permanently.
+#
+# Anything left commented out keeps its built-in default. Anything already
+# exported in your shell environment (e.g. `THREADS=12 ./worker.sh`) wins
+# over whatever is set here. To use a config file at a different path
+# instead, set CONFIG_FILE=/path/to/file before running either script.
+#
+# Format: plain KEY=value, one per line. Quotes around the value are
+# optional. This file is read, not sourced -- it cannot run shell commands.
+
+# IN_DIR=/data/genomes
+# WORK_DIR=/scratch/rmodeler/work
+# OUT_DIR=/data/rmodeler/out
+# STATE_DIR=/data/rmodeler/state
+# LOG_DIR=/data/rmodeler/logs
+
+# RM_IMAGE=dfam/tetools:latest
+# DOCKER=docker
+# THREADS=6
+# MEM_LIMIT=
+# ENGINE=ncbi
+# GLOB=*.fna.gz
+# LTRSTRUCT=0
+# KEEP_WORK=0
+# RETRY_FAILED=0
+# STOP_GRACE=10
+
+# workers.sh only:
+# RUN_DIR=/data/rmodeler/state/run
