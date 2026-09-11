@@ -126,6 +126,24 @@
 # Deliberately no -e: one genome failing must not kill the worker.
 set -uo pipefail
 
+#======================================================================= usage
+# This script takes no arguments, so any argument is a mistake -- and a silent
+# one, because the mistaken command still starts a full worker: it claims a
+# genome and launches containers when all you wanted was to read the help.
+# `./worker.sh --help` did exactly that. Reject arguments before anything else
+# happens, and answer the help flags people actually type.
+usage() {
+    sed -n '3,34p' "${BASH_SOURCE[0]}" | sed 's/^# \{0,1\}//'
+    echo "Settings: $(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)/rmodeler.conf"
+}
+case "${1:-}" in
+    "")        ;;                                  # the only correct invocation
+    -h|--help) usage; exit 0 ;;
+    *)         echo "worker.sh takes no arguments (got: $*)" >&2
+               echo "It is configured only by rmodeler.conf. Try --help." >&2
+               exit 2 ;;
+esac
+
 #=================================================================== config file
 # There are no command-line options and no environment overrides. Every
 # setting comes from rmodeler.conf, which sits next to this script and is
