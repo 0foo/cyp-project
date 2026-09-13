@@ -124,6 +124,6 @@ More species would fix this. Nothing else will.
 
 ---
 
-**More detail:** [`docs/pipeline/detailed/02-stage-reference.md`](../pipeline/detailed/02-stage-reference.md)
-(stage 6 — the tests, the metrics and the restricted variants)
+**More detail:** [`docs/deep/04-comparison-scripts.md`](../deep/04-comparison-scripts.md)
+and [`docs/deep/05-statistics.md`](../deep/05-statistics.md)
 · **Diagram:** [`docs/diagrams/04-comparison-flow.md`](../diagrams/04-comparison-flow.md)

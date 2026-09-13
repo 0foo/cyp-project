@@ -2,10 +2,12 @@
 
 Start here.
 
-## If you are new to the project
+## Start here
 
-Read [`pipeline/simple/01-what-it-does.md`](pipeline/simple/01-what-it-does.md). It explains
-the research question and puts the whole pipeline on one flow chart.
+- **Just want to run something?** → [`commands.md`](commands.md). Every command in the project
+  on one page, with what it does and what it leaves behind.
+- **New to the project?** → [`pipeline/simple/01-what-it-does.md`](pipeline/simple/01-what-it-does.md).
+  The research question, and the whole pipeline on one flow chart.
 
 ## The two views
 
@@ -14,6 +16,7 @@ it describes** (the pipeline as a whole vs individual scripts).
 
 | | The pipeline as a whole | Individual scripts |
 |---|---|---|
+| **Just the commands** | [`commands.md`](commands.md) | |
 | **Quick overview, with flow charts** | [`pipeline/simple/`](pipeline/simple/) | [`simple/`](simple/) |
 | **Detailed reference** | [`pipeline/detailed/`](pipeline/detailed/) | [`deep/`](deep/) |
 | **Diagrams** | [`diagrams/`](diagrams/) | |
@@ -22,8 +25,8 @@ it describes** (the pipeline as a whole vs individual scripts).
 a genome takes from raw FASTA to statistical verdict: the six stages, what each consumes and
 produces, the formats that join them, and what is missing.
 
-**[`deep/`](deep/) covers individual scripts** line by line. Three of its seven planned
-documents are written; the rest are outstanding.
+**[`deep/`](deep/) covers individual scripts** line by line — the worker automation, the
+TE-locating scripts, the GFF3 builder, the comparison scripts and the statistics.
 
 **[`../OCR docs/`](../OCR%20docs/)** holds transcriptions of the seventeen archive photographs
 that record the stages which were never committed to code. Pipeline documentation cites these

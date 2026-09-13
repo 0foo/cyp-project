@@ -8,16 +8,17 @@ whether to use it. For that, start with [`docs/simple/`](../simple/).
 | [01-repeat-modeler-automation.md](01-repeat-modeler-automation.md) | `worker.sh`, `rm-manager.sh`, `rmodeler.conf` — concurrency, crash recovery, signal handling, container flags |
 | [02-te-locating-scripts.md](02-te-locating-scripts.md) | `repeatOpp.py`, `Locate_TE.py`, `CleanAnnasse.py` — line by line, with the bugs |
 | [03-build-tfbs-te-gff.md](03-build-tfbs-te-gff.md) | `build_tfbs_te_gff.py` — all six stages, the FASTA indexer, the CncC motif, GFF3 emission |
-| `04-comparison-scripts.md` | the three `compare_te_cyp_*` scripts — parsing, filtering, report construction — **not yet written** |
-| `05-statistics.md` | every test implemented, why it was chosen, how it is validated, and what the design cannot answer — **not yet written** |
-| `06-data-formats.md` | every file format the pipeline reads or writes, with real examples — **not yet written** |
-| `07-provenance-and-history.md` | how this code came to look the way it does, sourced from the archive photographs — **not yet written** |
+| [04-comparison-scripts.md](04-comparison-scripts.md) | the three `compare_te_cyp_*` scripts — parsing, filtering, the two restricted variants, report construction |
+| [05-statistics.md](05-statistics.md) | every test implemented, why it was chosen, how it is validated, and what the design cannot answer |
 
-Pipeline-level material that these per-script documents defer to lives in
-[`docs/pipeline/`](../pipeline/): [`03-data-contracts.md`](../pipeline/detailed/03-data-contracts.md)
-covers the file formats, and
-[`04-gaps-and-provenance.md`](../pipeline/detailed/04-gaps-and-provenance.md) covers provenance
-and the known defects.
+Two further documents were once planned here and are deliberately **not** written, because
+they would duplicate pipeline-level material that already exists:
+
+- *data formats* → [`pipeline/detailed/03-data-contracts.md`](../pipeline/detailed/03-data-contracts.md)
+- *provenance and history* → [`pipeline/detailed/04-gaps-and-provenance.md`](../pipeline/detailed/04-gaps-and-provenance.md)
+
+Formats and provenance are properties of the pipeline, not of any one script, so they belong
+there rather than here.
 
 ## Conventions
 

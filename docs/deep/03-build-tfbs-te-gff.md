@@ -411,7 +411,7 @@ A run with no FIMO engine:
 That file then flows into `compare_te_cyp_cncc.py`, which reports zero CncC-proximal genes
 for that species. The cncc script detects and labels this (it counts `n_tfbs_total`
 separately precisely for this reason — see
-[`docs/pipeline/detailed/02-stage-reference.md`](../pipeline/detailed/02-stage-reference.md), stage 6), but only a reader who notices the
+[`04-comparison-scripts.md`](04-comparison-scripts.md)), but only a reader who notices the
 banner is protected.
 
 > **Suggestion:** if you extend this script, write a `##pipeline-tfbs-scanned false` pragma
