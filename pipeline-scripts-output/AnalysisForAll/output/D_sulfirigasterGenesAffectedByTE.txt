@@ -1,0 +1,933 @@
+JAJJHZ010000276.1	Cyp6d4	  266   29.9  1.7  1.7  JAJJHZ010000276.1  1030710 1030886 (4138782) C rnd-4_family-11438 Unknown            (176)   1255   1079 21052  
+JAJJHZ010000276.1	Cyp6d4	  361   26.6  2.3  2.3  JAJJHZ010000276.1  1033024 1033200 (4136468) C rnd-4_family-11438 Unknown            (176)   1255   1079 21053  
+JAJJHZ010000627.1	Cyp308a1	   29   10.8  0.0  0.0  JAJJHZ010000627.1   1366054  1366103  (9684370) + (GATTGC)n          Simple_repeat          1     50    (0) 34765  
+JAJJHZ010000627.1	Cyp308a1	  336   16.4  0.0  3.0  JAJJHZ010000627.1   1366429  1366497  (9683976) + rnd-4_family-244   RC/Helentron        2019   2085  (273) 34766 *
+JAJJHZ010000627.1	Cyp308a1	  439   10.8  0.0  0.0  JAJJHZ010000627.1   1366439  1366503  (9683970) + rnd-1_family-155   Unknown                1     65 (1008) 34767  
+JAJJHZ010000627.1	Cyp308a1	  244   23.5  4.4  0.0  JAJJHZ010000627.1   1366485  1366495  (9683978) + rnd-1_family-67    RC/Helentron         506    576 (1188) 34768 *
+JAJJHZ010000627.1	Cyp308a1	  300   19.3  1.8  0.0  JAJJHZ010000627.1   1366496  1366552  (9683921) + rnd-1_family-155   Unknown              102    159  (914) 34769  
+JAJJHZ010000627.1	Cyp308a1	  331   17.4  4.1  5.2  JAJJHZ010000627.1   1366560  1366656  (9683817) C rnd-1_family-42    DNA/CMC-Transib    (210)    342    247 34770  
+JAJJHZ010000627.1	Cyp308a1	  658   15.6  4.4  3.1  JAJJHZ010000627.1   1366685  1366843  (9683630) + rnd-1_family-67    RC/Helentron         967   1127  (637) 34768  
+JAJJHZ010000627.1	Cyp308a1	   13   20.9  0.0  0.0  JAJJHZ010000627.1   1366884  1366916  (9683557) + (ACATCG)n          Simple_repeat          1     33    (0) 34771  
+JAJJHZ010000627.1	Cyp308a1	   25   16.0  0.0  0.0  JAJJHZ010000627.1   1367373  1367421  (9683052) + A-rich             Low_complexity         1     49    (0) 34772  
+JAJJHZ010000627.1	Cyp308a1	   17   15.3  0.0  0.0  JAJJHZ010000627.1   1368021  1368049  (9682424) + A-rich             Low_complexity         1     29    (0) 34773  
+JAJJHZ010000627.1	Cyp308a1	   14   21.5  4.0  2.0  JAJJHZ010000627.1   1368050  1368070  (9682403) + (AATA)n            Simple_repeat          1     51    (0) 34774  
+JAJJHZ010000627.1	Cyp308a1	  301   16.8  0.8  3.4  JAJJHZ010000627.1   1368209  1368340  (9682133) + rnd-2_family-643   Unknown               15     75  (177) 34775  
+JAJJHZ010000627.1	Cyp308a1	   18    0.0  0.0  4.0  JAJJHZ010000627.1   1369348  1369373  (9681100) + (CTG)n             Simple_repeat          1     25    (0) 34776  
+JAJJHZ010000627.1	Cyp308a1	   11   14.8  4.9  4.9  JAJJHZ010000627.1   1369978  1370018  (9680455) + (ATATCTA)n         Simple_repeat          1     41    (0) 34777  
+JAJJHZ010000627.1	Cyp308a1	11327    0.1  2.3  0.0  JAJJHZ010000627.1   1370427  1371681  (9678792) + rnd-1_family-195   DNA/TcMar-Mariner      1   1284    (6) 34778  
+JAJJHZ010000627.1	Cyp308a1	   17    9.2  5.7  0.0  JAJJHZ010000627.1   1372552  1372586  (9677887) + (AATTG)n           Simple_repeat          1     37    (0) 34779  
+JAJJHZ010000627.1	Cyp308a1	   13   20.4  0.0  4.9  JAJJHZ010000627.1   1372789  1372831  (9677642) + A-rich             Low_complexity         1     41    (0) 34780  
+JAJJHZ010000627.1	Cyp308a1	   13   20.3  0.0  0.0  JAJJHZ010000627.1   1373530  1373559  (9676914) + (CAG)n             Simple_repeat          1     30    (0) 34781  
+JAJJHZ010000627.1	Cyp308a1	   25   18.0  0.0  3.5  JAJJHZ010000627.1   1373689  1373748  (9676725) + (GCCA)n            Simple_repeat          1     58    (0) 34782  
+JAJJHZ010000627.1	Cyp308a1	   20    9.8  0.0  0.0  JAJJHZ010000627.1   1374877  1374909  (9675564) + (GCTTTC)n          Simple_repeat          1     33    (0) 34783  
+JAJJHZ010000627.1	Cyp308a1	  289   22.9  3.3 13.8  JAJJHZ010000627.1   1375002  1375153  (9675320) + rnd-2_family-26    LINE/R1              101    342  (763) 34784  
+JAJJHZ010000627.1	Cyp308a1	   28    5.8  0.0  0.0  JAJJHZ010000627.1   1375859  1375894  (9674579) + (AATTGGG)n         Simple_repeat          1     36    (0) 34785  
+JAJJHZ010000627.1	Cyp308a1	   17   13.6  2.3  4.7  JAJJHZ010000627.1   1376222  1376265  (9674208) + A-rich             Low_complexity         1     43    (0) 34786  
+JAJJHZ010000627.1	Cyp308a1	   27    9.8  0.0  0.0  JAJJHZ010000627.1   1376450  1376493  (9673980) + (TCTGGAA)n         Simple_repeat          1     44    (0) 34787  
+JAJJHZ010000627.1	Cyp18a1	   13   26.6  2.0  2.0  JAJJHZ010000627.1   1396857  1396907  (9653566) + (TATTT)n           Simple_repeat          1     51    (0) 34848  
+JAJJHZ010000627.1	Cyp18a1	   28    3.3  0.0  0.0  JAJJHZ010000627.1   1397432  1397462  (9653011) + (TCTTCTG)n         Simple_repeat          1     31    (0) 34849  
+JAJJHZ010000627.1	Cyp18a1	   29   19.0  1.4  1.4  JAJJHZ010000627.1   1397613  1397681  (9652792) + A-rich             Low_complexity         1     69    (0) 34850  
+JAJJHZ010000627.1	Cyp18a1	   11   29.9  2.0  0.0  JAJJHZ010000627.1   1397706  1397754  (9652719) + (ATTTCA)n          Simple_repeat          1     50    (0) 34851  
+JAJJHZ010000627.1	Cyp18a1	   18   17.9  0.0  0.0  JAJJHZ010000627.1   1398306  1398337  (9652136) + A-rich             Low_complexity         1     32    (0) 34852  
+JAJJHZ010000627.1	Cyp18a1	   21   10.5  0.0  0.0  JAJJHZ010000627.1   1398903  1398933  (9651540) + (AG)n              Simple_repeat          1     31    (0) 34853  
+JAJJHZ010000627.1	Cyp18a1	   11   13.6  2.8  5.7  JAJJHZ010000627.1   1399162  1399197  (9651276) + G-rich             Low_complexity         1     35    (0) 34854  
+JAJJHZ010000627.1	Cyp18a1	  244   28.6  0.0  0.0  JAJJHZ010000627.1   1399299  1399368  (9651105) C rnd-4_family-571   Unknown           (1664)    249    180 34855  
+JAJJHZ010000627.1	Cyp18a1	   23   12.8  1.8  5.5  JAJJHZ010000627.1   1399389  1399445  (9651028) + (CCAGAG)n          Simple_repeat          1     55    (0) 34856  
+JAJJHZ010000627.1	Cyp18a1	   32   16.8  5.8  5.8  JAJJHZ010000627.1   1399490  1399579  (9650894) + (TTCG)n            Simple_repeat          1     90    (0) 34857  
+JAJJHZ010000627.1	Cyp18a1	   28    8.0  0.0  0.0  JAJJHZ010000627.1   1399580  1399619  (9650854) + (GTC)n             Simple_repeat          1     40    (0) 34858  
+JAJJHZ010000627.1	Cyp18a1	   32   16.8  5.8  5.8  JAJJHZ010000627.1   1399620  1399650  (9650823) + (TTCG)n            Simple_repeat          2     38    (0) 34859  
+JAJJHZ010000627.1	Cyp18a1	   25   27.7  3.6  4.4  JAJJHZ010000627.1   1399651  1399675  (9650798) + (TCGC)n            Simple_repeat          1     55    (0) 34860  
+JAJJHZ010000627.1	Cyp18a1	   33    2.2  6.5  0.0  JAJJHZ010000627.1   1399700  1399745  (9650728) + (CAGCTCAG)n        Simple_repeat          1     49    (0) 34861  
+JAJJHZ010000627.1	Cyp18a1	   20   14.5  0.0  0.0  JAJJHZ010000627.1   1399952  1399989  (9650484) + (CTTCGA)n          Simple_repeat          1     38    (0) 34862  
+JAJJHZ010000627.1	Cyp18a1	   16   11.6  0.0  0.0  JAJJHZ010000627.1   1400336  1400370  (9650103) + (CAA)n             Simple_repeat          1     35    (0) 34863  
+JAJJHZ010000627.1	Cyp18a1	   14   15.9  2.9  0.0  JAJJHZ010000627.1   1400850  1400884  (9649589) + A-rich             Low_complexity         1     36    (0) 34864  
+JAJJHZ010000627.1	Cyp18a1	   22    6.2  0.0  2.9  JAJJHZ010000627.1   1401026  1401061  (9649412) + (ATCGTT)n          Simple_repeat          1     35    (0) 34865  
+JAJJHZ010000627.1	Cyp18a1	   15    3.0 11.1  2.6  JAJJHZ010000627.1   1402105  1402140  (9648333) + (GATC)n            Simple_repeat          1     39    (0) 34866 *
+JAJJHZ010000627.1	Cyp18a1	   19   14.5  0.0  0.0  JAJJHZ010000627.1   1402140  1402170  (9648303) + (TG)n              Simple_repeat          1     31    (0) 34867  
+JAJJHZ010000627.1	Cyp18a1	   21    9.5  0.0  0.0  JAJJHZ010000627.1   1402351  1402384  (9648089) + (TTGCG)n           Simple_repeat          1     34    (0) 34868  
+JAJJHZ010000627.1	Cyp18a1	   27    3.5  0.0  0.0  JAJJHZ010000627.1   1402458  1402487  (9647986) + (ACAGCAC)n         Simple_repeat          1     30    (0) 34869  
+JAJJHZ010000627.1	Cyp18a1	   27   10.3  7.7  0.0  JAJJHZ010000627.1   1402526  1402577  (9647896) + (TC)n              Simple_repeat          1     56    (0) 34870  
+JAJJHZ010000627.1	Cyp18a1	   28    6.2  1.7  7.3  JAJJHZ010000627.1   1403052  1403109  (9647364) + (ACAA)n            Simple_repeat          1     55    (0) 34871  
+JAJJHZ010000627.1	Cyp18a1	   20    8.1  4.8  2.3  JAJJHZ010000627.1   1403385  1403426  (9647047) + (TTACGT)n          Simple_repeat          1     43    (0) 34872  
+JAJJHZ010000627.1	Cyp18a1	   26    5.1  4.9  0.0  JAJJHZ010000627.1   1403590  1403630  (9646843) + (CAAA)n            Simple_repeat          1     43    (0) 34873  
+JAJJHZ010000627.1	Cyp18a1	   16   16.1  4.8  0.0  JAJJHZ010000627.1   1403723  1403764  (9646709) + (TTCAATA)n         Simple_repeat          1     44    (0) 34874  
+JAJJHZ010000627.1	Cyp18a1	   16    5.2  0.0  0.0  JAJJHZ010000627.1   1403842  1403861  (9646612) + (A)n               Simple_repeat          1     20    (0) 34875  
+JAJJHZ010000627.1	Cyp18a1	   24   23.6  3.7  4.7  JAJJHZ010000627.1   1404691  1404798  (9645675) + (CTCCTT)n          Simple_repeat          1    107    (0) 34876  
+JAJJHZ010000627.1	Cyp18a1	   18   16.7  7.0  3.4  JAJJHZ010000627.1   1405844  1405900  (9644573) + GA-rich            Low_complexity         1     59    (0) 34877  
+JAJJHZ010000627.1	Cyp18a1	  335   22.5  6.7  4.3  JAJJHZ010000627.1   1406054  1406188  (9644285) C rnd-1_family-67    RC/Helentron       (635)   1129    992 34878  
+JAJJHZ010000627.1	Cyp4ae1	   24   26.6  0.0  0.0  JAJJHZ010000627.1   2460327  2460393  (8590080) + GA-rich            Low_complexity         1     67    (0) 37879  
+JAJJHZ010000627.1	Cyp4ae1	   39   21.8  1.2  0.0  JAJJHZ010000627.1   2460517  2460601  (8589872) + GA-rich            Low_complexity         1     86    (0) 37880  
+JAJJHZ010000627.1	Cyp4ae1	   32    3.2  0.0  0.0  JAJJHZ010000627.1   2460723  2460754  (8589719) + (AT)n              Simple_repeat          1     32    (0) 37881  
+JAJJHZ010000627.1	Cyp4ae1	   34    5.1  0.0  2.4  JAJJHZ010000627.1   2460902  2460944  (8589529) + (CA)n              Simple_repeat          1     42    (0) 37882  
+JAJJHZ010000627.1	Cyp4ae1	   12    8.0  3.2  6.7  JAJJHZ010000627.1   2460945  2460975  (8589498) + (TAAT)n            Simple_repeat          1     30    (0) 37883  
+JAJJHZ010000627.1	Cyp4ae1	   35    9.7  0.0  0.0  JAJJHZ010000627.1   2461043  2461097  (8589376) + (ACA)n             Simple_repeat          1     55    (0) 37884  
+JAJJHZ010000627.1	Cyp4ae1	   12    5.5  0.0  0.0  JAJJHZ010000627.1   2461188  2461206  (8589267) + (AAG)n             Simple_repeat          1     19    (0) 37885  
+JAJJHZ010000627.1	Cyp4ae1	   17   10.5  3.2  0.0  JAJJHZ010000627.1   2461208  2461238  (8589235) + (AAC)n             Simple_repeat          1     32    (0) 37886  
+JAJJHZ010000627.1	Cyp4ae1	   18   27.4  1.8  1.8  JAJJHZ010000627.1   2461457  2461512  (8588961) + (AT)n              Simple_repeat          1     56    (0) 37887  
+JAJJHZ010000627.1	Cyp4ae1	   14   14.7  0.0  3.2  JAJJHZ010000627.1   2461600  2461631  (8588842) + (ACA)n             Simple_repeat          1     31    (0) 37888  
+JAJJHZ010000627.1	Cyp4ae1	   13   30.3  1.6  1.6  JAJJHZ010000627.1   2461705  2461766  (8588707) + A-rich             Low_complexity         1     62    (0) 37889  
+JAJJHZ010000627.1	Cyp4ae1	   16   15.3  0.0  2.7  JAJJHZ010000627.1   2461811  2461841  (8588632) + (TATTTTT)n         Simple_repeat          1     63    (0) 37890  
+JAJJHZ010000627.1	Cyp4ae1	   17   20.2  0.0  0.0  JAJJHZ010000627.1   2461842  2461875  (8588598) + (T)n               Simple_repeat          1     34    (0) 37891  
+JAJJHZ010000627.1	Cyp4ae1	   24   27.9  0.0  4.9  JAJJHZ010000627.1   2461922  2462007  (8588466) + (TA)n              Simple_repeat          1     82    (0) 37892  
+JAJJHZ010000627.1	Cyp4ae1	   18   31.0  0.0  0.0  JAJJHZ010000627.1   2462129  2462185  (8588288) + A-rich             Low_complexity         1     57    (0) 37893  
+JAJJHZ010000627.1	Cyp4ae1	   15   21.8  0.0  0.0  JAJJHZ010000627.1   2463312  2463348  (8587125) + (GCT)n             Simple_repeat          1     37    (0) 37894  
+JAJJHZ010000627.1	Cyp4ae1	  279   20.2  5.0  1.2  JAJJHZ010000627.1   2463525  2463604  (8586869) C rnd-1_family-67    RC/Helentron       (629)   1135   1053 37895  
+JAJJHZ010000627.1	Cyp4ae1	   24   12.3  4.5  0.0  JAJJHZ010000627.1   2464858  2464901  (8585572) + (AT)n              Simple_repeat          1     46    (0) 37896  
+JAJJHZ010000627.1	Cyp4ae1	   15   11.2  3.3  0.0  JAJJHZ010000627.1   2465253  2465282  (8585191) + (TTTCT)n           Simple_repeat          1     31    (0) 37897  
+JAJJHZ010000627.1	Cyp4d2	   24   12.3  4.5  0.0  JAJJHZ010000627.1   2464858  2464901  (8585572) + (AT)n              Simple_repeat          1     46    (0) 37896  
+JAJJHZ010000627.1	Cyp4d2	   15   11.2  3.3  0.0  JAJJHZ010000627.1   2465253  2465282  (8585191) + (TTTCT)n           Simple_repeat          1     31    (0) 37897  
+JAJJHZ010000627.1	Cyp4d2	   20    3.8  3.7  0.0  JAJJHZ010000627.1   2471100  2471126  (8579347) + (TA)n              Simple_repeat          1     28    (0) 37898  
+JAJJHZ010000627.1	Cyp4d2	   14   25.0  2.0  2.0  JAJJHZ010000627.1   2471260  2471308  (8579165) + (TAT)n             Simple_repeat          1     49    (0) 37899  
+JAJJHZ010000627.1	Cyp311a1	   30   23.3  1.0  4.2  JAJJHZ010000627.1   4325221  4325318  (6725155) + (ATAT)n            Simple_repeat          1     95    (0) 42801  
+JAJJHZ010000627.1	Cyp311a1	   15   18.2  2.1  4.3  JAJJHZ010000627.1   4325548  4325594  (6724879) + (AACA)n            Simple_repeat          1     46    (0) 42802  
+JAJJHZ010000627.1	Cyp311a1	   15   19.7  0.0  0.0  JAJJHZ010000627.1   4325788  4325816  (6724657) + A-rich             Low_complexity         1     29    (0) 42803  
+JAJJHZ010000627.1	Cyp311a1	   16    8.5  4.0  0.0  JAJJHZ010000627.1   4325922  4325946  (6724527) + (AT)n              Simple_repeat          1     26    (0) 42804  
+JAJJHZ010000627.1	Cyp311a1	   18   35.9  0.0  0.0  JAJJHZ010000627.1   4326130  4326196  (6724277) + GA-rich            Low_complexity         1     67    (0) 42805  
+JAJJHZ010000627.1	Cyp311a1	   32    3.2  0.0  0.0  JAJJHZ010000627.1   4326270  4326301  (6724172) + (TA)n              Simple_repeat          1     32    (0) 42806  
+JAJJHZ010000627.1	Cyp311a1	  430   21.4  9.1  3.5  JAJJHZ010000627.1   4326624  4326777  (6723696) C rnd-4_family-2042  Unknown              (0)    307     65 42807  
+JAJJHZ010000627.1	Cyp311a1	  262   28.6  8.3  2.1  JAJJHZ010000627.1   4326740  4326871  (6723602) + rnd-1_family-158   Unknown               26    165   (60) 42808 *
+JAJJHZ010000627.1	Cyp311a1	 1312   22.4  5.3  5.2  JAJJHZ010000627.1   4326799  4327619  (6722854) C rnd-1_family-75    Unknown             (13)    670     29 42809  
+JAJJHZ010000627.1	Cyp311a1	   21   10.3  0.0  3.0  JAJJHZ010000627.1   4327621  4327654  (6722819) + (TG)n              Simple_repeat          1     33    (0) 42810  
+JAJJHZ010000627.1	Cyp311a1	  463   11.8  0.0  0.2  JAJJHZ010000627.1   4327687  4327763  (6722710) C rnd-4_family-9734  Unknown            (183)   1151   1087 42811  
+JAJJHZ010000627.1	Cyp311a1	  233    9.8  2.3  4.8  JAJJHZ010000627.1   4327758  4327800  (6722673) C rnd-4_family-2042  Unknown            (168)    139     98 42812 *
+JAJJHZ010000627.1	Cyp311a1	   13    9.8  0.0  0.0  JAJJHZ010000627.1   4329108  4329129  (6721344) + (AGG)n             Simple_repeat          1     22    (0) 42813  
+JAJJHZ010000627.1	Cyp4g1	  240    8.3  0.0  0.0  JAJJHZ010000627.1   7136961  7136996  (3913477) C rnd-4_family-321   Unknown             (92)     69     34 50829  
+JAJJHZ010000627.1	Cyp4g1	  623   11.2  3.9  3.9  JAJJHZ010000627.1   7137003  7137104  (3913369) C rnd-1_family-155   Unknown            (943)    130     29 50830  
+JAJJHZ010000627.1	Cyp4g1	   12   14.1  3.0  3.0  JAJJHZ010000627.1   7138216  7138248  (3912225) + (ACACA)n           Simple_repeat          1     33    (0) 50831  
+JAJJHZ010000627.1	Cyp4g1	   26    0.0  0.0  0.0  JAJJHZ010000627.1   7138303  7138327  (3912146) + (ACAT)n            Simple_repeat          1     25    (0) 50832  
+JAJJHZ010000627.1	Cyp4g1	   25    6.3  0.0  0.0  JAJJHZ010000627.1   7138548  7138580  (3911893) + (AC)n              Simple_repeat          1     33    (0) 50833  
+JAJJHZ010000627.1	Cyp4g1	   16    9.3  0.0  0.0  JAJJHZ010000627.1   7139436  7139458  (3911015) + (TC)n              Simple_repeat          1     23    (0) 50834  
+JAJJHZ010000627.1	Cyp4g1	   16   19.6  0.0  4.5  JAJJHZ010000627.1   7139735  7139780  (3910693) + (GAACT)n           Simple_repeat          1     44    (0) 50835  
+JAJJHZ010000627.1	Cyp4g1	   13   12.6  8.5  4.1  JAJJHZ010000627.1   7139801  7139847  (3910626) + (CATTT)n           Simple_repeat          1     49    (0) 50836  
+JAJJHZ010000627.1	Cyp4g1	   23   31.1  0.0  0.0  JAJJHZ010000627.1   7139871  7139945  (3910528) + (TTT)n             Simple_repeat          1     75    (0) 50837  
+JAJJHZ010000627.1	Cyp4g1	   16   18.6  5.9  1.9  JAJJHZ010000627.1   7139964  7140014  (3910459) + (TTG)n             Simple_repeat          1     53    (0) 50838  
+JAJJHZ010000627.1	Cyp4g1	   30    9.6  0.0  0.0  JAJJHZ010000627.1   7140031  7140076  (3910397) + (TGT)n             Simple_repeat          1     46    (0) 50839  
+JAJJHZ010000627.1	Cyp4g1	   18   18.6  0.0  0.0  JAJJHZ010000627.1   7140204  7140240  (3910233) + (CTT)n             Simple_repeat          1     37    (0) 50840  
+JAJJHZ010000627.1	Cyp4g1	   13    5.2  0.0  0.0  JAJJHZ010000627.1   7140230  7140249  (3910224) + (TCA)n             Simple_repeat          1     20    (0) 50841 *
+JAJJHZ010000627.1	Cyp4g1	   23   25.2  0.0  0.0  JAJJHZ010000627.1   7140381  7140441  (3910032) + (GTGTGT)n          Simple_repeat          1     61    (0) 50842  
+JAJJHZ010000627.1	Cyp4g1	   18   12.2  2.8  0.0  JAJJHZ010000627.1   7140700  7140735  (3909738) + (TTCGT)n           Simple_repeat          1     37    (0) 50843  
+JAJJHZ010000627.1	Cyp4g1	   37    4.3  4.2  0.0  JAJJHZ010000627.1   7140961  7141008  (3909465) + (GT)n              Simple_repeat          1     50    (0) 50844  
+JAJJHZ010000627.1	Cyp4g1	   15   22.4  0.0  2.7  JAJJHZ010000627.1   7141236  7141273  (3909200) + (CT)n              Simple_repeat          1     37    (0) 50845  
+JAJJHZ010000627.1	Cyp4g1	   33    0.0  0.0  0.0  JAJJHZ010000627.1   7142238  7142265  (3908208) + (AC)n              Simple_repeat          1     28    (0) 50846  
+JAJJHZ010000627.1	Cyp4g1	   17   15.9  2.7  2.7  JAJJHZ010000627.1   7142413  7142449  (3908024) + (TA)n              Simple_repeat          1     37    (0) 50847  
+JAJJHZ010000627.1	Cyp4g1	   26   10.0  0.0  0.0  JAJJHZ010000627.1   7142580  7142622  (3907851) + (GACGGACA)n        Simple_repeat          1     43    (0) 50848  
+JAJJHZ010000627.1	Cyp4g1	   15   20.4  4.0  0.0  JAJJHZ010000627.1   7143541  7143587  (3906886) + GA-rich            Low_complexity         1     48    (0) 50849  
+JAJJHZ010000627.1	Cyp4g1	   13   12.0  0.0  3.6  JAJJHZ010000627.1   7143961  7143989  (3906484) + (GCGCA)n           Simple_repeat          1     28    (0) 50850  
+JAJJHZ010000627.1	Cyp4g1	   17   11.6  0.0  0.0  JAJJHZ010000627.1   7144201  7144229  (3906244) + (ACA)n             Simple_repeat          1     29    (0) 50851  
+JAJJHZ010000627.1	Cyp4g1	   17   18.2  0.0  4.9  JAJJHZ010000627.1   7144230  7144241  (3906232) + (CGA)n             Simple_repeat          3     41    (0) 50852  
+JAJJHZ010000627.1	Cyp4g1	   24   14.7  0.0  0.0  JAJJHZ010000627.1   7144506  7144550  (3905923) + (AAACCG)n          Simple_repeat          1     45    (0) 50853  
+JAJJHZ010000627.1	Cyp4g1	   15   18.4  4.7  0.0  JAJJHZ010000627.1   7144875  7144917  (3905556) + A-rich             Low_complexity         1     45    (0) 50854  
+JAJJHZ010000627.1	Cyp4g1	   27   19.9  0.0  0.0  JAJJHZ010000627.1   7145439  7145490  (3904983) + A-rich             Low_complexity         1     52    (0) 50855  
+JAJJHZ010000627.1	Cyp4g1	   34   21.4  0.0  0.0  JAJJHZ010000627.1   7145734  7145803  (3904670) + (TG)n              Simple_repeat          1     70    (0) 50856  
+JAJJHZ010000627.1	Cyp4g1	   26    0.0  0.0  0.0  JAJJHZ010000627.1   7145953  7145977  (3904496) + (CCATTC)n          Simple_repeat          1     25    (0) 50857  
+JAJJHZ010000627.1	Cyp4g1	   32   18.9  0.0  1.4  JAJJHZ010000627.1   7146026  7146095  (3904378) + (TCTTT)n           Simple_repeat          1     69    (0) 50858  
+JAJJHZ010000627.1	Cyp4g1	   24   18.7  1.4  5.6  JAJJHZ010000627.1   7146389  7146462  (3904011) + (AGCAGC)n          Simple_repeat          1     71    (0) 50859  
+JAJJHZ010000627.1	Cyp4g1	   16   16.7  2.4  2.4  JAJJHZ010000627.1   7146441  7146482  (3903991) + (ACAGAC)n          Simple_repeat          1     42    (0) 50860 *
+JAJJHZ010000627.1	Cyp4g1	   25   12.4  0.0  0.0  JAJJHZ010000627.1   7147158  7147201  (3903272) + (TCTTTG)n          Simple_repeat          1     44    (0) 50861  
+JAJJHZ010000627.1	Cyp4g1	   29    2.8  0.0  5.1  JAJJHZ010000627.1   7147457  7147497  (3902976) + (TAA)n             Simple_repeat          1     39    (0) 50862  
+JAJJHZ010000627.1	Cyp4g1	   30    4.3  6.0  1.9  JAJJHZ010000627.1   7147511  7147560  (3902913) + (AC)n              Simple_repeat          1     52    (0) 50863  
+JAJJHZ010000627.1	Cyp4g1	   35   22.8  5.8  0.0  JAJJHZ010000627.1   7147645  7147747  (3902726) + (AC)n              Simple_repeat          1    109    (0) 50864  
+JAJJHZ010000627.1	Cyp4g1	   19    9.5  2.9  0.0  JAJJHZ010000627.1   7147715  7147748  (3902725) + (AAC)n             Simple_repeat          1     35    (0) 50865 *
+JAJJHZ010000627.1	Cyp4g1	   16   21.7  3.6  1.8  JAJJHZ010000627.1   7147881  7147935  (3902538) + (TATTTTA)n         Simple_repeat          1     56    (0) 50866  
+JAJJHZ010000627.1	Cyp4g1	   31    0.0  0.0  0.0  JAJJHZ010000627.1   7148624  7148650  (3901823) + (AC)n              Simple_repeat          1     27    (0) 50867  
+JAJJHZ010000627.1	Cyp4g1	  266   17.0  0.0  0.0  JAJJHZ010000627.1   7150135  7150181  (3900292) + rnd-2_family-216   Unknown              307    353    (0) 50868  
+JAJJHZ010000627.1	Cyp4g1	  240    8.3  0.0  0.0  JAJJHZ010000627.1   7136961  7136996  (3913477) C rnd-4_family-321   Unknown             (92)     69     34 50829  
+JAJJHZ010000627.1	Cyp4g1	  623   11.2  3.9  3.9  JAJJHZ010000627.1   7137003  7137104  (3913369) C rnd-1_family-155   Unknown            (943)    130     29 50830  
+JAJJHZ010000627.1	Cyp4g1	   12   14.1  3.0  3.0  JAJJHZ010000627.1   7138216  7138248  (3912225) + (ACACA)n           Simple_repeat          1     33    (0) 50831  
+JAJJHZ010000627.1	Cyp4g1	   26    0.0  0.0  0.0  JAJJHZ010000627.1   7138303  7138327  (3912146) + (ACAT)n            Simple_repeat          1     25    (0) 50832  
+JAJJHZ010000627.1	Cyp4g1	   25    6.3  0.0  0.0  JAJJHZ010000627.1   7138548  7138580  (3911893) + (AC)n              Simple_repeat          1     33    (0) 50833  
+JAJJHZ010000627.1	Cyp4g1	   16    9.3  0.0  0.0  JAJJHZ010000627.1   7139436  7139458  (3911015) + (TC)n              Simple_repeat          1     23    (0) 50834  
+JAJJHZ010000627.1	Cyp4g1	   16   19.6  0.0  4.5  JAJJHZ010000627.1   7139735  7139780  (3910693) + (GAACT)n           Simple_repeat          1     44    (0) 50835  
+JAJJHZ010000627.1	Cyp4g1	   13   12.6  8.5  4.1  JAJJHZ010000627.1   7139801  7139847  (3910626) + (CATTT)n           Simple_repeat          1     49    (0) 50836  
+JAJJHZ010000627.1	Cyp4g1	   23   31.1  0.0  0.0  JAJJHZ010000627.1   7139871  7139945  (3910528) + (TTT)n             Simple_repeat          1     75    (0) 50837  
+JAJJHZ010000627.1	Cyp4g1	   16   18.6  5.9  1.9  JAJJHZ010000627.1   7139964  7140014  (3910459) + (TTG)n             Simple_repeat          1     53    (0) 50838  
+JAJJHZ010000627.1	Cyp4g1	   30    9.6  0.0  0.0  JAJJHZ010000627.1   7140031  7140076  (3910397) + (TGT)n             Simple_repeat          1     46    (0) 50839  
+JAJJHZ010000627.1	Cyp4g1	   18   18.6  0.0  0.0  JAJJHZ010000627.1   7140204  7140240  (3910233) + (CTT)n             Simple_repeat          1     37    (0) 50840  
+JAJJHZ010000627.1	Cyp4g1	   13    5.2  0.0  0.0  JAJJHZ010000627.1   7140230  7140249  (3910224) + (TCA)n             Simple_repeat          1     20    (0) 50841 *
+JAJJHZ010000627.1	Cyp4g1	   23   25.2  0.0  0.0  JAJJHZ010000627.1   7140381  7140441  (3910032) + (GTGTGT)n          Simple_repeat          1     61    (0) 50842  
+JAJJHZ010000627.1	Cyp4g1	   18   12.2  2.8  0.0  JAJJHZ010000627.1   7140700  7140735  (3909738) + (TTCGT)n           Simple_repeat          1     37    (0) 50843  
+JAJJHZ010000627.1	Cyp4g1	   37    4.3  4.2  0.0  JAJJHZ010000627.1   7140961  7141008  (3909465) + (GT)n              Simple_repeat          1     50    (0) 50844  
+JAJJHZ010000627.1	Cyp4g1	   15   22.4  0.0  2.7  JAJJHZ010000627.1   7141236  7141273  (3909200) + (CT)n              Simple_repeat          1     37    (0) 50845  
+JAJJHZ010000627.1	Cyp4g1	   33    0.0  0.0  0.0  JAJJHZ010000627.1   7142238  7142265  (3908208) + (AC)n              Simple_repeat          1     28    (0) 50846  
+JAJJHZ010000627.1	Cyp4g1	   17   15.9  2.7  2.7  JAJJHZ010000627.1   7142413  7142449  (3908024) + (TA)n              Simple_repeat          1     37    (0) 50847  
+JAJJHZ010000627.1	Cyp4g1	   26   10.0  0.0  0.0  JAJJHZ010000627.1   7142580  7142622  (3907851) + (GACGGACA)n        Simple_repeat          1     43    (0) 50848  
+JAJJHZ010000627.1	Cyp4g1	   15   20.4  4.0  0.0  JAJJHZ010000627.1   7143541  7143587  (3906886) + GA-rich            Low_complexity         1     48    (0) 50849  
+JAJJHZ010000627.1	Cyp4g1	   13   12.0  0.0  3.6  JAJJHZ010000627.1   7143961  7143989  (3906484) + (GCGCA)n           Simple_repeat          1     28    (0) 50850  
+JAJJHZ010000627.1	Cyp4g1	   17   11.6  0.0  0.0  JAJJHZ010000627.1   7144201  7144229  (3906244) + (ACA)n             Simple_repeat          1     29    (0) 50851  
+JAJJHZ010000627.1	Cyp4g1	   17   18.2  0.0  4.9  JAJJHZ010000627.1   7144230  7144241  (3906232) + (CGA)n             Simple_repeat          3     41    (0) 50852  
+JAJJHZ010000627.1	Cyp4g1	   24   14.7  0.0  0.0  JAJJHZ010000627.1   7144506  7144550  (3905923) + (AAACCG)n          Simple_repeat          1     45    (0) 50853  
+JAJJHZ010000627.1	Cyp4g1	   15   18.4  4.7  0.0  JAJJHZ010000627.1   7144875  7144917  (3905556) + A-rich             Low_complexity         1     45    (0) 50854  
+JAJJHZ010000627.1	Cyp4g1	   27   19.9  0.0  0.0  JAJJHZ010000627.1   7145439  7145490  (3904983) + A-rich             Low_complexity         1     52    (0) 50855  
+JAJJHZ010000627.1	Cyp4g1	   34   21.4  0.0  0.0  JAJJHZ010000627.1   7145734  7145803  (3904670) + (TG)n              Simple_repeat          1     70    (0) 50856  
+JAJJHZ010000627.1	Cyp4g1	   26    0.0  0.0  0.0  JAJJHZ010000627.1   7145953  7145977  (3904496) + (CCATTC)n          Simple_repeat          1     25    (0) 50857  
+JAJJHZ010000627.1	Cyp4g1	   32   18.9  0.0  1.4  JAJJHZ010000627.1   7146026  7146095  (3904378) + (TCTTT)n           Simple_repeat          1     69    (0) 50858  
+JAJJHZ010000627.1	Cyp4g1	   24   18.7  1.4  5.6  JAJJHZ010000627.1   7146389  7146462  (3904011) + (AGCAGC)n          Simple_repeat          1     71    (0) 50859  
+JAJJHZ010000627.1	Cyp4g1	   16   16.7  2.4  2.4  JAJJHZ010000627.1   7146441  7146482  (3903991) + (ACAGAC)n          Simple_repeat          1     42    (0) 50860 *
+JAJJHZ010000627.1	Cyp4g1	   25   12.4  0.0  0.0  JAJJHZ010000627.1   7147158  7147201  (3903272) + (TCTTTG)n          Simple_repeat          1     44    (0) 50861  
+JAJJHZ010000627.1	Cyp4g1	   29    2.8  0.0  5.1  JAJJHZ010000627.1   7147457  7147497  (3902976) + (TAA)n             Simple_repeat          1     39    (0) 50862  
+JAJJHZ010000627.1	Cyp4g1	   30    4.3  6.0  1.9  JAJJHZ010000627.1   7147511  7147560  (3902913) + (AC)n              Simple_repeat          1     52    (0) 50863  
+JAJJHZ010000627.1	Cyp4g1	   35   22.8  5.8  0.0  JAJJHZ010000627.1   7147645  7147747  (3902726) + (AC)n              Simple_repeat          1    109    (0) 50864  
+JAJJHZ010000627.1	Cyp4g1	   19    9.5  2.9  0.0  JAJJHZ010000627.1   7147715  7147748  (3902725) + (AAC)n             Simple_repeat          1     35    (0) 50865 *
+JAJJHZ010000627.1	Cyp4g1	   16   21.7  3.6  1.8  JAJJHZ010000627.1   7147881  7147935  (3902538) + (TATTTTA)n         Simple_repeat          1     56    (0) 50866  
+JAJJHZ010000627.1	Cyp4g1	   31    0.0  0.0  0.0  JAJJHZ010000627.1   7148624  7148650  (3901823) + (AC)n              Simple_repeat          1     27    (0) 50867  
+JAJJHZ010000627.1	Cyp4g1	  266   17.0  0.0  0.0  JAJJHZ010000627.1   7150135  7150181  (3900292) + rnd-2_family-216   Unknown              307    353    (0) 50868  
+JAJJHZ010000866.1	Cyp303a1	   13   18.2  0.0  0.0  JAJJHZ010000866.1  2016307 2016337  (107458) + (GGCGA)n          Simple_repeat          1     31    (0) 66110  
+JAJJHZ010000866.1	Cyp303a1	   17   25.3  0.0  4.3  JAJJHZ010000866.1  2016419 2016466  (107329) + (CA)n             Simple_repeat          1     46    (0) 66111  
+JAJJHZ010000866.1	Cyp303a1	   21   20.1  0.0  1.9  JAJJHZ010000866.1  2017960 2018012  (105783) + A-rich            Low_complexity         1     52    (0) 66112  
+JAJJHZ010000866.1	Cyp303a1	   20   29.3  1.2  3.7  JAJJHZ010000866.1  2018281 2018294  (105501) + (TACA)n           Simple_repeat          1     80    (0) 66113  
+JAJJHZ010000866.1	Cyp303a1	   27    8.6  0.0  0.0  JAJJHZ010000866.1  2018296 2018332  (105463) + (AC)n             Simple_repeat          1     37    (0) 66114  
+JAJJHZ010000866.1	Cyp303a1	   24   26.6  0.0  0.0  JAJJHZ010000866.1  2018333 2018362  (105433) + (TACACA)n         Simple_repeat          2     68    (0) 66115  
+JAJJHZ010000866.1	Cyp303a1	   32   21.2  0.0  0.0  JAJJHZ010000866.1  2018493 2018557  (105238) + (AT)n             Simple_repeat          1     65    (0) 66116  
+JAJJHZ010000866.1	Cyp303a1	   13    8.5  4.0  0.0  JAJJHZ010000866.1  2018845 2018869  (104926) + (ATCGA)n          Simple_repeat          1     26    (0) 66117  
+JAJJHZ010000866.1	Cyp303a1	   19   10.1  0.0  0.0  JAJJHZ010000866.1  2018982 2019013  (104782) + (TATTTG)n         Simple_repeat          1     32    (0) 66118  
+JAJJHZ010000866.1	Cyp303a1	   13   10.8  6.7  0.0  JAJJHZ010000866.1  2019147 2019176  (104619) + A-rich            Low_complexity         1     32    (0) 66119  
+JAJJHZ010000866.1	Cyp303a1	 3859    4.9  8.3  0.2  JAJJHZ010000866.1  2021002 2021533  (102262) C rnd-4_family-7103 DNA/TcMar-Tigger     (1)    575      1 66120  
+JAJJHZ010000866.1	Cyp303a1	   12   15.3  3.5  0.0  JAJJHZ010000866.1  2021989 2022017  (101778) + (AGGC)n           Simple_repeat          1     30    (0) 66121  
+JAJJHZ010000866.1	Cyp303a1	 2119    2.1  0.0  0.0  JAJJHZ010000866.1  2022538 2022778  (101017) + rnd-1_family-213  LTR/Copia              1    241    (2) 66122  
+JAJJHZ010000866.1	Cyp303a1	   14   27.7  2.6  1.8  JAJJHZ010000866.1  2023265 2023349  (100446) + A-rich            Low_complexity         1     85    (0) 66123  
+JAJJHZ010000866.1	Cyp303a1	   15   16.9  2.9  2.9  JAJJHZ010000866.1  2024620 2024654   (99141) + (TA)n             Simple_repeat          1     35    (0) 66124  
+JAJJHZ010001032.1	Cyp4d2	   22   25.1  0.0  4.1  JAJJHZ010001032.1  3837874 3837879 (2805073) + (GTGGTT)n          Simple_repeat          1     16   (57) 75147  
+JAJJHZ010001032.1	Cyp4d2	   18   26.9  0.0  0.0  JAJJHZ010001032.1  3837880 3837932 (2805020) + (GTT)n             Simple_repeat          1     53    (0) 75148  
+JAJJHZ010001032.1	Cyp4d2	   22   25.1  0.0  4.1  JAJJHZ010001032.1  3837933 3837949 (2805003) + (GTGGTT)n          Simple_repeat         17     73    (0) 75147  
+JAJJHZ010001032.1	Cyp4d2	   13   16.8  0.0  0.0  JAJJHZ010001032.1  3838682 3838708 (2804244) + (GAT)n             Simple_repeat          1     27    (0) 75149  
+JAJJHZ010001032.1	Cyp4d2	 2099   18.4 11.7  1.9  JAJJHZ010001032.1  3839734 3840348 (2802604) + rnd-1_family-67    RC/Helentron         456   1129  (635) 75150  
+JAJJHZ010001032.1	Cyp4d2	 2636    1.0  0.0  0.0  JAJJHZ010001032.1  3841668 3841966 (2800986) C ltr-1_family-16    LTR/Unknown          (0)    306      8 75151  
+JAJJHZ010001032.1	Cyp4d2	  273   25.7  5.7  0.0  JAJJHZ010001032.1  3842612 3842681 (2800271) C rnd-1_family-155   Unknown            (838)    235    162 75152  
+JAJJHZ010001032.1	Cyp4d2	  820   16.8  2.7  1.6  JAJJHZ010001032.1  3844775 3844962 (2797990) C rnd-1_family-67    RC/Helentron       (664)   1100    911 75153  
+JAJJHZ010001032.1	Cyp4d2	  374   19.7  0.0  0.0  JAJJHZ010001032.1  3844967 3845037 (2797915) C rnd-1_family-67    RC/Helentron      (1278)    486    416 75153  
+JAJJHZ010001032.1	Cyp4d2	   20    8.8  0.0  5.3  JAJJHZ010001032.1  3845493 3845532 (2797420) + (GGAGAT)n          Simple_repeat          1     38    (0) 75154  
+JAJJHZ010001032.1	Cyp4d2	   15   27.9  0.0  2.0  JAJJHZ010001032.1  3845760 3845809 (2797143) + (GTT)n             Simple_repeat          1     49    (0) 75155  
+JAJJHZ010001032.1	Cyp4d2	   15   15.0  0.0  0.0  JAJJHZ010001032.1  3846094 3846123 (2796829) + A-rich             Low_complexity         1     30    (0) 75156  
+JAJJHZ010001032.1	Cyp4d2	   14    3.4  5.9  5.9  JAJJHZ010001032.1  3846676 3846709 (2796243) + (GTTTGC)n          Simple_repeat          1     34    (0) 75157  
+JAJJHZ010001032.1	Cyp4d2	   22   25.1  0.0  4.1  JAJJHZ010001032.1  3837874 3837879 (2805073) + (GTGGTT)n          Simple_repeat          1     16   (57) 75147  
+JAJJHZ010001032.1	Cyp4d2	   18   26.9  0.0  0.0  JAJJHZ010001032.1  3837880 3837932 (2805020) + (GTT)n             Simple_repeat          1     53    (0) 75148  
+JAJJHZ010001032.1	Cyp4d2	   22   25.1  0.0  4.1  JAJJHZ010001032.1  3837933 3837949 (2805003) + (GTGGTT)n          Simple_repeat         17     73    (0) 75147  
+JAJJHZ010001032.1	Cyp4d2	   13   16.8  0.0  0.0  JAJJHZ010001032.1  3838682 3838708 (2804244) + (GAT)n             Simple_repeat          1     27    (0) 75149  
+JAJJHZ010001032.1	Cyp4d2	 2099   18.4 11.7  1.9  JAJJHZ010001032.1  3839734 3840348 (2802604) + rnd-1_family-67    RC/Helentron         456   1129  (635) 75150  
+JAJJHZ010001032.1	Cyp4d2	 2636    1.0  0.0  0.0  JAJJHZ010001032.1  3841668 3841966 (2800986) C ltr-1_family-16    LTR/Unknown          (0)    306      8 75151  
+JAJJHZ010001032.1	Cyp4d2	  273   25.7  5.7  0.0  JAJJHZ010001032.1  3842612 3842681 (2800271) C rnd-1_family-155   Unknown            (838)    235    162 75152  
+JAJJHZ010001032.1	Cyp4d2	  820   16.8  2.7  1.6  JAJJHZ010001032.1  3844775 3844962 (2797990) C rnd-1_family-67    RC/Helentron       (664)   1100    911 75153  
+JAJJHZ010001032.1	Cyp4d2	  374   19.7  0.0  0.0  JAJJHZ010001032.1  3844967 3845037 (2797915) C rnd-1_family-67    RC/Helentron      (1278)    486    416 75153  
+JAJJHZ010001032.1	Cyp4d2	   20    8.8  0.0  5.3  JAJJHZ010001032.1  3845493 3845532 (2797420) + (GGAGAT)n          Simple_repeat          1     38    (0) 75154  
+JAJJHZ010001032.1	Cyp4d2	   15   27.9  0.0  2.0  JAJJHZ010001032.1  3845760 3845809 (2797143) + (GTT)n             Simple_repeat          1     49    (0) 75155  
+JAJJHZ010001032.1	Cyp4d2	   15   15.0  0.0  0.0  JAJJHZ010001032.1  3846094 3846123 (2796829) + A-rich             Low_complexity         1     30    (0) 75156  
+JAJJHZ010001032.1	Cyp4d2	   14    3.4  5.9  5.9  JAJJHZ010001032.1  3846676 3846709 (2796243) + (GTTTGC)n          Simple_repeat          1     34    (0) 75157  
+JAJJHZ010001032.1	Cyp4d2	   22   25.1  0.0  4.1  JAJJHZ010001032.1  3837874 3837879 (2805073) + (GTGGTT)n          Simple_repeat          1     16   (57) 75147  
+JAJJHZ010001032.1	Cyp4d2	   18   26.9  0.0  0.0  JAJJHZ010001032.1  3837880 3837932 (2805020) + (GTT)n             Simple_repeat          1     53    (0) 75148  
+JAJJHZ010001032.1	Cyp4d2	   22   25.1  0.0  4.1  JAJJHZ010001032.1  3837933 3837949 (2805003) + (GTGGTT)n          Simple_repeat         17     73    (0) 75147  
+JAJJHZ010001032.1	Cyp4d2	   13   16.8  0.0  0.0  JAJJHZ010001032.1  3838682 3838708 (2804244) + (GAT)n             Simple_repeat          1     27    (0) 75149  
+JAJJHZ010001032.1	Cyp4d2	 2099   18.4 11.7  1.9  JAJJHZ010001032.1  3839734 3840348 (2802604) + rnd-1_family-67    RC/Helentron         456   1129  (635) 75150  
+JAJJHZ010001032.1	Cyp4d2	 2636    1.0  0.0  0.0  JAJJHZ010001032.1  3841668 3841966 (2800986) C ltr-1_family-16    LTR/Unknown          (0)    306      8 75151  
+JAJJHZ010001032.1	Cyp4d2	  273   25.7  5.7  0.0  JAJJHZ010001032.1  3842612 3842681 (2800271) C rnd-1_family-155   Unknown            (838)    235    162 75152  
+JAJJHZ010001032.1	Cyp4d2	  820   16.8  2.7  1.6  JAJJHZ010001032.1  3844775 3844962 (2797990) C rnd-1_family-67    RC/Helentron       (664)   1100    911 75153  
+JAJJHZ010001032.1	Cyp4d2	  374   19.7  0.0  0.0  JAJJHZ010001032.1  3844967 3845037 (2797915) C rnd-1_family-67    RC/Helentron      (1278)    486    416 75153  
+JAJJHZ010001032.1	Cyp4d2	   20    8.8  0.0  5.3  JAJJHZ010001032.1  3845493 3845532 (2797420) + (GGAGAT)n          Simple_repeat          1     38    (0) 75154  
+JAJJHZ010001032.1	Cyp4d2	   15   27.9  0.0  2.0  JAJJHZ010001032.1  3845760 3845809 (2797143) + (GTT)n             Simple_repeat          1     49    (0) 75155  
+JAJJHZ010001032.1	Cyp4d2	   15   15.0  0.0  0.0  JAJJHZ010001032.1  3846094 3846123 (2796829) + A-rich             Low_complexity         1     30    (0) 75156  
+JAJJHZ010001032.1	Cyp4d2	   14    3.4  5.9  5.9  JAJJHZ010001032.1  3846676 3846709 (2796243) + (GTTTGC)n          Simple_repeat          1     34    (0) 75157  
+JAJJHZ010001032.1	Cyp4c3	   13    9.7  0.0  0.0  JAJJHZ010001032.1  5580693 5580714 (1062238) + (GCA)n             Simple_repeat          1     22    (0) 78592  
+JAJJHZ010001032.1	Cyp4c3	   22   16.1  3.7  7.6  JAJJHZ010001032.1  5581748 5581829 (1061123) + (CAATTGC)n         Simple_repeat          1     79    (0) 78593  
+JAJJHZ010001032.1	Cyp4c3	   19   20.2  0.0  2.2  JAJJHZ010001032.1  5582100 5582146 (1060806) + (TCC)n             Simple_repeat          1     46    (0) 78594  
+JAJJHZ010001032.1	Cyp4c3	   22    7.4  0.0  0.0  JAJJHZ010001032.1  5582233 5582261 (1060691) + (AC)n              Simple_repeat          1     29    (0) 78595  
+JAJJHZ010001032.1	Cyp4c3	   14   18.5  0.0  0.0  JAJJHZ010001032.1  5582365 5582395 (1060557) + (TTG)n             Simple_repeat          1     31    (0) 78596  
+JAJJHZ010001032.1	Cyp4c3	   16    7.8  0.0  3.6  JAJJHZ010001032.1  5582501 5582529 (1060423) + (ATGT)n            Simple_repeat          1     28    (0) 78597  
+JAJJHZ010001032.1	Cyp4c3	   16   15.5  0.0  0.0  JAJJHZ010001032.1  5584275 5584304 (1058648) + (TTG)n             Simple_repeat          1     30    (0) 78598  
+JAJJHZ010001032.1	Cyp4c3	   17   16.4  0.0  0.0  JAJJHZ010001032.1  5584617 5584650 (1058302) + (AGC)n             Simple_repeat          1     34    (0) 78599  
+JAJJHZ010001032.1	Cyp4c3	   12   16.4  5.9  0.0  JAJJHZ010001032.1  5586379 5586412 (1056540) + A-rich             Low_complexity         1     36    (0) 78600  
+JAJJHZ010001032.1	Cyp4c3	   13   18.7  0.0  5.3  JAJJHZ010001032.1  5586438 5586477 (1056475) + (CAGTTT)n          Simple_repeat          1     38    (0) 78601  
+JAJJHZ010001032.1	Cyp4c3	   13   16.3  2.8  2.8  JAJJHZ010001032.1  5586667 5586702 (1056250) + (TTCT)n            Simple_repeat          1     36    (0) 78602  
+JAJJHZ010001032.1	Cyp4c3	   15   18.9  0.0  2.7  JAJJHZ010001032.1  5587158 5587195 (1055757) + (GTT)n             Simple_repeat          1     37    (0) 78603  
+JAJJHZ010001032.1	Cyp4c3	   17   18.4  0.0  0.0  JAJJHZ010001032.1  5587315 5587351 (1055601) + (TCATAT)n          Simple_repeat          1     37    (0) 78604  
+JAJJHZ010001032.1	Cyp4c3	   19    3.7  0.0  3.5  JAJJHZ010001032.1  5587667 5587696 (1055256) + (TGGCT)n           Simple_repeat          1     29    (0) 78605  
+JAJJHZ010001032.1	Cyp4c3	   28    0.0  0.0  0.0  JAJJHZ010001032.1  5588259 5588288 (1054664) + (A)n               Simple_repeat          1     30    (0) 78606  
+JAJJHZ010001032.1	Cyp4c3	   14   34.0  2.8  0.0  JAJJHZ010001032.1  5588567 5588638 (1054314) + (AGCTGA)n          Simple_repeat          1     74    (0) 78607  
+JAJJHZ010001032.1	Cyp4c3	   15   17.0  1.5 11.7  JAJJHZ010001032.1  5588772 5588837 (1054115) + (GTT)n             Simple_repeat          1     60    (0) 78608  
+JAJJHZ010001032.1	Cyp4c3	   16    8.1  9.5  2.2  JAJJHZ010001032.1  5588979 5589020 (1053932) + (CAAGAC)n          Simple_repeat          1     45    (0) 78609  
+JAJJHZ010001032.1	Cyp4c3	   13   16.3  0.0  5.6  JAJJHZ010001032.1  5590423 5590460 (1052492) + A-rich             Low_complexity         1     36    (0) 78610  
+JAJJHZ010001032.1	Cyp4c3	   16    9.3  0.0  0.0  JAJJHZ010001032.1  5590636 5590658 (1052294) + (TG)n              Simple_repeat          1     23    (0) 78611  
+JAJJHZ010001032.1	Cyp4c3	   16   15.8  2.2  4.4  JAJJHZ010001032.1  5590859 5590904 (1052048) + (TTTATT)n          Simple_repeat          1     45    (0) 78612  
+JAJJHZ010001032.1	Cyp4c3	   15   13.2  0.0  5.7  JAJJHZ010001032.1  5591666 5591702 (1051250) + (GTTGG)n           Simple_repeat          1     35    (0) 78613  
+JAJJHZ010001207.1	Cyp313b1	   20   22.4  0.0  0.0  JAJJHZ010001207.1   277309  277350 (1109923) + A-rich             Low_complexity         1     42    (0) 81199  
+JAJJHZ010001207.1	Cyp313b1	   22   12.0  0.0  8.2  JAJJHZ010001207.1   277829  277881 (1109392) + (AAT)n             Simple_repeat          1     49    (0) 81200  
+JAJJHZ010001207.1	Cyp313b1	   20   20.3  0.0  0.0  JAJJHZ010001207.1   278137  278181 (1109092) + (CACA)n            Simple_repeat          1     45    (0) 81201  
+JAJJHZ010001207.1	Cyp313b1	   19   28.5  2.1  4.3  JAJJHZ010001207.1   279535  279630 (1107643) + A-rich             Low_complexity         1     94    (0) 81202  
+JAJJHZ010001207.1	Cyp313b1	   16   14.2  0.0  0.0  JAJJHZ010001207.1   280553  280583 (1106690) + (TTTCGA)n          Simple_repeat          1     31    (0) 81203  
+JAJJHZ010001207.1	Cyp313b1	  281   20.3  0.0  0.0  JAJJHZ010001207.1   281921  281979 (1105294) + rnd-1_family-67    RC/Helentron        1070   1128  (636) 81204  
+JAJJHZ010001207.1	Cyp313b1	   13   29.6  0.0  0.0  JAJJHZ010001207.1   282448  282492 (1104781) + (CAG)n             Simple_repeat          1     45    (0) 81205  
+JAJJHZ010001207.1	Cyp313b1	  814   14.1 12.0  0.0  JAJJHZ010001207.1   282860  283050 (1104223) C rnd-1_family-67    RC/Helentron       (627)   1137    924 81206  
+JAJJHZ010001207.1	Cyp313b1	  359   13.8  6.1  5.0  JAJJHZ010001207.1   283069  283167 (1104106) + rnd-1_family-42    DNA/CMC-Transib      167    266  (286) 81207  
+JAJJHZ010001207.1	Cyp313b1	  605    8.9  0.0  3.3  JAJJHZ010001207.1   283182  283274 (1103999) C rnd-1_family-155   Unknown            (981)     92      3 81208  
+JAJJHZ010001207.1	Cyp313b1	  348   23.6  2.8  2.8  JAJJHZ010001207.1   283275  283290 (1103983) C rnd-4_family-244   RC/Helentron       (240)   2118   2010 81209  
+JAJJHZ010001207.1	Cyp313b1	  364    8.6  4.6  5.8  JAJJHZ010001207.1   283309  283391 (1103882) C rnd-1_family-42    DNA/CMC-Transib    (343)    209    128 81210  
+JAJJHZ010001207.1	Cyp313b1	 1571    9.7  2.5  0.0  JAJJHZ010001207.1   283392  283628 (1103645) + rnd-1_family-213   LTR/Copia              1    243    (0) 81211  
+JAJJHZ010001207.1	Cyp313b1	  348   10.4  5.1  2.5  JAJJHZ010001207.1   283629  283702 (1103571) + rnd-1_family-42    DNA/CMC-Transib      129    204  (348) 81212 *
+JAJJHZ010001207.1	Cyp313b1	  716   13.2 11.4  0.0  JAJJHZ010001207.1   283702  283867 (1103406) + rnd-1_family-67    RC/Helentron         868   1052  (712) 81213  
+JAJJHZ010001207.1	Cyp313b1	  229   15.6 11.2  1.9  JAJJHZ010001207.1   283782  283879 (1103394) + rnd-2_family-177   Unknown               32    138  (557) 81214 *
+JAJJHZ010001207.1	Cyp313b1	 1012    3.6  7.2  0.0  JAJJHZ010001207.1   283870  283996 (1103277) + rnd-1_family-155   Unknown                1    146  (927) 81215  
+JAJJHZ010001207.1	Cyp313b1	   26    8.2  0.0  0.0  JAJJHZ010001207.1   284005  284043 (1103230) + (TGTCCGTC)n        Simple_repeat          1     39    (0) 81216  
+JAJJHZ010001207.1	Cyp313b1	 3496    7.7  1.3  0.4  JAJJHZ010001207.1   284046  284570 (1102703) + rnd-1_family-67    RC/Helentron         602   1134  (630) 81217  
+JAJJHZ010001207.1	Cyp313b1	  281   20.8  3.9  0.0  JAJJHZ010001207.1   284565  284641 (1102632) C rnd-1_family-155   Unknown            (619)    454    375 81218 *
+JAJJHZ010001207.1	Cyp313b1	  265   19.3  5.2  1.7  JAJJHZ010001207.1   284766  284881 (1102392) + rnd-4_family-321   Unknown               37    156    (5) 81219  
+JAJJHZ010001207.1	Cyp313b1	   14   14.1  2.2  7.0  JAJJHZ010001207.1   286401  286445 (1100828) + (ATTAAT)n          Simple_repeat          1     43    (0) 81220  
+JAJJHZ010001207.1	Cyp313b1	   24   19.9  1.6  1.6  JAJJHZ010001207.1   287431  287491 (1099782) + (AGTCA)n           Simple_repeat          1     61    (0) 81221  
+JAJJHZ010001207.1	Cyp313b1	   18   16.6  2.4  0.0  JAJJHZ010001207.1   288005  288045 (1099228) + (CACACA)n          Simple_repeat          1     42    (0) 81222  
+JAJJHZ010001207.1	Cyp313b1	  286   21.6  0.0  0.0  JAJJHZ010001207.1   288164  288237 (1099036) C rnd-2_family-26    LINE/R1            (734)    371    298 81223  
+JAJJHZ010001549.1	Cyp9c1	   15   13.7  0.0  0.0  JAJJHZ010001549.1     5267    5290 (5852232) + (A)n               Simple_repeat          1     24    (0)  92228  
+JAJJHZ010001549.1	Cyp9c1	   17   18.5  0.0  0.0  JAJJHZ010001549.1     5588    5618 (5851904) + (T)n               Simple_repeat          1     31    (0)  92229  
+JAJJHZ010001549.1	Cyp9c1	   20   17.3  2.2  0.0  JAJJHZ010001549.1     8399    8444 (5849078) + (ATTGAA)n          Simple_repeat          1     47    (0)  92230  
+JAJJHZ010001549.1	Cyp9c1	   19    6.6  3.1  0.0  JAJJHZ010001549.1     9259    9290 (5848232) + (TTAT)n            Simple_repeat          1     33    (0)  92231  
+JAJJHZ010001549.1	Cyp9c1	   15   23.4  0.0  0.0  JAJJHZ010001549.1     9685    9724 (5847798) + (ATTATC)n          Simple_repeat          1     40    (0)  92232  
+JAJJHZ010001549.1	Cyp9c1	   21    0.0  0.0  0.0  JAJJHZ010001549.1    10161   10183 (5847339) + (CA)n              Simple_repeat          1     23    (0)  92233  
+JAJJHZ010001549.1	Cyp9c1	   15   13.7  0.0  0.0  JAJJHZ010001549.1     5267    5290 (5852232) + (A)n               Simple_repeat          1     24    (0)  92228  
+JAJJHZ010001549.1	Cyp9c1	   17   18.5  0.0  0.0  JAJJHZ010001549.1     5588    5618 (5851904) + (T)n               Simple_repeat          1     31    (0)  92229  
+JAJJHZ010001549.1	Cyp9c1	   20   17.3  2.2  0.0  JAJJHZ010001549.1     8399    8444 (5849078) + (ATTGAA)n          Simple_repeat          1     47    (0)  92230  
+JAJJHZ010001549.1	Cyp9c1	   19    6.6  3.1  0.0  JAJJHZ010001549.1     9259    9290 (5848232) + (TTAT)n            Simple_repeat          1     33    (0)  92231  
+JAJJHZ010001549.1	Cyp9c1	   15   23.4  0.0  0.0  JAJJHZ010001549.1     9685    9724 (5847798) + (ATTATC)n          Simple_repeat          1     40    (0)  92232  
+JAJJHZ010001549.1	Cyp9c1	   21    0.0  0.0  0.0  JAJJHZ010001549.1    10161   10183 (5847339) + (CA)n              Simple_repeat          1     23    (0)  92233  
+JAJJHZ010001549.1	Cyp49a1	  360   25.9  9.6  5.2  JAJJHZ010001549.1   546007  546173 (5311349) + rnd-1_family-155   Unknown                4    177  (896)  93210  
+JAJJHZ010001549.1	Cyp49a1	  338   27.6  9.7  3.9  JAJJHZ010001549.1   546174  546202 (5311320) + rnd-1_family-67    RC/Helentron         421    627 (1137)  93211  
+JAJJHZ010001549.1	Cyp49a1	  247   15.7  0.0  0.0  JAJJHZ010001549.1   546343  546393 (5311129) + rnd-1_family-67    RC/Helentron        1085   1135  (629)  93212  
+JAJJHZ010001549.1	Cyp49a1	   16   27.6  0.0  3.5  JAJJHZ010001549.1   547116  547175 (5310347) + (GAT)n             Simple_repeat          1     58    (0)  93213  
+JAJJHZ010001549.1	Cyp49a1	   17    0.0  0.0  0.0  JAJJHZ010001549.1   547252  547272 (5310250) + (CGA)n             Simple_repeat          1     21    (0)  93214  
+JAJJHZ010001549.1	Cyp49a1	   24   14.2  0.0  2.1  JAJJHZ010001549.1   547387  547452 (5310070) + (GTTGCA)n          Simple_repeat          1     64    (0)  93215  
+JAJJHZ010001549.1	Cyp49a1	   21    8.2  5.1  0.0  JAJJHZ010001549.1   547483  547521 (5310001) + (TGTTTC)n          Simple_repeat          1     41    (0)  93216  
+JAJJHZ010001549.1	Cyp49a1	   27   25.8  0.0  1.3  JAJJHZ010001549.1   548672  548748 (5308774) + (CATTTC)n          Simple_repeat          1     76    (0)  93217  
+JAJJHZ010001549.1	Cyp49a1	   17    4.1  0.0  0.0  JAJJHZ010001549.1   549273  549297 (5308225) + (CTAT)n            Simple_repeat          1     25    (0)  93218  
+JAJJHZ010001549.1	Cyp49a1	   14    9.6  0.0  0.0  JAJJHZ010001549.1   549801  549823 (5307699) + (TGT)n             Simple_repeat          1     23    (0)  93219  
+JAJJHZ010001549.1	Cyp49a1	   13    5.2  0.0  0.0  JAJJHZ010001549.1   551620  551639 (5305883) + (GAT)n             Simple_repeat          1     20    (0)  93220  
+JAJJHZ010001549.1	Cyp49a1	   18   22.0  0.0  0.0  JAJJHZ010001549.1   552118  552154 (5305368) + (CT)n              Simple_repeat          1     37    (0)  93221  
+JAJJHZ010001549.1	Cyp49a1	   17   20.1  2.4  2.4  JAJJHZ010001549.1   552317  552358 (5305164) + (TC)n              Simple_repeat          1     42    (0)  93222  
+JAJJHZ010001549.1	Cyp49a1	   18   14.1  2.6  0.0  JAJJHZ010001549.1   552747  552785 (5304737) + A-rich             Low_complexity         1     40    (0)  93223  
+JAJJHZ010001549.1	Cyp49a1	   12   13.6  2.8  5.7  JAJJHZ010001549.1   554233  554268 (5303254) + (TAT)n             Simple_repeat          1     35    (0)  93224  
+JAJJHZ010001549.1	Cyp49a1	  232    9.5  1.6  1.6  JAJJHZ010001549.1   554458  554521 (5303001) + rnd-2_family-177   Unknown              143    206  (489)  93225  
+JAJJHZ010001549.1	Cyp49a1	   14   12.7  0.0  0.0  JAJJHZ010001549.1   554941  554966 (5302556) + (GTCT)n            Simple_repeat          1     26    (0)  93226  
+JAJJHZ010001549.1	Cyp49a1	   19   14.4  2.6  0.0  JAJJHZ010001549.1   554988  555026 (5302496) + (TCAG)n            Simple_repeat          1     40    (0)  93227  
+JAJJHZ010001549.1	Cyp49a1	   18   12.0  0.0  0.0  JAJJHZ010001549.1   555807  555833 (5301689) + (CA)n              Simple_repeat          1     27    (0)  93228  
+JAJJHZ010001549.1	Cyp49a1	   21    9.4  2.7  2.7  JAJJHZ010001549.1   555961  555997 (5301525) + (TC)n              Simple_repeat          1     37    (0)  93229  
+JAJJHZ010001549.1	Cyp49a1	  369   13.6  9.9  0.0  JAJJHZ010001549.1   556645  556725 (5300797) C rnd-1_family-155   Unknown              (1)   1072    984  93230  
+JAJJHZ010001549.1	Cyp49a1	  365   20.8  1.5 23.0  JAJJHZ010001549.1   556661  556860 (5300662) C rnd-1_family-67    RC/Helentron       (654)   1110    946  93231 *
+JAJJHZ010001549.1	Cyp49a1	  628   16.5 13.9  4.1  JAJJHZ010001549.1   556701  556980 (5300542) C rnd-2_family-177   Unknown            (173)    522      4  93232  
+JAJJHZ010001549.1	Cyp49a1	  435    8.7 30.4  0.0  JAJJHZ010001549.1   557074  557165 (5300357) C rnd-1_family-155   Unknown            (953)    120      1  93233  
+JAJJHZ010001549.1	Cyp49a1	  228   20.6  8.2  0.0  JAJJHZ010001549.1   557709  557781 (5299741) C rnd-3_family-300   PLE/Chlamys         (49)    156     78  93234 *
+JAJJHZ010001549.1	Cyp49a1	  252   21.4  0.2  0.0  JAJJHZ010001549.1   557718  557799 (5299723) C rnd-2_family-183   LINE/R1            (568)    268    204  93235  
+JAJJHZ010001549.1	Cyp49a1	   13   16.5  0.0  0.0  JAJJHZ010001549.1   559270  559296 (5298226) + (GTT)n             Simple_repeat          1     27    (0)  93236  
+JAJJHZ010001549.1	Cyp49a1	   16   16.7  2.2  4.5  JAJJHZ010001549.1   560267  560276 (5297246) + (ATAC)n            Simple_repeat          1     43    (0)  93237  
+JAJJHZ010001549.1	Cyp49a1	   24    6.3  2.9  0.0  JAJJHZ010001549.1   560277  560310 (5297212) + (AT)n              Simple_repeat          1     35    (0)  93238  
+JAJJHZ010001549.1	Cyp49a1	   15   10.0  0.0  0.0  JAJJHZ010001549.1   560533  560554 (5296968) + (CA)n              Simple_repeat          1     22    (0)  93239  
+JAJJHZ010001549.1	Cyp49a1	   40    0.0  0.0  0.0  JAJJHZ010001549.1   560585  560618 (5296904) + (GT)n              Simple_repeat          1     34    (0)  93240  
+JAJJHZ010001549.1	Cyp49a1	   17    0.0  0.0  0.0  JAJJHZ010001549.1   560627  560645 (5296877) + (TC)n              Simple_repeat          1     19    (0)  93241  
+JAJJHZ010001549.1	Cyp49a1	   14   11.8  4.9  4.9  JAJJHZ010001549.1   560753  560793 (5296729) + (TCTCC)n           Simple_repeat          1     41    (0)  93242  
+JAJJHZ010001549.1	Cyp49a1	   19   17.9  0.0  0.0  JAJJHZ010001549.1   560975  561013 (5296509) + (CTGT)n            Simple_repeat          1     39    (0)  93243  
+JAJJHZ010001549.1	Cyp49a1	   13   21.8  0.0  2.6  JAJJHZ010001549.1   561957  561972 (5295550) + A-rich             Low_complexity         1     34    (0)  93244  
+JAJJHZ010001549.1	Cyp49a1	   12    5.5  0.0  0.0  JAJJHZ010001549.1   561973  561991 (5295531) + (AAC)n             Simple_repeat          1     19    (0)  93245  
+JAJJHZ010001549.1	Cyp49a1	   12   21.7  0.0  0.0  JAJJHZ010001549.1   562792  562823 (5294699) + (CGACTC)n          Simple_repeat          1     32    (0)  93246  
+JAJJHZ010001549.1	Cyp49a1	   18   12.6  6.8  0.0  JAJJHZ010001549.1   562909  562952 (5294570) + (TTCAGC)n          Simple_repeat          1     47    (0)  93247  
+JAJJHZ010001549.1	Cyp49a1	   13    7.2  3.0  6.2  JAJJHZ010001549.1   563032  563064 (5294458) + (CTTCAG)n          Simple_repeat          1     32    (0)  93248  
+JAJJHZ010001549.1	Cyp49a1	   16   21.1  0.0  0.0  JAJJHZ010001549.1   563109  563146 (5294376) + (CTCT)n            Simple_repeat          1     38    (0)  93249  
+JAJJHZ010001549.1	Cyp49a1	  399   18.2  3.9  0.0  JAJJHZ010001549.1   563815  563891 (5293631) + rnd-1_family-155   Unknown               20     99  (974)  93250 *
+JAJJHZ010001549.1	Cyp49a1	  435   16.1 15.9  3.6  JAJJHZ010001549.1   563890  564115 (5293407) + rnd-1_family-67    RC/Helentron         840   1092  (672)  93251  
+JAJJHZ010001549.1	Cyp49a1	   16   16.1  0.0  0.0  JAJJHZ010001549.1   565317  565344 (5292178) + (T)n               Simple_repeat          1     28    (0)  93252  
+JAJJHZ010001549.1	Cyp49a1	   18   20.6  6.0  0.0  JAJJHZ010001549.1   565508  565557 (5291965) + (TG)n              Simple_repeat          1     53    (0)  93253  
+JAJJHZ010001549.1	Cyp12c1	   12   13.9  0.0  0.0  JAJJHZ010001549.1  3091831 3091854 (2765668) + (ATAA)n            Simple_repeat          1     24    (0)  97920  
+JAJJHZ010001549.1	Cyp12c1	   13    7.2  3.0  6.2  JAJJHZ010001549.1  3092495 3092527 (2764995) + (TTGCAT)n          Simple_repeat          1     32    (0)  97921  
+JAJJHZ010001549.1	Cyp12c1	   17   18.2  0.0  0.0  JAJJHZ010001549.1  3098207 3098237 (2759285) + (T)n               Simple_repeat          1     31    (0)  97922  
+JAJJHZ010001549.1	Cyp12c1	   42    0.0  2.3  2.3  JAJJHZ010001549.1  3098697 3098740 (2758782) + (TG)n              Simple_repeat          1     44    (0)  97923  
+JAJJHZ010001549.1	Cyp12d1	   20   12.1  0.0  0.0  JAJJHZ010001549.1  4931896 4931931  (925591) + (TTGCCT)n          Simple_repeat          1     36    (0) 101471  
+JAJJHZ010001549.1	Cyp12d1	   15   13.0  5.9  0.0  JAJJHZ010001549.1  4932537 4932570  (924952) + (ATT)n             Simple_repeat          1     36    (0) 101472  
+JAJJHZ010001549.1	Cyp12d1	   20    2.1 13.2  3.5  JAJJHZ010001549.1  4932733 4932785  (924737) + A-rich             Low_complexity         1     58    (0) 101473  
+JAJJHZ010001549.1	Cyp12d1	   17   25.9  3.9  2.6  JAJJHZ010001549.1  4936157 4936233  (921289) + A-rich             Low_complexity         1     78    (0) 101474  
+JAJJHZ010001549.1	Cyp12d1	   22   15.1  0.0  2.2  JAJJHZ010001549.1  4937557 4937602  (919920) + (GTGTCG)n          Simple_repeat          1     45    (0) 101475  
+JAJJHZ010001549.1	Cyp12d1	   19   25.1  1.8  0.0  JAJJHZ010001549.1  4937678 4937734  (919788) + (GCGACT)n          Simple_repeat          1     58    (0) 101476  
+JAJJHZ010001571.1	Cyp6w1	   22    7.4  0.0  0.0  JAJJHZ010001571.1  1127124 1127152 (3397717) + (TC)n              Simple_repeat          1     29    (0) 105068  
+JAJJHZ010001571.1	Cyp6w1	   13   16.8  0.0  0.0  JAJJHZ010001571.1  1127420 1127446 (3397423) + (AGC)n             Simple_repeat          1     27    (0) 105069  
+JAJJHZ010001571.1	Cyp6w1	   18   15.5  0.0  0.0  JAJJHZ010001571.1  1128334 1128369 (3396500) + (CAACCC)n          Simple_repeat          1     36    (0) 105070  
+JAJJHZ010001571.1	Cyp6w1	   17   16.5  0.0  0.0  JAJJHZ010001571.1  1128901 1128934 (3395935) + (CAG)n             Simple_repeat          1     34    (0) 105071  
+JAJJHZ010001571.1	Cyp6w1	   13   14.0  4.7  4.7  JAJJHZ010001571.1  1129491 1129533 (3395336) + (ATATTTGT)n        Simple_repeat          1     43    (0) 105072  
+JAJJHZ010001571.1	Cyp6w1	   12    8.8  4.2  0.0  JAJJHZ010001571.1  1129693 1129716 (3395153) + (TTAT)n            Simple_repeat          1     25    (0) 105073  
+JAJJHZ010001571.1	Cyp6w1	   11   25.1  2.2  2.2  JAJJHZ010001571.1  1129792 1129836 (3395033) + A-rich             Low_complexity         1     45    (0) 105074  
+JAJJHZ010001571.1	Cyp6w1	   16    0.0  0.0  0.0  JAJJHZ010001571.1  1129998 1130015 (3394854) + (TG)n              Simple_repeat          1     18    (0) 105075  
+JAJJHZ010001571.1	Cyp6w1	  277   28.6  1.3  1.3  JAJJHZ010001571.1  1130575 1130723 (3394146) + rnd-4_family-11438 Unknown               49    197 (1234) 105076  
+JAJJHZ010001571.1	Cyp6t3	   17   29.2  1.2  3.9  JAJJHZ010001571.1  3478044 3478123 (1046746) + (ATATTT)n          Simple_repeat          1     78    (0) 108973  
+JAJJHZ010001571.1	Cyp6t3	  262   12.8  0.0  0.0  JAJJHZ010001571.1  3480302 3480340 (1044529) C rnd-4_family-9312  LINE/L1-Tx1       (1493)    149    111 108974  
+JAJJHZ010001571.1	Cyp6t3	  258   17.4  0.0  5.8  JAJJHZ010001571.1  3480341 3480352 (1044517) C rnd-3_family-2199  Unknown             (27)    169    122 108975  
+JAJJHZ010001571.1	Cyp6t3	   12   19.0  7.1  0.0  JAJJHZ010001571.1  3480567 3480608 (1044261) + (TATGTTT)n         Simple_repeat          1     45    (0) 108976  
+JAJJHZ010001571.1	Cyp6t3	  269   20.2  4.5  5.5  JAJJHZ010001571.1  3481402 3481511 (1043358) C rnd-4_family-11438 Unknown            (443)    988    880 108977  
+JAJJHZ010001571.1	Cyp6t3	   13   21.4  4.7  0.0  JAJJHZ010001571.1  3482156 3482198 (1042671) + (CTTCTC)n          Simple_repeat          1     45    (0) 108978  
+JAJJHZ010001571.1	Cyp6t3	  294   32.3  1.8  2.4  JAJJHZ010001571.1  3484323 3484487 (1040382) + rnd-4_family-11438 Unknown              445    608  (823) 108979  
+JAJJHZ010001571.1	Cyp6g2	   17   29.2  1.2  3.9  JAJJHZ010001571.1  3478044 3478123 (1046746) + (ATATTT)n          Simple_repeat          1     78    (0) 108973  
+JAJJHZ010001571.1	Cyp6g2	  262   12.8  0.0  0.0  JAJJHZ010001571.1  3480302 3480340 (1044529) C rnd-4_family-9312  LINE/L1-Tx1       (1493)    149    111 108974  
+JAJJHZ010001571.1	Cyp6g2	  258   17.4  0.0  5.8  JAJJHZ010001571.1  3480341 3480352 (1044517) C rnd-3_family-2199  Unknown             (27)    169    122 108975  
+JAJJHZ010001571.1	Cyp6g2	   12   19.0  7.1  0.0  JAJJHZ010001571.1  3480567 3480608 (1044261) + (TATGTTT)n         Simple_repeat          1     45    (0) 108976  
+JAJJHZ010001571.1	Cyp6g2	  269   20.2  4.5  5.5  JAJJHZ010001571.1  3481402 3481511 (1043358) C rnd-4_family-11438 Unknown            (443)    988    880 108977  
+JAJJHZ010001571.1	Cyp6g2	   13   21.4  4.7  0.0  JAJJHZ010001571.1  3482156 3482198 (1042671) + (CTTCTC)n          Simple_repeat          1     45    (0) 108978  
+JAJJHZ010001571.1	Cyp6g2	  294   32.3  1.8  2.4  JAJJHZ010001571.1  3484323 3484487 (1040382) + rnd-4_family-11438 Unknown              445    608  (823) 108979  
+JAJJHZ010001571.1	Cyp6g1	   12   19.0  7.1  0.0  JAJJHZ010001571.1  3480567 3480608 (1044261) + (TATGTTT)n         Simple_repeat          1     45    (0) 108976  
+JAJJHZ010001571.1	Cyp6g1	  269   20.2  4.5  5.5  JAJJHZ010001571.1  3481402 3481511 (1043358) C rnd-4_family-11438 Unknown            (443)    988    880 108977  
+JAJJHZ010001571.1	Cyp6g1	   13   21.4  4.7  0.0  JAJJHZ010001571.1  3482156 3482198 (1042671) + (CTTCTC)n          Simple_repeat          1     45    (0) 108978  
+JAJJHZ010001571.1	Cyp6g1	  294   32.3  1.8  2.4  JAJJHZ010001571.1  3484323 3484487 (1040382) + rnd-4_family-11438 Unknown              445    608  (823) 108979  
+JAJJHZ010001847.1	Cyp6d5	  251   17.5  9.1  3.7  JAJJHZ010001847.1  2128459 2128535   (30782) C rnd-2_family-183   LINE/R1            (309)    527    447 116837  
+JAJJHZ010001847.1	Cyp6d5	   16    5.3  0.0  0.0  JAJJHZ010001847.1  2128650 2128669   (30648) + (AC)n              Simple_repeat          1     20    (0) 116838  
+JAJJHZ010001847.1	Cyp6d5	   13    5.3  0.0  0.0  JAJJHZ010001847.1  2128844 2128863   (30454) + (TCG)n             Simple_repeat          1     20    (0) 116839  
+JAJJHZ010001847.1	Cyp6d5	  280   18.2  1.8  0.0  JAJJHZ010001847.1  2130613 2130667   (28650) C rnd-1_family-155   Unknown              (3)   1070   1015 116840  
+JAJJHZ010001847.1	Cyp6d5	  411   26.5  1.9  1.9  JAJJHZ010001847.1  2132978 2133192   (26125) + rnd-4_family-11438 Unknown             1041   1255  (176) 116841  
+JAJJHZ010001847.1	Cyp6d5	   12   15.8  0.0  3.5  JAJJHZ010001847.1  2134932 2134961   (24356) + (TTA)n             Simple_repeat          1     29    (0) 116842  
+JAJJHZ010001847.1	Cyp6d5	   26   19.4  0.0  1.9  JAJJHZ010001847.1  2135947 2136001   (23316) + (CA)n              Simple_repeat          1     54    (0) 116843  
+JAJJHZ010001847.1	Cyp6d5	   12   20.3  3.4  7.0  JAJJHZ010001847.1  2136185 2136243   (23074) + (GTTGCTG)n         Simple_repeat          1     57    (0) 116844  
+JAJJHZ010002013.1	Cyp317a1	  241   27.1  0.0  0.0  JAJJHZ010002013.1  2780267 2780325 (4196492) C rnd-5_family-613   Unknown              (1)     87     29 124740  
+JAJJHZ010002013.1	Cyp317a1	   27    5.3  0.0  0.0  JAJJHZ010002013.1  2780354 2780392 (4196425) + (TTTGTTG)n         Simple_repeat          1     39    (0) 124741  
+JAJJHZ010002013.1	Cyp317a1	   13   13.1  0.0  0.0  JAJJHZ010002013.1  2780977 2781001 (4195816) + (GAG)n             Simple_repeat          1     25    (0) 124742  
+JAJJHZ010002013.1	Cyp317a1	   15   10.8  3.3  0.0  JAJJHZ010002013.1  2782164 2782193 (4194624) + (CGAAG)n           Simple_repeat          1     31    (0) 124743  
+JAJJHZ010002013.1	Cyp317a1	  380   28.8  4.8  4.1  JAJJHZ010002013.1  2783488 2783777 (4193040) + rnd-4_family-11438 Unknown               57    348 (1083) 124744  
+JAJJHZ010002013.1	Cyp317a1	  323   25.7  2.9  7.0  JAJJHZ010002013.1  2783812 2784020 (4192797) + rnd-4_family-11438 Unknown              441    641  (790) 124744  
+JAJJHZ010002013.1	Cyp317a1	  410   29.0  2.8  1.8  JAJJHZ010002013.1  2784487 2784704 (4192113) + rnd-4_family-11438 Unknown             1110   1329  (102) 124744  
+JAJJHZ010002013.1	Cyp317a1	  227   19.1 17.5  0.0  JAJJHZ010002013.1  2785063 2785125 (4191692) C rnd-4_family-392   LINE/R1            (121)    171     98 124745  
+JAJJHZ010002013.1	Cyp317a1	   13   12.7  0.0  0.0  JAJJHZ010002013.1  2785263 2785288 (4191529) + (CGCGT)n           Simple_repeat          1     26    (0) 124746  
+JAJJHZ010002013.1	Cyp317a1	   15   21.9  6.0  2.9  JAJJHZ010002013.1  2786015 2786081 (4190736) + (ACAACA)n          Simple_repeat          1     69    (0) 124747  
+JAJJHZ010002013.1	Cyp317a1	   12   11.2 11.5  3.6  JAJJHZ010002013.1  2786319 2786370 (4190447) + (ATAATTT)n         Simple_repeat          1     56    (0) 124748  
+JAJJHZ010002013.1	Cyp6a21	  324   16.6  2.9 22.2  JAJJHZ010002013.1  2793915 2794053 (4182764) + rnd-1_family-104   DNA/P                  1    117  (302) 124753  
+JAJJHZ010002013.1	Cyp6a21	 2199    2.0  0.4  0.0  JAJJHZ010002013.1  2794088 2794342 (4182475) + ltr-1_family-20    LTR/Unknown            4    259    (0) 124754  
+JAJJHZ010002013.1	Cyp6a21	  229    8.9  0.0  0.0  JAJJHZ010002013.1  2794369 2794413 (4182404) + rnd-4_family-3865  DNA/P               2524   2568  (236) 124755  
+JAJJHZ010002013.1	Cyp6a21	 1792   13.1  8.9  4.4  JAJJHZ010002013.1  2794436 2794804 (4182013) C rnd-1_family-156   DNA/hAT-Blackjack  (620)    630    246 124756 *
+JAJJHZ010002013.1	Cyp6a21	 1968    4.9  3.7  1.4  JAJJHZ010002013.1  2794637 2794905 (4181912) C rnd-1_family-155   Unknown            (796)    277      3 124757  
+JAJJHZ010002013.1	Cyp6a21	  714   21.9  0.0  2.5  JAJJHZ010002013.1  2794753 2794953 (4181864) C rnd-4_family-244   RC/Helentron       (179)   2179   1984 124758 *
+JAJJHZ010002013.1	Cyp6a21	 1410   10.7  2.1  0.4  JAJJHZ010002013.1  2794903 2795136 (4181681) + rnd-4_family-3865  DNA/P               2567   2804    (0) 124759  
+JAJJHZ010002013.1	Cyp6a21	 1561   11.6  2.5  5.8  JAJJHZ010002013.1  2795150 2795433 (4181384) + ltr-1_family-5     LTR/Unknown           44    318    (0) 124760  
+JAJJHZ010002013.1	Cyp6a21	  614   23.8  7.1  4.8  JAJJHZ010002013.1  2795627 2795949 (4180868) + rnd-4_family-11438 Unknown              401    730  (701) 124761  
+JAJJHZ010002013.1	Cyp6a21	 5458   20.6  2.9  2.4  JAJJHZ010002013.1  2796617 2798031 (4178786) C rnd-4_family-11438 Unknown              (0)   1431     10 124762  
+JAJJHZ010002013.1	Cyp6a21	   29    6.2  0.0  0.0  JAJJHZ010002013.1  2798410 2798443 (4178374) + (TC)n              Simple_repeat          1     34    (0) 124763  
+JAJJHZ010002013.1	Cyp6a21	 1530   27.7  6.6  4.5  JAJJHZ010002013.1  2798838 2800014 (4176803) + rnd-4_family-11438 Unknown               63   1263  (168) 124764  
+JAJJHZ010002013.1	Cyp6a21	   12   27.5  2.3  0.0  JAJJHZ010002013.1  2801050 2801093 (4175724) + (ATAT)n            Simple_repeat          1     45    (0) 124765  
+JAJJHZ010002013.1	Cyp6a21	  324   16.6  2.9 22.2  JAJJHZ010002013.1  2793915 2794053 (4182764) + rnd-1_family-104   DNA/P                  1    117  (302) 124753  
+JAJJHZ010002013.1	Cyp6a21	 2199    2.0  0.4  0.0  JAJJHZ010002013.1  2794088 2794342 (4182475) + ltr-1_family-20    LTR/Unknown            4    259    (0) 124754  
+JAJJHZ010002013.1	Cyp6a21	  229    8.9  0.0  0.0  JAJJHZ010002013.1  2794369 2794413 (4182404) + rnd-4_family-3865  DNA/P               2524   2568  (236) 124755  
+JAJJHZ010002013.1	Cyp6a21	 1792   13.1  8.9  4.4  JAJJHZ010002013.1  2794436 2794804 (4182013) C rnd-1_family-156   DNA/hAT-Blackjack  (620)    630    246 124756 *
+JAJJHZ010002013.1	Cyp6a21	 1968    4.9  3.7  1.4  JAJJHZ010002013.1  2794637 2794905 (4181912) C rnd-1_family-155   Unknown            (796)    277      3 124757  
+JAJJHZ010002013.1	Cyp6a21	  714   21.9  0.0  2.5  JAJJHZ010002013.1  2794753 2794953 (4181864) C rnd-4_family-244   RC/Helentron       (179)   2179   1984 124758 *
+JAJJHZ010002013.1	Cyp6a21	 1410   10.7  2.1  0.4  JAJJHZ010002013.1  2794903 2795136 (4181681) + rnd-4_family-3865  DNA/P               2567   2804    (0) 124759  
+JAJJHZ010002013.1	Cyp6a21	 1561   11.6  2.5  5.8  JAJJHZ010002013.1  2795150 2795433 (4181384) + ltr-1_family-5     LTR/Unknown           44    318    (0) 124760  
+JAJJHZ010002013.1	Cyp6a21	  614   23.8  7.1  4.8  JAJJHZ010002013.1  2795627 2795949 (4180868) + rnd-4_family-11438 Unknown              401    730  (701) 124761  
+JAJJHZ010002013.1	Cyp6a21	 5458   20.6  2.9  2.4  JAJJHZ010002013.1  2796617 2798031 (4178786) C rnd-4_family-11438 Unknown              (0)   1431     10 124762  
+JAJJHZ010002013.1	Cyp6a21	   29    6.2  0.0  0.0  JAJJHZ010002013.1  2798410 2798443 (4178374) + (TC)n              Simple_repeat          1     34    (0) 124763  
+JAJJHZ010002013.1	Cyp6a21	 1530   27.7  6.6  4.5  JAJJHZ010002013.1  2798838 2800014 (4176803) + rnd-4_family-11438 Unknown               63   1263  (168) 124764  
+JAJJHZ010002013.1	Cyp6a21	   12   27.5  2.3  0.0  JAJJHZ010002013.1  2801050 2801093 (4175724) + (ATAT)n            Simple_repeat          1     45    (0) 124765  
+JAJJHZ010002013.1	Cyp6a17	 1530   27.7  6.6  4.5  JAJJHZ010002013.1  2798838 2800014 (4176803) + rnd-4_family-11438 Unknown               63   1263  (168) 124764  
+JAJJHZ010002013.1	Cyp6a17	   12   27.5  2.3  0.0  JAJJHZ010002013.1  2801050 2801093 (4175724) + (ATAT)n            Simple_repeat          1     45    (0) 124765  
+JAJJHZ010002013.1	Cyp6a17	 3066   25.9  4.6  2.9  JAJJHZ010002013.1  2801811 2803111 (4173706) + rnd-4_family-11438 Unknown               22   1344   (87) 124766  
+JAJJHZ010002013.1	Cyp6a17	 2129   28.3  5.7  2.9  JAJJHZ010002013.1  2804013 2805335 (4171482) + rnd-4_family-11438 Unknown               27   1385   (46) 124767  
+JAJJHZ010002013.1	Cyp6a17	   12   22.5  1.9  6.0  JAJJHZ010002013.1  2805728 2805779 (4171038) + A-rich             Low_complexity         1     50    (0) 124768  
+JAJJHZ010002013.1	Cyp6a17	   21    4.6  8.2  3.9  JAJJHZ010002013.1  2806038 2806086 (4170731) + (TATAA)n           Simple_repeat          1     51    (0) 124769  
+JAJJHZ010002013.1	Cyp6a17	 1530   27.7  6.6  4.5  JAJJHZ010002013.1  2798838 2800014 (4176803) + rnd-4_family-11438 Unknown               63   1263  (168) 124764  
+JAJJHZ010002013.1	Cyp6a17	   12   27.5  2.3  0.0  JAJJHZ010002013.1  2801050 2801093 (4175724) + (ATAT)n            Simple_repeat          1     45    (0) 124765  
+JAJJHZ010002013.1	Cyp6a17	 3066   25.9  4.6  2.9  JAJJHZ010002013.1  2801811 2803111 (4173706) + rnd-4_family-11438 Unknown               22   1344   (87) 124766  
+JAJJHZ010002013.1	Cyp6a17	 2129   28.3  5.7  2.9  JAJJHZ010002013.1  2804013 2805335 (4171482) + rnd-4_family-11438 Unknown               27   1385   (46) 124767  
+JAJJHZ010002013.1	Cyp6a17	   12   22.5  1.9  6.0  JAJJHZ010002013.1  2805728 2805779 (4171038) + A-rich             Low_complexity         1     50    (0) 124768  
+JAJJHZ010002013.1	Cyp6a17	   21    4.6  8.2  3.9  JAJJHZ010002013.1  2806038 2806086 (4170731) + (TATAA)n           Simple_repeat          1     51    (0) 124769  
+JAJJHZ010002013.1	Cyp6a17	 1530   27.7  6.6  4.5  JAJJHZ010002013.1  2798838 2800014 (4176803) + rnd-4_family-11438 Unknown               63   1263  (168) 124764  
+JAJJHZ010002013.1	Cyp6a17	   12   27.5  2.3  0.0  JAJJHZ010002013.1  2801050 2801093 (4175724) + (ATAT)n            Simple_repeat          1     45    (0) 124765  
+JAJJHZ010002013.1	Cyp6a17	 3066   25.9  4.6  2.9  JAJJHZ010002013.1  2801811 2803111 (4173706) + rnd-4_family-11438 Unknown               22   1344   (87) 124766  
+JAJJHZ010002013.1	Cyp6a17	 2129   28.3  5.7  2.9  JAJJHZ010002013.1  2804013 2805335 (4171482) + rnd-4_family-11438 Unknown               27   1385   (46) 124767  
+JAJJHZ010002013.1	Cyp6a17	   12   22.5  1.9  6.0  JAJJHZ010002013.1  2805728 2805779 (4171038) + A-rich             Low_complexity         1     50    (0) 124768  
+JAJJHZ010002013.1	Cyp6a17	   21    4.6  8.2  3.9  JAJJHZ010002013.1  2806038 2806086 (4170731) + (TATAA)n           Simple_repeat          1     51    (0) 124769  
+JAJJHZ010002013.1	Cyp6a22	   12   27.5  2.3  0.0  JAJJHZ010002013.1  2801050 2801093 (4175724) + (ATAT)n            Simple_repeat          1     45    (0) 124765  
+JAJJHZ010002013.1	Cyp6a22	 3066   25.9  4.6  2.9  JAJJHZ010002013.1  2801811 2803111 (4173706) + rnd-4_family-11438 Unknown               22   1344   (87) 124766  
+JAJJHZ010002013.1	Cyp6a22	 2129   28.3  5.7  2.9  JAJJHZ010002013.1  2804013 2805335 (4171482) + rnd-4_family-11438 Unknown               27   1385   (46) 124767  
+JAJJHZ010002013.1	Cyp6a22	   12   22.5  1.9  6.0  JAJJHZ010002013.1  2805728 2805779 (4171038) + A-rich             Low_complexity         1     50    (0) 124768  
+JAJJHZ010002013.1	Cyp6a22	   21    4.6  8.2  3.9  JAJJHZ010002013.1  2806038 2806086 (4170731) + (TATAA)n           Simple_repeat          1     51    (0) 124769  
+JAJJHZ010002013.1	Cyp6a22	   16   32.9  0.0  0.0  JAJJHZ010002013.1  2806299 2806351 (4170466) + GA-rich            Low_complexity         1     53    (0) 124770  
+JAJJHZ010002013.1	Cyp6a22	  245   30.1  1.4  1.4  JAJJHZ010002013.1  2807099 2807243 (4169574) + rnd-4_family-11438 Unknown               77    221 (1210) 124771  
+JAJJHZ010002013.1	Cyp6a22	  797   26.2  6.8  1.4  JAJJHZ010002013.1  2807803 2808139 (4168678) + rnd-4_family-11438 Unknown              876   1230  (201) 124771  
+JAJJHZ010002013.1	Cyp6a22	   12   27.5  2.3  0.0  JAJJHZ010002013.1  2801050 2801093 (4175724) + (ATAT)n            Simple_repeat          1     45    (0) 124765  
+JAJJHZ010002013.1	Cyp6a22	 3066   25.9  4.6  2.9  JAJJHZ010002013.1  2801811 2803111 (4173706) + rnd-4_family-11438 Unknown               22   1344   (87) 124766  
+JAJJHZ010002013.1	Cyp6a22	 2129   28.3  5.7  2.9  JAJJHZ010002013.1  2804013 2805335 (4171482) + rnd-4_family-11438 Unknown               27   1385   (46) 124767  
+JAJJHZ010002013.1	Cyp6a22	   12   22.5  1.9  6.0  JAJJHZ010002013.1  2805728 2805779 (4171038) + A-rich             Low_complexity         1     50    (0) 124768  
+JAJJHZ010002013.1	Cyp6a22	   21    4.6  8.2  3.9  JAJJHZ010002013.1  2806038 2806086 (4170731) + (TATAA)n           Simple_repeat          1     51    (0) 124769  
+JAJJHZ010002013.1	Cyp6a22	   16   32.9  0.0  0.0  JAJJHZ010002013.1  2806299 2806351 (4170466) + GA-rich            Low_complexity         1     53    (0) 124770  
+JAJJHZ010002013.1	Cyp6a22	  245   30.1  1.4  1.4  JAJJHZ010002013.1  2807099 2807243 (4169574) + rnd-4_family-11438 Unknown               77    221 (1210) 124771  
+JAJJHZ010002013.1	Cyp6a22	  797   26.2  6.8  1.4  JAJJHZ010002013.1  2807803 2808139 (4168678) + rnd-4_family-11438 Unknown              876   1230  (201) 124771  
+JAJJHZ010002013.1	Cyp6a13	 2129   28.3  5.7  2.9  JAJJHZ010002013.1  2804013 2805335 (4171482) + rnd-4_family-11438 Unknown               27   1385   (46) 124767  
+JAJJHZ010002013.1	Cyp6a13	   12   22.5  1.9  6.0  JAJJHZ010002013.1  2805728 2805779 (4171038) + A-rich             Low_complexity         1     50    (0) 124768  
+JAJJHZ010002013.1	Cyp6a13	   21    4.6  8.2  3.9  JAJJHZ010002013.1  2806038 2806086 (4170731) + (TATAA)n           Simple_repeat          1     51    (0) 124769  
+JAJJHZ010002013.1	Cyp6a13	   16   32.9  0.0  0.0  JAJJHZ010002013.1  2806299 2806351 (4170466) + GA-rich            Low_complexity         1     53    (0) 124770  
+JAJJHZ010002013.1	Cyp6a13	  245   30.1  1.4  1.4  JAJJHZ010002013.1  2807099 2807243 (4169574) + rnd-4_family-11438 Unknown               77    221 (1210) 124771  
+JAJJHZ010002013.1	Cyp6a13	  797   26.2  6.8  1.4  JAJJHZ010002013.1  2807803 2808139 (4168678) + rnd-4_family-11438 Unknown              876   1230  (201) 124771  
+JAJJHZ010002013.1	Cyp6a13	   18   13.3  2.2  4.5  JAJJHZ010002013.1  2809095 2809139 (4167678) + (ATTTA)n           Simple_repeat          1     44    (0) 124772  
+JAJJHZ010002013.1	Cyp6a13	 2132   29.7  3.6  4.1  JAJJHZ010002013.1  2809730 2811048 (4165769) + rnd-4_family-11438 Unknown               19   1330  (101) 124773  
+JAJJHZ010002013.1	Cyp4e3	   14   24.5  0.0  2.3  JAJJHZ010002013.1  2995798 2995842 (3980975) + (TTTGTT)n          Simple_repeat          1     44    (0) 125006  
+JAJJHZ010002013.1	Cyp4e3	  478   21.3 18.7  3.0  JAJJHZ010002013.1  2996564 2996766 (3980051) + rnd-1_family-155   Unknown                4    237  (836) 125007 *
+JAJJHZ010002013.1	Cyp4e3	  514   25.9  9.7  5.5  JAJJHZ010002013.1  2996651 2997153 (3979664) + rnd-1_family-156   DNA/hAT-Blackjack    246    768  (482) 125008 *
+JAJJHZ010002013.1	Cyp4e3	  663   22.9 11.0  3.0  JAJJHZ010002013.1  2996786 2997186 (3979631) + rnd-1_family-67    RC/Helentron         705   1136  (628) 125009  
+JAJJHZ010002013.1	Cyp4e3	   15    3.6  6.5  3.1  JAJJHZ010002013.1  2997906 2997936 (3978881) + (AACAA)n           Simple_repeat          1     32    (0) 125010  
+JAJJHZ010002013.1	Cyp4e3	   14   24.5  0.0  2.3  JAJJHZ010002013.1  2995798 2995842 (3980975) + (TTTGTT)n          Simple_repeat          1     44    (0) 125006  
+JAJJHZ010002013.1	Cyp4e3	  478   21.3 18.7  3.0  JAJJHZ010002013.1  2996564 2996766 (3980051) + rnd-1_family-155   Unknown                4    237  (836) 125007 *
+JAJJHZ010002013.1	Cyp4e3	  514   25.9  9.7  5.5  JAJJHZ010002013.1  2996651 2997153 (3979664) + rnd-1_family-156   DNA/hAT-Blackjack    246    768  (482) 125008 *
+JAJJHZ010002013.1	Cyp4e3	  663   22.9 11.0  3.0  JAJJHZ010002013.1  2996786 2997186 (3979631) + rnd-1_family-67    RC/Helentron         705   1136  (628) 125009  
+JAJJHZ010002013.1	Cyp4e3	   15    3.6  6.5  3.1  JAJJHZ010002013.1  2997906 2997936 (3978881) + (AACAA)n           Simple_repeat          1     32    (0) 125010  
+JAJJHZ010002013.1	Cyp4e3	   14   24.5  0.0  2.3  JAJJHZ010002013.1  2995798 2995842 (3980975) + (TTTGTT)n          Simple_repeat          1     44    (0) 125006  
+JAJJHZ010002013.1	Cyp4e3	  478   21.3 18.7  3.0  JAJJHZ010002013.1  2996564 2996766 (3980051) + rnd-1_family-155   Unknown                4    237  (836) 125007 *
+JAJJHZ010002013.1	Cyp4e3	  514   25.9  9.7  5.5  JAJJHZ010002013.1  2996651 2997153 (3979664) + rnd-1_family-156   DNA/hAT-Blackjack    246    768  (482) 125008 *
+JAJJHZ010002013.1	Cyp4e3	  663   22.9 11.0  3.0  JAJJHZ010002013.1  2996786 2997186 (3979631) + rnd-1_family-67    RC/Helentron         705   1136  (628) 125009  
+JAJJHZ010002013.1	Cyp4e3	   15    3.6  6.5  3.1  JAJJHZ010002013.1  2997906 2997936 (3978881) + (AACAA)n           Simple_repeat          1     32    (0) 125010  
+JAJJHZ010002013.1	Cyp4ad1	  478   21.3 18.7  3.0  JAJJHZ010002013.1  2996564 2996766 (3980051) + rnd-1_family-155   Unknown                4    237  (836) 125007 *
+JAJJHZ010002013.1	Cyp4ad1	  514   25.9  9.7  5.5  JAJJHZ010002013.1  2996651 2997153 (3979664) + rnd-1_family-156   DNA/hAT-Blackjack    246    768  (482) 125008 *
+JAJJHZ010002013.1	Cyp4ad1	  663   22.9 11.0  3.0  JAJJHZ010002013.1  2996786 2997186 (3979631) + rnd-1_family-67    RC/Helentron         705   1136  (628) 125009  
+JAJJHZ010002013.1	Cyp4ad1	   15    3.6  6.5  3.1  JAJJHZ010002013.1  2997906 2997936 (3978881) + (AACAA)n           Simple_repeat          1     32    (0) 125010  
+JAJJHZ010002013.1	Cyp4ad1	  429   17.5  2.0  2.0  JAJJHZ010002013.1  3002860 3002958 (3973859) + rnd-4_family-2995  RC/Helentron        1285   1383  (159) 125011 *
+JAJJHZ010002013.1	Cyp4ad1	  495   14.7  0.0  0.0  JAJJHZ010002013.1  3002952 3003046 (3973771) + rnd-1_family-155   Unknown              372    466  (607) 125012  
+JAJJHZ010002013.1	Cyp4ad1	   13   20.9  0.0  0.0  JAJJHZ010002013.1  3003468 3003500 (3973317) + (ATGT)n            Simple_repeat          1     33    (0) 125013  
+JAJJHZ010002013.1	Cyp4ad1	  248   20.6  4.5  3.6  JAJJHZ010002013.1  3004044 3004154 (3972663) C rnd-4_family-2374  DNA/hAT-Ac         (112)    424    313 125014  
+JAJJHZ010002013.1	Cyp4ad1	  283   21.7  1.7  0.0  JAJJHZ010002013.1  3004458 3004517 (3972300) C rnd-1_family-159   Unknown            (146)     63      3 125015 *
+JAJJHZ010002013.1	Cyp4ad1	  857   19.2  6.6  0.0  JAJJHZ010002013.1  3004465 3004677 (3972140) C rnd-1_family-67    RC/Helentron       (635)   1129    903 125016  
+JAJJHZ010002013.1	Cyp4ad1	  665   22.8 16.6  4.0  JAJJHZ010002013.1  3004713 3004959 (3971858) C rnd-1_family-155   Unknown            (705)    368     92 125017  
+JAJJHZ010002013.1	Cyp4d14	   18   12.0  0.0  0.0  JAJJHZ010002013.1  3509797 3509823 (3466994) + (TC)n              Simple_repeat          1     27    (0) 125973  
+JAJJHZ010002013.1	Cyp4d14	   17    6.0  8.6  0.0  JAJJHZ010002013.1  3509824 3509831 (3466986) + (TCTCTG)n          Simple_repeat          1     38    (0) 125974  
+JAJJHZ010002013.1	Cyp4d14	   17   25.7  2.0  0.0  JAJJHZ010002013.1  3509882 3509932 (3466885) + (TTG)n             Simple_repeat          1     52    (0) 125975  
+JAJJHZ010002013.1	Cyp4d14	   16   16.6  0.0  0.0  JAJJHZ010002013.1  3509976 3510002 (3466815) + (T)n               Simple_repeat          1     27    (0) 125976  
+JAJJHZ010002013.1	Cyp4d14	  314   20.7  0.0  0.0  JAJJHZ010002013.1  3511948 3512005 (3464812) C rnd-1_family-155   Unknown             (12)   1061   1004 125977  
+JAJJHZ010002013.1	Cyp4d14	  392    6.0  0.0  0.0  JAJJHZ010002013.1  3514566 3514615 (3462202) + ltr-1_family-38    LTR/Unknown           72    121  (124) 125978  
+JAJJHZ010002013.1	Cyp4d14	 3594    2.1  0.0  0.0  JAJJHZ010002013.1  3514617 3515035 (3461782) + rnd-1_family-104   DNA/P                  1    419    (0) 125979  
+JAJJHZ010002013.1	Cyp4d14	  781    7.1  3.9  1.5  JAJJHZ010002013.1  3515036 3515164 (3461653) + ltr-1_family-38    LTR/Unknown          114    245    (0) 125978  
+JAJJHZ010002013.1	Cyp4d14	 2656    2.5  5.2  0.0  JAJJHZ010002013.1  3515165 3515489 (3461328) + ltr-1_family-39    LTR/Gypsy              1    342 (6564) 125980  
+JAJJHZ010002013.1	Cyp4d14	 1654    4.8  1.3  2.2  JAJJHZ010002013.1  3515492 3515724 (3461093) C rnd-1_family-104   DNA/P                (2)    417    187 125981  
+JAJJHZ010002013.1	Cyp4d14	 1962    2.1  0.8  0.0  JAJJHZ010002013.1  3515725 3515964 (3460853) C ltr-1_family-38    LTR/Unknown          (0)    245      4 125982  
+JAJJHZ010002013.1	Cyp4d14	 1447    6.7  0.0  0.5  JAJJHZ010002013.1  3515965 3516155 (3460662) C rnd-1_family-104   DNA/P              (229)    190      1 125983  
+JAJJHZ010002013.1	Cyp4d14	 2412    3.5  2.2  0.0  JAJJHZ010002013.1  3516157 3516470 (3460347) + ltr-1_family-39    LTR/Gypsy            335    655 (6251) 125980 *
+JAJJHZ010002013.1	Cyp4d14	 5633    2.7  2.6  0.6  JAJJHZ010002013.1  3516469 3517167 (3459650) + rnd-4_family-4326  Unknown                1    713    (2) 125984 *
+JAJJHZ010002013.1	Cyp4d14	   18   12.0  0.0  0.0  JAJJHZ010002013.1  3509797 3509823 (3466994) + (TC)n              Simple_repeat          1     27    (0) 125973  
+JAJJHZ010002013.1	Cyp4d14	   17    6.0  8.6  0.0  JAJJHZ010002013.1  3509824 3509831 (3466986) + (TCTCTG)n          Simple_repeat          1     38    (0) 125974  
+JAJJHZ010002013.1	Cyp4d14	   17   25.7  2.0  0.0  JAJJHZ010002013.1  3509882 3509932 (3466885) + (TTG)n             Simple_repeat          1     52    (0) 125975  
+JAJJHZ010002013.1	Cyp4d14	   16   16.6  0.0  0.0  JAJJHZ010002013.1  3509976 3510002 (3466815) + (T)n               Simple_repeat          1     27    (0) 125976  
+JAJJHZ010002013.1	Cyp4d14	  314   20.7  0.0  0.0  JAJJHZ010002013.1  3511948 3512005 (3464812) C rnd-1_family-155   Unknown             (12)   1061   1004 125977  
+JAJJHZ010002013.1	Cyp4d14	  392    6.0  0.0  0.0  JAJJHZ010002013.1  3514566 3514615 (3462202) + ltr-1_family-38    LTR/Unknown           72    121  (124) 125978  
+JAJJHZ010002013.1	Cyp4d14	 3594    2.1  0.0  0.0  JAJJHZ010002013.1  3514617 3515035 (3461782) + rnd-1_family-104   DNA/P                  1    419    (0) 125979  
+JAJJHZ010002013.1	Cyp4d14	  781    7.1  3.9  1.5  JAJJHZ010002013.1  3515036 3515164 (3461653) + ltr-1_family-38    LTR/Unknown          114    245    (0) 125978  
+JAJJHZ010002013.1	Cyp4d14	 2656    2.5  5.2  0.0  JAJJHZ010002013.1  3515165 3515489 (3461328) + ltr-1_family-39    LTR/Gypsy              1    342 (6564) 125980  
+JAJJHZ010002013.1	Cyp4d14	 1654    4.8  1.3  2.2  JAJJHZ010002013.1  3515492 3515724 (3461093) C rnd-1_family-104   DNA/P                (2)    417    187 125981  
+JAJJHZ010002013.1	Cyp4d14	 1962    2.1  0.8  0.0  JAJJHZ010002013.1  3515725 3515964 (3460853) C ltr-1_family-38    LTR/Unknown          (0)    245      4 125982  
+JAJJHZ010002013.1	Cyp4d14	 1447    6.7  0.0  0.5  JAJJHZ010002013.1  3515965 3516155 (3460662) C rnd-1_family-104   DNA/P              (229)    190      1 125983  
+JAJJHZ010002013.1	Cyp4d14	 2412    3.5  2.2  0.0  JAJJHZ010002013.1  3516157 3516470 (3460347) + ltr-1_family-39    LTR/Gypsy            335    655 (6251) 125980 *
+JAJJHZ010002013.1	Cyp4d14	 5633    2.7  2.6  0.6  JAJJHZ010002013.1  3516469 3517167 (3459650) + rnd-4_family-4326  Unknown                1    713    (2) 125984 *
+JAJJHZ010002013.1	Cyp4p1	   22   19.7  0.0  0.0  JAJJHZ010002013.1  3847627 3847673 (3129144) + (ATA)n             Simple_repeat          1     47    (0) 126581  
+JAJJHZ010002013.1	Cyp4p1	   15    0.0  0.0  4.5  JAJJHZ010002013.1  3848382 3848404 (3128413) + (CCA)n             Simple_repeat          1     22    (0) 126582  
+JAJJHZ010002013.1	Cyp4p1	   18   21.2  0.0  0.0  JAJJHZ010002013.1  3848951 3848994 (3127823) + (ACAACA)n          Simple_repeat          1     44    (0) 126583  
+JAJJHZ010002013.1	Cyp4p1	  682    4.8  0.0  0.0  JAJJHZ010002013.1  3849606 3849689 (3127128) C rnd-1_family-101   LTR/Copia            (0)    600    517 126584 *
+JAJJHZ010002013.1	Cyp4p1	 2515   10.0  7.9  2.4  JAJJHZ010002013.1  3849616 3850086 (3126731) C rnd-4_family-322   Unknown            (107)    496      1 126585  
+JAJJHZ010002013.1	Cyp4p1	   19   16.2  4.0  2.0  JAJJHZ010002013.1  3851302 3851351 (3125466) + (AATTA)n           Simple_repeat          1     51    (0) 126586  
+JAJJHZ010002013.1	Cyp4p1	   22   19.7  0.0  0.0  JAJJHZ010002013.1  3847627 3847673 (3129144) + (ATA)n             Simple_repeat          1     47    (0) 126581  
+JAJJHZ010002013.1	Cyp4p1	   15    0.0  0.0  4.5  JAJJHZ010002013.1  3848382 3848404 (3128413) + (CCA)n             Simple_repeat          1     22    (0) 126582  
+JAJJHZ010002013.1	Cyp4p1	   18   21.2  0.0  0.0  JAJJHZ010002013.1  3848951 3848994 (3127823) + (ACAACA)n          Simple_repeat          1     44    (0) 126583  
+JAJJHZ010002013.1	Cyp4p1	  682    4.8  0.0  0.0  JAJJHZ010002013.1  3849606 3849689 (3127128) C rnd-1_family-101   LTR/Copia            (0)    600    517 126584 *
+JAJJHZ010002013.1	Cyp4p1	 2515   10.0  7.9  2.4  JAJJHZ010002013.1  3849616 3850086 (3126731) C rnd-4_family-322   Unknown            (107)    496      1 126585  
+JAJJHZ010002013.1	Cyp4p1	   19   16.2  4.0  2.0  JAJJHZ010002013.1  3851302 3851351 (3125466) + (AATTA)n           Simple_repeat          1     51    (0) 126586  
+JAJJHZ010002013.1	Cyp4p1	   22   19.7  0.0  0.0  JAJJHZ010002013.1  3847627 3847673 (3129144) + (ATA)n             Simple_repeat          1     47    (0) 126581  
+JAJJHZ010002013.1	Cyp4p1	   15    0.0  0.0  4.5  JAJJHZ010002013.1  3848382 3848404 (3128413) + (CCA)n             Simple_repeat          1     22    (0) 126582  
+JAJJHZ010002013.1	Cyp4p1	   18   21.2  0.0  0.0  JAJJHZ010002013.1  3848951 3848994 (3127823) + (ACAACA)n          Simple_repeat          1     44    (0) 126583  
+JAJJHZ010002013.1	Cyp4p1	  682    4.8  0.0  0.0  JAJJHZ010002013.1  3849606 3849689 (3127128) C rnd-1_family-101   LTR/Copia            (0)    600    517 126584 *
+JAJJHZ010002013.1	Cyp4p1	 2515   10.0  7.9  2.4  JAJJHZ010002013.1  3849616 3850086 (3126731) C rnd-4_family-322   Unknown            (107)    496      1 126585  
+JAJJHZ010002013.1	Cyp4p1	   19   16.2  4.0  2.0  JAJJHZ010002013.1  3851302 3851351 (3125466) + (AATTA)n           Simple_repeat          1     51    (0) 126586  
+JAJJHZ010002421.1	Cyp28a5	   23   17.5  2.1 10.3  JAJJHZ010002421.1  1517377 1517402  (740645) + (TAT)n            Simple_repeat          1     49   (38) 140277  
+JAJJHZ010002421.1	Cyp28a5	   17    7.9  2.0 10.9  JAJJHZ010002421.1  1517403 1517452  (740595) + (TTAT)n           Simple_repeat          1     46    (0) 140278  
+JAJJHZ010002421.1	Cyp28a5	   23   17.5  2.1 10.3  JAJJHZ010002421.1  1517453 1517470  (740577) + (TAT)n            Simple_repeat         50     87    (0) 140277  
+JAJJHZ010002421.1	Cyp28a5	   21    9.7  3.0  0.0  JAJJHZ010002421.1  1517759 1517791  (740256) + (TG)n             Simple_repeat          1     34    (0) 140279  
+JAJJHZ010002421.1	Cyp28a5	   18   24.3  0.0  4.0  JAJJHZ010002421.1  1518585 1518636  (739411) + GA-rich           Low_complexity         1     50    (0) 140280  
+JAJJHZ010002421.1	Cyp28a5	   15    5.5  0.0  0.0  JAJJHZ010002421.1  1518740 1518758  (739289) + (TG)n             Simple_repeat          1     19    (0) 140281  
+JAJJHZ010002421.1	Cyp28a5	   12    5.6  0.0  0.0  JAJJHZ010002421.1  1518845 1518863  (739184) + (ATG)n            Simple_repeat          1     19    (0) 140282  
+JAJJHZ010002421.1	Cyp28a5	   17   13.3  0.0  0.0  JAJJHZ010002421.1  1519142 1519174  (738873) + (TGTCGC)n         Simple_repeat          1     33    (0) 140283  
+JAJJHZ010002421.1	Cyp28a5	  377   18.8  4.9  0.9  JAJJHZ010002421.1  1520381 1520482  (737565) C rnd-1_family-155  Unknown              (4)   1069    964 140284  
+JAJJHZ010002421.1	Cyp28a5	  674   14.3  8.5  3.5  JAJJHZ010002421.1  1522758 1522945  (735102) C rnd-1_family-67   RC/Helentron       (635)   1129    933 140285  
+JAJJHZ010002421.1	Cyp28a5	 5519    4.9  2.3  0.4  JAJJHZ010002421.1  1523027 1523778  (734269) + rnd-1_family-152  DNA/TcMar-Tc1          7    772    (4) 140286  
+JAJJHZ010002421.1	Cyp28a5	  735   15.1 21.3  1.7  JAJJHZ010002421.1  1523828 1524029  (734018) C rnd-1_family-155  Unknown            (801)    272     32 140284  
+JAJJHZ010002421.1	Cyp28a5	   19    8.1  0.0  0.0  JAJJHZ010002421.1  1524453 1524478  (733569) + (TG)n             Simple_repeat          1     26    (0) 140287  
+JAJJHZ010002589.1	Cyp4d1	   13   22.7  0.0  0.0  JAJJHZ010002589.1   2167769  2167800  (9533515) + (GCC)n             Simple_repeat          1     32    (0) 147544  
+JAJJHZ010002589.1	Cyp4d1	   13   18.9  2.8  0.0  JAJJHZ010002589.1   2168694  2168729  (9532586) + (ATATAA)n          Simple_repeat          1     37    (0) 147545  
+JAJJHZ010002589.1	Cyp4d1	   30    5.6  0.0  2.6  JAJJHZ010002589.1   2168795  2168833  (9532482) + (AT)n              Simple_repeat          1     38    (0) 147546  
+JAJJHZ010002589.1	Cyp4d1	   12   15.3  8.1  0.0  JAJJHZ010002589.1   2170381  2170417  (9530898) + (TTATA)n           Simple_repeat          1     40    (0) 147547  
+JAJJHZ010002589.1	Cyp4d1	  901    8.3  0.0  2.3  JAJJHZ010002589.1   2170881  2171016  (9530299) + rnd-3_family-911   DNA/TcMar-Tc1          1    133  (296) 147548  
+JAJJHZ010002589.1	Cyp4d1	  229   10.8  0.0  0.0  JAJJHZ010002589.1   2171029  2171065  (9530250) + rnd-4_family-1852  DNA/TcMar-Tc1        363    399  (344) 147549  
+JAJJHZ010002589.1	Cyp4d1	  257   13.8 19.0  0.0  JAJJHZ010002589.1   2173532  2173589  (9527726) + rnd-1_family-67    RC/Helentron         420    488 (1276) 147550  
+JAJJHZ010002589.1	Cyp4d1	 1429   11.9  8.2  2.9  JAJJHZ010002589.1   2174160  2174453  (9526862) + rnd-5_family-356   LINE/I              1154   1462   (23) 147551  
+JAJJHZ010002589.1	Cyp4d1	 1045    6.8  2.2  1.7  JAJJHZ010002589.1   2174444  2174623  (9526692) C rnd-1_family-67    RC/Helentron       (634)   1130    950 147552 *
+JAJJHZ010002589.1	Cyp4d1	  764   14.8 11.3  5.8  JAJJHZ010002589.1   2174624  2174670  (9526645) C rnd-1_family-156   DNA/hAT-Blackjack  (460)    788    550 147553 *
+JAJJHZ010002589.1	Cyp4d1	 1640    6.9 19.9  0.3  JAJJHZ010002589.1   2174662  2174938  (9526377) C rnd-1_family-155   Unknown            (742)    331      1 147554  
+JAJJHZ010002589.1	Cyp4d1	  816    6.8 10.3  0.0  JAJJHZ010002589.1   2174936  2175052  (9526263) C rnd-1_family-155   Unknown            (834)    239    111 147555 *
+JAJJHZ010002589.1	Cyp4d1	   12   18.7  4.3  4.3  JAJJHZ010002589.1   2175640  2175685  (9525630) + (GCA)n             Simple_repeat          1     46    (0) 147556  
+JAJJHZ010002589.1	Cyp4d1	   13   17.8  5.3  0.0  JAJJHZ010002589.1   2176407  2176444  (9524871) + (CATTTGT)n         Simple_repeat          1     40    (0) 147557  
+JAJJHZ010002589.1	Cyp4d1	  228   18.8  1.8  9.6  JAJJHZ010002589.1   2178621  2178732  (9522583) + rnd-4_family-321   Unknown               45    148   (13) 147558  
+JAJJHZ010002589.1	Cyp28c1	   12    4.3  8.3  0.0  JAJJHZ010002589.1   4068457  4068480  (7632835) + (AAAAT)n           Simple_repeat          1     26    (0) 152735  
+JAJJHZ010002589.1	Cyp28c1	   29   21.9  7.5  3.3  JAJJHZ010002589.1   4068714  4068859  (7632456) + (TATATAC)n         Simple_repeat          1    152    (0) 152736  
+JAJJHZ010002589.1	Cyp28c1	   15   20.9  2.5  0.0  JAJJHZ010002589.1   4068885  4068924  (7632391) + (GTAT)n            Simple_repeat          1     41    (0) 152737  
+JAJJHZ010002589.1	Cyp28c1	   23   10.3  7.7  0.0  JAJJHZ010002589.1   4069037  4069088  (7632227) + (AACAAC)n          Simple_repeat          1     56    (0) 152738  
+JAJJHZ010002589.1	Cyp28c1	   19   23.9  2.1  6.7  JAJJHZ010002589.1   4069196  4069289  (7632026) + A-rich             Low_complexity         1     90    (0) 152739  
+JAJJHZ010002589.1	Cyp28c1	  400   20.2  7.3  0.0  JAJJHZ010002589.1   4070115  4070223  (7631092) C rnd-1_family-155   Unknown              (0)   1073    957 152740 *
+JAJJHZ010002589.1	Cyp28c1	  431   19.9 12.1 15.5  JAJJHZ010002589.1   4070193  4070884  (7630431) C rnd-2_family-177   Unknown              (1)    694     39 152741  
+JAJJHZ010002589.1	Cyp28c1	  270   15.3  0.0 11.3  JAJJHZ010002589.1   4070918  4070976  (7630339) C rnd-1_family-156   DNA/hAT-Blackjack  (845)    405    353 152742  
+JAJJHZ010002589.1	Cyp28c1	  452   17.8  1.1  2.2  JAJJHZ010002589.1   4072029  4072120  (7629195) + rnd-1_family-122   LINE/R1-LOA           39    129 (2384) 152743  
+JAJJHZ010002589.1	Cyp28c1	 3279    8.9  4.7  0.2  JAJJHZ010002589.1   4072122  4072624  (7628691) C rnd-1_family-67    RC/Helentron       (635)   1129    602 152744  
+JAJJHZ010002589.1	Cyp28c1	   30    9.2  0.0  0.0  JAJJHZ010002589.1   4072627  4072673  (7628642) + (ACGGACAG)n        Simple_repeat          1     47    (0) 152745  
+JAJJHZ010002589.1	Cyp28c1	 1298    2.0  0.0  0.0  JAJJHZ010002589.1   4072677  4072818  (7628497) C rnd-1_family-155   Unknown            (928)    145      1 152746  
+JAJJHZ010002589.1	Cyp28c1	  912    4.1  0.0  0.0  JAJJHZ010002589.1   4072711  4072831  (7628484) C rnd-4_family-2995  RC/Helentron       (157)   1385   1265 152747 *
+JAJJHZ010002589.1	Cyp28c1	  700   18.1 31.8  0.6  JAJJHZ010002589.1   4072815  4073053  (7628262) + rnd-1_family-122   LINE/R1-LOA          126    438 (2075) 152743 *
+JAJJHZ010002589.1	Cyp28c1	   12   11.7 12.5  1.9  JAJJHZ010002589.1   4075804  4075851  (7625464) + (TATTTCCT)n        Simple_repeat          1     53    (0) 152748  
+JAJJHZ010002589.1	Cyp28c1	  263   32.1  1.1  1.0  JAJJHZ010002589.1   4076576  4077497  (7623818) + (TGAC)n            Simple_repeat          1    923    (0) 152749  
+JAJJHZ010002589.1	Cyp28c1	   14   19.5  0.0  0.0  JAJJHZ010002589.1   4077876  4077906  (7623409) + (CCGT)n            Simple_repeat          1     31    (0) 152750  
+JAJJHZ010002589.1	Cyp28c1	   18    7.0  3.3  0.0  JAJJHZ010002589.1   4078033  4078062  (7623253) + (GTT)n             Simple_repeat          1     31    (0) 152751  
+JAJJHZ010002589.1	Cyp28c1	   12   19.9  0.0  0.0  JAJJHZ010002589.1   4078646  4078674  (7622641) + GA-rich            Low_complexity         1     29    (0) 152752  
+JAJJHZ010002589.1	Cyp28c1	   16   14.7  0.0  0.0  JAJJHZ010002589.1   4078825  4078854  (7622461) + (TTG)n             Simple_repeat          1     30    (0) 152753  
+JAJJHZ010002589.1	Cyp28c1	   17    4.0  3.9  0.0  JAJJHZ010002589.1   4078989  4079014  (7622301) + (CGT)n             Simple_repeat          1     27    (0) 152754  
+JAJJHZ010002589.1	Cyp318a1	   20   17.9  0.0  0.0  JAJJHZ010002589.1   4440394  4440437  (7260878) + (AAGGACG)n         Simple_repeat          1     44    (0) 153723  
+JAJJHZ010002589.1	Cyp318a1	   17   15.6  0.0  0.0  JAJJHZ010002589.1   4440556  4440584  (7260731) + GA-rich            Low_complexity         1     29    (0) 153724  
+JAJJHZ010002589.1	Cyp318a1	  233   25.4  3.6 14.7  JAJJHZ010002589.1   4440585  4440750  (7260565) C rnd-4_family-344   DNA/hAT-Ac          (94)    197     48 153725  
+JAJJHZ010002589.1	Cyp318a1	   17   12.8  0.0  2.9  JAJJHZ010002589.1   4441040  4441075  (7260240) + (TCCGTC)n          Simple_repeat          1     35    (0) 153726  
+JAJJHZ010002589.1	Cyp318a1	  516   22.3  2.2  9.1  JAJJHZ010002589.1   4441963  4442184  (7259131) C rnd-1_family-67    RC/Helentron       (629)   1135    928 153727  
+JAJJHZ010002589.1	Cyp318a1	  256   27.5  0.0  9.1  JAJJHZ010002589.1   4442076  4442207  (7259108) C rnd-2_family-177   Unknown            (249)    446    326 153728 *
+JAJJHZ010002589.1	Cyp318a1	  250   15.6  0.5  0.3  JAJJHZ010002589.1   4442202  4442275  (7259040) + rnd-2_family-177   Unknown              128    176  (519) 153729 *
+JAJJHZ010002589.1	Cyp318a1	  441   19.9  1.6 22.0  JAJJHZ010002589.1   4442277  4442778  (7258537) C rnd-2_family-177   Unknown            (322)    373     16 153730  
+JAJJHZ010002589.1	Cyp318a1	  359   16.7 21.9  1.1  JAJJHZ010002589.1   4442700  4442850  (7258465) C rnd-1_family-67    RC/Helentron       (738)   1026    845 153731 *
+JAJJHZ010002589.1	Cyp318a1	  361   16.4 22.9  2.9  JAJJHZ010002589.1   4442721  4442864  (7258451) C rnd-1_family-156   DNA/hAT-Blackjack  (576)    674    503 153732  
+JAJJHZ010002589.1	Cyp318a1	   16    9.8  0.0  0.0  JAJJHZ010002589.1   4443140  4443161  (7258154) + (A)n               Simple_repeat          1     22    (0) 153733  
+JAJJHZ010002589.1	Cyp318a1	   12   31.2  0.0  0.0  JAJJHZ010002589.1   4443697  4443743  (7257572) + A-rich             Low_complexity         1     47    (0) 153734  
+JAJJHZ010002589.1	Cyp318a1	   13   25.9  1.9  1.9  JAJJHZ010002589.1   4443946  4443997  (7257318) + A-rich             Low_complexity         1     52    (0) 153735  
+JAJJHZ010002589.1	Cyp318a1	   13   24.5  2.2  2.2  JAJJHZ010002589.1   4444626  4444671  (7256644) + (AAT)n             Simple_repeat          1     46    (0) 153736  
+JAJJHZ010002589.1	Cyp318a1	   18   19.6  0.0  0.0  JAJJHZ010002589.1   4445246  4445280  (7256035) + A-rich             Low_complexity         1     35    (0) 153737  
+JAJJHZ010002589.1	Cyp318a1	   12   16.3  2.8  2.8  JAJJHZ010002589.1   4445938  4445973  (7255342) + (TACTATA)n         Simple_repeat          1     36    (0) 153738  
+JAJJHZ010002589.1	Cyp318a1	  228   12.5  0.0  0.0  JAJJHZ010002589.1   4446019  4446058  (7255257) C rnd-2_family-177   Unknown            (640)     55     16 153739 *
+JAJJHZ010002589.1	Cyp318a1	  360   17.6  0.0  0.0  JAJJHZ010002589.1   4446025  4446092  (7255223) C rnd-1_family-67    RC/Helentron       (783)    981    914 153740  
+JAJJHZ010002589.1	Cyp318a1	  349   22.7 29.4  2.8  JAJJHZ010002589.1   4446215  4446449  (7254866) + rnd-1_family-157   Unknown               51    347   (62) 153741  
+JAJJHZ010002589.1	Cyp318a1	  228   28.5  7.3  0.0  JAJJHZ010002589.1   4446681  4446831  (7254484) C rnd-1_family-67    RC/Helentron       (695)   1069    908 153742 *
+JAJJHZ010002589.1	Cyp318a1	  260   23.7  2.2  7.7  JAJJHZ010002589.1   4446702  4446879  (7254436) C rnd-2_family-643   Unknown             (59)    193     25 153743  
+JAJJHZ010002589.1	Cyp318a1	  234   23.0  2.7  0.0  JAJJHZ010002589.1   4446829  4446902  (7254413) C rnd-1_family-67    RC/Helentron       (738)   1026    951 153744 *
+JAJJHZ010002589.1	Cyp318a1	  247   14.9  0.0  8.2  JAJJHZ010002589.1   4446963  4447028  (7254287) + rnd-2_family-643   Unknown              115    175   (77) 153745  
+JAJJHZ010002589.1	Cyp318a1	  385   19.8 10.1  2.3  JAJJHZ010002589.1   4447260  4447378  (7253937) C rnd-4_family-2246  Unknown            (109)    255    128 153746  
+JAJJHZ010002589.1	Cyp318a1	   18   28.8  1.5  3.0  JAJJHZ010002589.1   4448525  4448591  (7252724) + (CT)n              Simple_repeat          1     66    (0) 153747  
+JAJJHZ010002589.1	Cyp318a1	  545   19.3  9.0  4.9  JAJJHZ010002589.1   4449413  4449836  (7251479) + rnd-2_family-177   Unknown               22    453  (242) 153748  
+JAJJHZ010002589.1	Cyp318a1	 1288    2.0  0.0  0.0  JAJJHZ010002589.1   4451564  4451705  (7249610) + rnd-1_family-155   Unknown                1    146  (927) 153749  
+JAJJHZ010002589.1	Cyp318a1	   50    3.7  0.0  0.0  JAJJHZ010002589.1   4451709  4451763  (7249552) + (TGTCCGTC)n        Simple_repeat          1     55    (0) 153750  
+JAJJHZ010002589.1	Cyp318a1	 3614    9.1  0.8  0.4  JAJJHZ010002589.1   4451766  4452289  (7249026) + rnd-1_family-67    RC/Helentron         602   1130  (634) 153751  
+JAJJHZ010002589.1	Cyp318a1	   28   23.9  1.2  3.7  JAJJHZ010002589.1   4452906  4452989  (7248326) + (TG)n              Simple_repeat          1     82    (0) 153752  
+JAJJHZ010002589.1	Cyp318a1	  228   19.2  1.2  3.8  JAJJHZ010002589.1   4453092  4453172  (7248143) + rnd-2_family-80    LINE/R1               34    112 (1157) 153753  
+JAJJHZ010002589.1	Cyp4s3	   12   10.7  9.1  4.3  JAJJHZ010002589.1   8159630  8159673  (3541642) + (ATATACT)n         Simple_repeat          1     46    (0) 164110  
+JAJJHZ010002589.1	Cyp4s3	   17   11.1  3.1  3.1  JAJJHZ010002589.1   8159714  8159745  (3541570) + GA-rich            Low_complexity         1     32    (0) 164111  
+JAJJHZ010002589.1	Cyp4s3	   11   21.3  4.4  2.2  JAJJHZ010002589.1   8159884  8159928  (3541387) + (AACATA)n          Simple_repeat          1     46    (0) 164112 *
+JAJJHZ010002589.1	Cyp4s3	   16    0.0  0.0  0.0  JAJJHZ010002589.1   8159912  8159929  (3541386) + (AC)n              Simple_repeat          1     18    (0) 164113  
+JAJJHZ010002589.1	Cyp4s3	   15    8.9  8.3  0.0  JAJJHZ010002589.1   8159996  8160031  (3541284) + (TATACGA)n         Simple_repeat          1     39    (0) 164114  
+JAJJHZ010002589.1	Cyp4s3	   21   12.8  2.7 10.3  JAJJHZ010002589.1   8160095  8160170  (3541145) + (AACA)n            Simple_repeat          1     70    (0) 164115  
+JAJJHZ010002589.1	Cyp4s3	   16   25.5  5.1  2.5  JAJJHZ010002589.1   8160344  8160421  (3540894) + (TACAA)n           Simple_repeat          1     80    (0) 164116  
+JAJJHZ010002589.1	Cyp4s3	   21    8.6  5.1  2.5  JAJJHZ010002589.1   8160452  8160501  (3540814) + (AT)n              Simple_repeat          1     51    (0) 164117  
+JAJJHZ010002589.1	Cyp4s3	  596   19.8  9.0  0.0  JAJJHZ010002589.1   8160628  8160794  (3540521) C rnd-1_family-67    RC/Helentron       (635)   1129    948 164118  
+JAJJHZ010002589.1	Cyp4s3	  537   19.2  4.7 15.2  JAJJHZ010002589.1   8160703  8161064  (3540251) C rnd-2_family-177   Unknown            (304)    391     63 164119 *
+JAJJHZ010002589.1	Cyp4s3	  478    9.6 24.1  0.0  JAJJHZ010002589.1   8161061  8161143  (3540172) C rnd-1_family-155   Unknown            (970)    103      1 164120 *
+JAJJHZ010002589.1	Cyp4s3	  354   21.3  1.8  1.8  JAJJHZ010002589.1   8161511  8161620  (3539695) C rnd-1_family-67    RC/Helentron       (657)   1107    998 164121  
+JAJJHZ010002589.1	Cyp4s3	  259   13.6  3.0  0.0  JAJJHZ010002589.1   8161645  8161710  (3539605) C rnd-1_family-67    RC/Helentron       (689)   1075   1008 164122  
+JAJJHZ010002589.1	Cyp4s3	  236    8.0  1.9  3.9  JAJJHZ010002589.1   8161800  8161851  (3539464) C rnd-2_family-177   Unknown            (496)    199    149 164123  
+JAJJHZ010002589.1	Cyp4s3	   16   15.8  4.5  2.2  JAJJHZ010002589.1   8164488  8164531  (3536784) + (AATA)n            Simple_repeat          1     45    (0) 164124  
+JAJJHZ010002589.1	Cyp4s3	   31    0.0  0.0  0.0  JAJJHZ010002589.1   8164943  8164971  (3536344) + (AAT)n             Simple_repeat          1     29    (0) 164125  
+JAJJHZ010002589.1	Cyp4s3	   20   22.7  0.0  3.5  JAJJHZ010002589.1   8165458  8165517  (3535798) + (CAACAA)n          Simple_repeat          1     58    (0) 164126  
+JAJJHZ010002589.1	Cyp4s3	   19   12.4  2.7  2.7  JAJJHZ010002589.1   8165589  8165625  (3535690) + (TC)n              Simple_repeat          1     37    (0) 164127  
+JAJJHZ010002589.1	Cyp4s3	  639   16.6  8.1  1.6  JAJJHZ010002589.1   8166026  8166197  (3535118) + rnd-2_family-496   Unknown                1    183  (487) 164128  
+JAJJHZ010002589.1	Cyp4s3	 1023   14.5 12.6  5.7  JAJJHZ010002589.1   8166233  8166495  (3534820) + rnd-2_family-496   Unknown                1    280  (390) 164129  
+JAJJHZ010002589.1	Cyp4s3	  243    5.4  2.7  0.0  JAJJHZ010002589.1   8166499  8166535  (3534780) + rnd-2_family-496   Unknown              573    610   (60) 164129  
+JAJJHZ010002589.1	Cyp4s3	 1615   14.9 19.5  0.7  JAJJHZ010002589.1   8166751  8167129  (3534186) + rnd-1_family-155   Unknown               34    483  (590) 164130  
+JAJJHZ010002589.1	Cyp4g1	   17    4.3  0.0  0.0  JAJJHZ010002589.1   8579431  8579454  (3121861) + (ACA)n             Simple_repeat          1     24    (0) 165222  
+JAJJHZ010002589.1	Cyp4g1	   20    5.2  4.3  6.7  JAJJHZ010002589.1   8580090  8580135  (3121180) + A-rich             Low_complexity         1     45    (0) 165223  
+JAJJHZ010002589.1	Cyp4g1	   19   17.2  7.2  2.8  JAJJHZ010002589.1   8580874  8580893  (3120422) + (TTATA)n           Simple_repeat          1     35   (37) 165224  
+JAJJHZ010002589.1	Cyp4g1	   16    4.0  0.0  7.1  JAJJHZ010002589.1   8580894  8580923  (3120392) + (ATTT)n            Simple_repeat          1     28    (0) 165225  
+JAJJHZ010002589.1	Cyp4g1	   19   17.2  7.2  2.8  JAJJHZ010002589.1   8580924  8580942  (3120373) + (TTATA)n           Simple_repeat         36     72    (0) 165224  
+JAJJHZ010002589.1	Cyp4g1	  289   31.1  1.8  1.2  JAJJHZ010002589.1   8582737  8582905  (3118410) C rnd-4_family-11438 Unknown           (1171)    260     91 165226  
+JAJJHZ010002589.1	Cyp4g1	   16   15.9  0.0  0.0  JAJJHZ010002589.1   8583309  8583336  (3117979) + (T)n               Simple_repeat          1     28    (0) 165227  
+JAJJHZ010002589.1	Cyp4g1	   21    4.0  0.0  0.0  JAJJHZ010002589.1   8584222  8584247  (3117068) + (GT)n              Simple_repeat          1     26    (0) 165228  
+JAJJHZ010002589.1	Cyp4g1	   19   20.7  0.0  0.0  JAJJHZ010002589.1   8584454  8584492  (3116823) + (AC)n              Simple_repeat          1     39    (0) 165229  
+JAJJHZ010002589.1	Cyp4g1	   16   15.2 10.0  1.5  JAJJHZ010002589.1   8585861  8585868  (3115447) + (TATTTGTTT)n       Simple_repeat          1     64    (0) 165230  
+JAJJHZ010002589.1	Cyp4g1	   24   23.0  0.0  0.0  JAJJHZ010002589.1   8585869  8585919  (3115396) + (T)n               Simple_repeat          1     51    (0) 165231  
+JAJJHZ010002589.1	Cyp4g1	   16   21.7  0.0  0.0  JAJJHZ010002589.1   8586024  8586055  (3115260) + (T)n               Simple_repeat          1     32    (0) 165232  
+JAJJHZ010002589.1	Cyp4g1	   18   14.9  0.0  0.0  JAJJHZ010002589.1   8586167  8586196  (3115119) + (T)n               Simple_repeat          1     30    (0) 165233  
+JAJJHZ010002589.1	Cyp4g1	   19   12.6  2.1  4.3  JAJJHZ010002589.1   8586205  8586251  (3115064) + A-rich             Low_complexity         1     46    (0) 165234  
+JAJJHZ010002589.1	Cyp4g1	   24   16.3  0.0  0.0  JAJJHZ010002589.1   8586275  8586315  (3115000) + (T)n               Simple_repeat          1     41    (0) 165235  
+JAJJHZ010002589.1	Cyp6v1	   30    0.0  6.1  0.0  JAJJHZ010002589.1  11514838 11514870   (186445) + (GT)n              Simple_repeat          1     35    (0) 173232  
+JAJJHZ010002589.1	Cyp6v1	   29    9.2  0.0  0.0  JAJJHZ010002589.1  11515255 11515300   (186015) + (CAACCTG)n         Simple_repeat          1     46    (0) 173233  
+JAJJHZ010002589.1	Cyp6v1	   38    2.8  0.0  0.0  JAJJHZ010002589.1  11515665 11515701   (185614) + (CA)n              Simple_repeat          1     37    (0) 173234  
+JAJJHZ010002589.1	Cyp6v1	   14   18.9  0.0  2.7  JAJJHZ010002589.1  11516258 11516295   (185020) + (TTGCTT)n          Simple_repeat          1     37    (0) 173235  
+JAJJHZ010002589.1	Cyp6v1	  263   20.6  1.6  0.0  JAJJHZ010002589.1  11516760 11516822   (184493) C rnd-1_family-155   Unknown            (599)    474    411 173236  
+JAJJHZ010002589.1	Cyp6v1	   15   24.4  0.0  0.0  JAJJHZ010002589.1  11517405 11517438   (183877) + (TG)n              Simple_repeat          1     34    (0) 173237  
+JAJJHZ010002589.1	Cyp6v1	   21   15.4  0.0  0.0  JAJJHZ010002589.1  11517655 11517690   (183625) + GA-rich            Low_complexity         1     36    (0) 173238  
+JAJJHZ010002589.1	Cyp6v1	   18   15.3  0.0  5.3  JAJJHZ010002589.1  11517864 11517903   (183412) + (TG)n              Simple_repeat          1     38    (0) 173239  
+JAJJHZ010002589.1	Cyp6v1	   20   25.1  2.7  2.7  JAJJHZ010002589.1  11519789 11519867   (181448) + A-rich             Low_complexity         1     78    (0) 173240  
+JAJJHZ010002589.1	Cyp6v1	   17   12.7  0.0  0.0  JAJJHZ010002589.1  11521337 11521367   (179948) + (T)n               Simple_repeat          1     31    (0) 173241  
+JAJJHZ010002589.1	Cyp6v1	   13   42.6  0.0  2.7  JAJJHZ010002589.1  11521386 11521505   (179810) + (CAA)n             Simple_repeat          1    116    (0) 173242 *
+JAJJHZ010002589.1	Cyp6v1	   20   28.7  0.0  0.0  JAJJHZ010002589.1  11521447 11521510   (179805) + (AGAAGC)n          Simple_repeat          1     64    (0) 173243  
+JAJJHZ010002589.1	Cyp6v1	   17   35.4  0.0  0.0  JAJJHZ010002589.1  11521515 11521575   (179740) + (CA)n              Simple_repeat          1     61    (0) 173244  
+JAJJHZ010002589.1	Cyp6v1	   13   20.5  5.6  3.6  JAJJHZ010002589.1  11521707 11521729   (179586) + (AAC)n             Simple_repeat          1     53    (0) 173245  
+JAJJHZ010002589.1	Cyp6v1	   17   23.2  1.5  4.7  JAJJHZ010002589.1  11521761 11521771   (179544) + A-rich             Low_complexity         3     64    (0) 173246  
+JAJJHZ010002589.1	Cyp6v1	  277   30.3  2.0  2.0  JAJJHZ010002589.1  11522450 11522550   (178765) + ltr-1_family-21    LTR/Gypsy           2114   2214 (1213) 173247  
+JAJJHZ010002589.1	Cyp6v1	   22   24.6  0.0  0.0  JAJJHZ010002589.1  11522804 11522861   (178454) + (GAGCGA)n          Simple_repeat          1     58    (0) 173248  
+JAJJHZ010002589.1	Cyp6v1	   13   14.2  3.2  0.0  JAJJHZ010002589.1  11522926 11522956   (178359) + (TTTCGT)n          Simple_repeat          1     32    (0) 173249  
+JAJJHZ010002589.1	Cyp6v1	   15   19.9  0.0  0.0  JAJJHZ010002589.1  11523098 11523126   (178189) + (T)n               Simple_repeat          1     29    (0) 173250  
+JAJJHZ010002589.1	Cyp6v1	   26    6.3  0.0  0.0  JAJJHZ010002589.1  11523736 11523769   (177546) + (TTGGC)n           Simple_repeat          1     34    (0) 173251  
+JAJJHZ010002589.1	Cyp6v1	   12   26.3  0.0  4.3  JAJJHZ010002589.1  11523906 11523954   (177361) + (AATGGA)n          Simple_repeat          1     47    (0) 173252  
+JAJJHZ010002589.1	Cyp6v1	   23    3.3  0.0  6.1  JAJJHZ010002589.1  11524546 11524580   (176735) + (CT)n              Simple_repeat          1     33    (0) 173253  
+JAJJHZ010002589.1	Cyp6v1	   31    3.1  0.0  0.0  JAJJHZ010002589.1  11524707 11524739   (176576) + (TGA)n             Simple_repeat          1     33    (0) 173254  
+JAJJHZ010002793.1	Cyp305a1	   14   18.3  2.1  4.3  JAJJHZ010002793.1  3755524 3755570 (1631508) + (AATACAA)n         Simple_repeat          1     46    (0) 182442  
+JAJJHZ010002793.1	Cyp305a1	   15   19.9  0.0  2.4  JAJJHZ010002793.1  3755743 3755784 (1631294) + A-rich             Low_complexity         1     41    (0) 182443  
+JAJJHZ010002793.1	Cyp305a1	   15   13.9  0.0  0.0  JAJJHZ010002793.1  3755908 3755944 (1631134) + (CA)n              Simple_repeat          1     37    (0) 182444  
+JAJJHZ010002793.1	Cyp305a1	   22   22.8  2.7  2.7  JAJJHZ010002793.1  3759191 3759265 (1627813) + (TATCAC)n          Simple_repeat          1     75    (0) 182445  
+JAJJHZ010002793.1	Cyp305a1	   16   32.2  1.4  0.0  JAJJHZ010002793.1  3759254 3759322 (1627756) + (TAATTT)n          Simple_repeat          1     70    (0) 182446 *
+JAJJHZ010002793.1	Cyp305a1	   14   14.3  0.0  9.5  JAJJHZ010002793.1  3762550 3762595 (1624483) + A-rich             Low_complexity         1     42    (0) 182447  
+JAJJHZ010002793.1	Cyp305a1	   12   20.2  2.3  4.7  JAJJHZ010002793.1  3764059 3764102 (1622976) + (TTTG)n            Simple_repeat          1     43    (0) 182448  
+JAJJHZ010002793.1	Cyp305a1	   16   25.4  0.0  2.1  JAJJHZ010002793.1  3764473 3764521 (1622557) + (TATG)n            Simple_repeat          1     48    (0) 182449  
+JAJJHZ010002793.1	Cyp305a1	   16    5.2  0.0  0.0  JAJJHZ010002793.1  3764620 3764639 (1622439) + (CA)n              Simple_repeat          1     20    (0) 182450  
+JAJJHZ010002793.1	Cyp305a1	   19   15.4  0.0  0.0  JAJJHZ010002793.1  3764728 3764763 (1622315) + (AAT)n             Simple_repeat          1     36    (0) 182451  
+JAJJHZ010003172.1	Cyp12e1	   17   15.3  0.0  0.0  JAJJHZ010003172.1   427110  427138  (910305) + (T)n              Simple_repeat          1     29    (0) 202047  
+JAJJHZ010003172.1	Cyp12e1	   17   20.1  0.0  0.0  JAJJHZ010003172.1   427290  427329  (910114) + (GCTGTG)n         Simple_repeat          1     40    (0) 202048  
+JAJJHZ010003172.1	Cyp12e1	   12   22.1  3.0  7.8  JAJJHZ010003172.1   427366  427432  (910011) + (AGCAGGC)n        Simple_repeat          1     64    (0) 202049  
+JAJJHZ010003172.1	Cyp12e1	   17   26.4  3.0  2.3  JAJJHZ010003172.1   431094  431129  (906314) + A-rich            Low_complexity         1     65    (0) 202050  
+JAJJHZ010003172.1	Cyp12e1	   24    3.5  0.0  0.0  JAJJHZ010003172.1   431130  431158  (906285) + (AG)n             Simple_repeat          1     29    (0) 202051  
+JAJJHZ010003172.1	Cyp12e1	  328   18.6 10.7  0.9  JAJJHZ010003172.1   431872  431974  (905469) C rnd-1_family-67   RC/Helentron       (630)   1134   1022 202052  
+JAJJHZ010003172.1	Cyp12e1	  585   16.8  3.2 11.2  JAJJHZ010003172.1   432069  432222  (905221) + rnd-1_family-155  Unknown                1    143  (930) 202053  
+JAJJHZ010003172.1	Cyp12e1	   34    5.0  0.0  0.0  JAJJHZ010003172.1   432225  432265  (905178) + (TGTC)n           Simple_repeat          1     41    (0) 202054  
+JAJJHZ010003172.1	Cyp12e1	   16   17.0  6.5  0.0  JAJJHZ010003172.1   432471  432516  (904927) + (TATTA)n          Simple_repeat          1     49    (0) 202055  
+JAJJHZ010003172.1	Cyp12e1	  229   12.2  2.0  0.0  JAJJHZ010003172.1   432594  432642  (904801) + rnd-4_family-2633 Unknown                2     51  (600) 202056  
+JAJJHZ010003172.1	Cyp12e1	  550   15.3 12.2 14.6  JAJJHZ010003172.1   432652  432889  (904554) + rnd-4_family-2633 Unknown              416    648    (3) 202056  
+JAJJHZ010003172.1	Cyp12e1	 1617    6.4  8.5  0.0  JAJJHZ010003172.1   432903  433138  (904305) C rnd-1_family-155  Unknown            (817)    256      1 202057  
+JAJJHZ010003172.1	Cyp12e1	   13   23.2  0.0  2.4  JAJJHZ010003172.1   433173  433214  (904229) + (AATTTAT)n        Simple_repeat          1     41    (0) 202058  
+JAJJHZ010003172.1	Cyp12e1	   17   27.0  1.3  4.0  JAJJHZ010003172.1   433616  433697  (903746) + (CACACA)n         Simple_repeat          1     79    (0) 202059  
+JAJJHZ010003172.1	Cyp12e1	   16    8.2  0.0  0.0  JAJJHZ010003172.1   433877  433902  (903541) + (TTCG)n           Simple_repeat          1     26    (0) 202060  
+JAJJHZ010003172.1	Cyp12e1	   12   11.6  6.9  0.0  JAJJHZ010003172.1   434345  434373  (903070) + (CATA)n           Simple_repeat          1     31    (0) 202061  
+JAJJHZ010003326.1	Cyp312a1	   15    4.0  7.1  3.5  JAJJHZ010003326.1   195752  195779 (8309310) + (TC)n              Simple_repeat          1     29    (0) 206072  
+JAJJHZ010003326.1	Cyp312a1	   17   15.6  0.0  0.0  JAJJHZ010003326.1   195832  195860 (8309229) + (T)n               Simple_repeat          1     29    (0) 206073  
+JAJJHZ010003326.1	Cyp312a1	  843   13.8  0.0  0.0  JAJJHZ010003326.1   196169  196298 (8308791) + rnd-1_family-155   Unknown                1    130  (943) 206074  
+JAJJHZ010003326.1	Cyp312a1	   19    3.5  6.9  0.0  JAJJHZ010003326.1   196348  196376 (8308713) + (TA)n              Simple_repeat          1     31    (0) 206075  
+JAJJHZ010003326.1	Cyp312a1	  401   16.9  0.0  0.0  JAJJHZ010003326.1   196409  196479 (8308610) + rnd-1_family-67    RC/Helentron        1060   1130  (634) 206076  
+JAJJHZ010003326.1	Cyp312a1	  243    9.1  9.1  0.0  JAJJHZ010003326.1   196469  196479 (8308610) C rnd-4_family-193   DNA/TcMar-Tc1       (51)   1233   1186 206077 *
+JAJJHZ010003326.1	Cyp312a1	  910   13.4 10.9  4.5  JAJJHZ010003326.1   196487  196697 (8308392) + rnd-3_family-911   DNA/TcMar-Tc1          1    224  (205) 206078  
+JAJJHZ010003326.1	Cyp312a1	 4424    5.1  6.7  0.9  JAJJHZ010003326.1   196699  197311 (8307778) + rnd-4_family-193   DNA/TcMar-Tc1        569   1216   (68) 206079  
+JAJJHZ010003326.1	Cyp312a1	   18    0.0  0.0  0.0  JAJJHZ010003326.1   201096  201115 (8303974) + (CA)n              Simple_repeat          1     20    (0) 206080  
+JAJJHZ010003326.1	Cyp312a1	   21    9.7  0.0  0.0  JAJJHZ010003326.1   201174  201206 (8303883) + (ACG)n             Simple_repeat          1     33    (0) 206081  
+JAJJHZ010003326.1	Cyp312a1	   12   15.3  5.3  2.6  JAJJHZ010003326.1   201720  201757 (8303332) + (TATTTA)n          Simple_repeat          1     39    (0) 206082  
+JAJJHZ010003326.1	Cyp312a1	   23   17.0  0.0  0.0  JAJJHZ010003326.1   202893  202938 (8302151) + (CACA)n            Simple_repeat          1     46    (0) 206083  
+JAJJHZ010003326.1	Cyp12b2	   15   13.3  3.0  0.0  JAJJHZ010003326.1   975828  975860 (7529229) + (AACAG)n           Simple_repeat          1     34    (0) 207498  
+JAJJHZ010003326.1	Cyp12b2	   22   23.3  0.0  0.0  JAJJHZ010003326.1   976241  976295 (7528794) + (TGTGTG)n          Simple_repeat          1     55    (0) 207499  
+JAJJHZ010003326.1	Cyp12b2	   18   13.0  9.5  0.0  JAJJHZ010003326.1   976711  976752 (7528337) + (TA)n              Simple_repeat          1     46    (0) 207500  
+JAJJHZ010003326.1	Cyp12b2	   16   10.8  0.0  3.2  JAJJHZ010003326.1   977032  977063 (7528026) + (ATATAC)n          Simple_repeat          1     31    (0) 207501  
+JAJJHZ010003326.1	Cyp12b2	  229   13.0  2.2  0.0  JAJJHZ010003326.1   977206  977251 (7527838) C rnd-1_family-187   Unknown            (247)   1741   1695 207502  
+JAJJHZ010003326.1	Cyp12b2	  226    8.8  0.0  0.0  JAJJHZ010003326.1   977231  977264 (7527825) + rnd-4_family-2980  DNA/Maverick         949    982 (6050) 207503 *
+JAJJHZ010003326.1	Cyp12b2	   16   16.1  4.8  6.5  JAJJHZ010003326.1   977532  977594 (7527495) + A-rich             Low_complexity         1     62    (0) 207504  
+JAJJHZ010003326.1	Cyp12b2	   25   17.2  5.7  1.1  JAJJHZ010003326.1   977641  977712 (7527377) + A-rich             Low_complexity         1     75    (0) 207504  
+JAJJHZ010003326.1	Cyp12b2	   23    2.8  2.6  2.6  JAJJHZ010003326.1   978094  978149 (7526940) + (AACAAA)n          Simple_repeat          1     56    (0) 207505  
+JAJJHZ010003326.1	Cyp12b2	   18   30.4  0.0  1.8  JAJJHZ010003326.1   978905  978962 (7526127) + GA-rich            Low_complexity         1     57    (0) 207506  
+JAJJHZ010003326.1	Cyp12b2	   17   22.0  0.0  2.3  JAJJHZ010003326.1   980883  980927 (7524162) + (GTT)n             Simple_repeat          1     44    (0) 207507  
+JAJJHZ010003326.1	Cyp12b2	   12   29.5  2.0  0.0  JAJJHZ010003326.1   981413  981462 (7523627) + G-rich             Low_complexity         1     51    (0) 207508  
+JAJJHZ010003326.1	Cyp12b2	   19   19.8  0.0  2.1  JAJJHZ010003326.1   981827  981874 (7523215) + (TTGGAC)n          Simple_repeat          1     47    (0) 207509  
+JAJJHZ010003326.1	Cyp12b2	   17   13.9  3.8  5.8  JAJJHZ010003326.1   981918  981977 (7523112) + (TTTCGG)n          Simple_repeat          1     58    (0) 207510  
+JAJJHZ010003326.1	Cyp12b2	   13   14.1  2.1  9.1  JAJJHZ010003326.1   981991  982037 (7523052) + (AATCGTT)n         Simple_repeat          1     44    (0) 207511  
+JAJJHZ010003326.1	Cyp12b2	   14   15.9  0.0  0.0  JAJJHZ010003326.1   982164  982191 (7522898) + (TCC)n             Simple_repeat          1     28    (0) 207512  
+JAJJHZ010003326.1	Cyp6d2	   14   16.9  0.0  2.9  JAJJHZ010003326.1  1341984 1342018 (7163071) + (TTTTTG)n          Simple_repeat          1     34    (0) 208178  
+JAJJHZ010003326.1	Cyp6d2	   16   25.1  5.6  1.3  JAJJHZ010003326.1  1342800 1342871 (7162218) + (CTCT)n            Simple_repeat          1     75    (0) 208179  
+JAJJHZ010003326.1	Cyp6d2	   14   20.7  5.1  3.3  JAJJHZ010003326.1  1343465 1343523 (7161566) + A-rich             Low_complexity         1     60    (0) 208180  
+JAJJHZ010003326.1	Cyp6d2	  731   19.1 14.3  0.4  JAJJHZ010003326.1  1344024 1344239 (7160850) + rnd-4_family-298   rRNA                2179   2424 (1407) 208181  
+JAJJHZ010003326.1	Cyp6d2	 1234   11.1  0.8  5.6  JAJJHZ010003326.1  1344364 1344612 (7160477) + rnd-3_family-1153  Unknown               55    290  (428) 208182  
+JAJJHZ010003326.1	Cyp6d2	  932   12.0 12.5  0.5  JAJJHZ010003326.1  1344608 1344799 (7160290) C rnd-1_family-160   Unknown              (0)    215      1 208183 *
+JAJJHZ010003326.1	Cyp6d2	  230   32.1  2.8  2.8  JAJJHZ010003326.1  1345514 1345731 (7159358) C rnd-4_family-11438 Unknown            (176)   1255   1038 208184  
+JAJJHZ010003326.1	Cyp6d2	   12   21.7  0.0  0.0  JAJJHZ010003326.1  1348454 1348485 (7156604) + (CGCT)n            Simple_repeat          1     32    (0) 208185  
+JAJJHZ010003326.1	Cyp6d2	  236   15.6  3.0  3.0  JAJJHZ010003326.1  1348559 1348624 (7156465) + rnd-2_family-26    LINE/R1              272    337  (768) 208186  
+JAJJHZ010003326.1	Cyp4aa1	   16    4.5  0.0  0.0  JAJJHZ010003326.1  3091960 3091982 (5413107) + (GCT)n             Simple_repeat          1     23    (0) 211439  
+JAJJHZ010003326.1	Cyp4aa1	   17   18.4  0.0  0.0  JAJJHZ010003326.1  3092085 3092115 (5412974) + (CT)n              Simple_repeat          1     31    (0) 211440  
+JAJJHZ010003326.1	Cyp4aa1	   14   14.2  0.0  3.1  JAJJHZ010003326.1  3092604 3092636 (5412453) + (AATCCA)n          Simple_repeat          1     32    (0) 211441  
+JAJJHZ010003326.1	Cyp4aa1	   13   14.1  7.7  0.0  JAJJHZ010003326.1  3092637 3092642 (5412447) + (AATGCAA)n         Simple_repeat          1     42    (0) 211442  
+JAJJHZ010003326.1	Cyp4aa1	   13   15.1  8.7  2.0  JAJJHZ010003326.1  3092691 3092736 (5412353) + (ATATT)n           Simple_repeat          1     49    (0) 211443  
+JAJJHZ010003326.1	Cyp4aa1	   16   19.1  6.3  3.1  JAJJHZ010003326.1  3095346 3095408 (5409681) + (ATAAT)n           Simple_repeat          1     65    (0) 211444  
+JAJJHZ010003326.1	Cyp4aa1	   17    9.8  3.0  0.0  JAJJHZ010003326.1  3096153 3096189 (5408900) + (ACAGCA)n          Simple_repeat          1     38    (0) 211445  
+JAJJHZ010003326.1	Cyp4aa1	   18   15.8  0.0  0.0  JAJJHZ010003326.1  3097078 3097113 (5407976) + (TCCA)n            Simple_repeat          1     36    (0) 211446  
+JAJJHZ010003326.1	Cyp4aa1	   11   20.5  5.1  0.0  JAJJHZ010003326.1  3100952 3100990 (5404099) + (ATATTC)n          Simple_repeat          1     41    (0) 211447  
+JAJJHZ010003326.1	Cyp301a1	   19   10.5  0.0  0.0  JAJJHZ010003326.1  3243067 3243097 (5261992) + (TTG)n             Simple_repeat          1     31    (0) 211674  
+JAJJHZ010003326.1	Cyp301a1	   15   27.6  0.0  2.0  JAJJHZ010003326.1  3243244 3243294 (5261795) + (TATG)n            Simple_repeat          1     50    (0) 211675  
+JAJJHZ010003326.1	Cyp301a1	   22   16.3  0.0  2.4  JAJJHZ010003326.1  3248195 3248237 (5256852) + (AT)n              Simple_repeat          1     42    (0) 211676  
+JAJJHZ010003326.1	Cyp301a1	   16    5.3  0.0  0.0  JAJJHZ010003326.1  3248857 3248876 (5256213) + (AC)n              Simple_repeat          1     20    (0) 211677  
+JAJJHZ010003326.1	Cyp301a1	   23   17.6  0.0  3.7  JAJJHZ010003326.1  3249541 3249596 (5255493) + (CTGCCAA)n         Simple_repeat          1     54    (0) 211678  
+JAJJHZ010003326.1	Cyp301a1	   21   20.4  0.0  0.0  JAJJHZ010003326.1  3250417 3250456 (5254633) + (T)n               Simple_repeat          1     40    (0) 211679  
+JAJJHZ010003326.1	Cyp301a1	  300   24.5  1.9  1.9  JAJJHZ010003326.1  3251558 3251661 (5253428) C rnd-4_family-12504 Unknown           (1526)    111      8 211680  
+JAJJHZ010003508.1	Cyp28d1	 6954    3.9  2.6  1.6  JAJJHZ010003508.1  1617708 1618638  (644646) + rnd-1_family-185   Unknown                2    941   (26) 227533  
+JAJJHZ010003508.1	Cyp28d1	  808    7.3 11.5  2.5  JAJJHZ010003508.1  1618432 1618683  (644601) C rnd-1_family-185   Unknown             (17)    950    677 227534 *
+JAJJHZ010003508.1	Cyp28d1	 4994    3.0  1.2  0.2  JAJJHZ010003508.1  1618699 1619290  (643994) C rnd-1_family-185   Unknown            (367)    600      3 227534  
+JAJJHZ010003508.1	Cyp28d1	 3238    4.9  3.2  0.5  JAJJHZ010003508.1  1619621 1620053  (643231) C rnd-4_family-2495  DNA/hAT-Blackjack    (0)   1038    594 227535  
+JAJJHZ010003508.1	Cyp28d1	 2848    3.5  8.9  2.1  JAJJHZ010003508.1  1620052 1620456  (642828) C rnd-4_family-2495  DNA/hAT-Blackjack  (586)    452     21 227535 *
+JAJJHZ010003508.1	Cyp28d1	  309   18.9  0.0 15.4  JAJJHZ010003508.1  1622275 1622349  (640935) + rnd-1_family-67    RC/Helentron         416    480 (1284) 227536  
+JAJJHZ010003508.1	Cyp28d1	   12   16.7  4.5  4.5  JAJJHZ010003508.1  1622824 1622867  (640417) + (ATATTAA)n         Simple_repeat          1     44    (0) 227537  
+JAJJHZ010003508.1	Cyp28d1	  517    9.2  4.8  4.8  JAJJHZ010003508.1  1622875 1622977  (640307) C rnd-4_family-874   DNA/hAT-Blackjack   (60)    809    707 227538 *
+JAJJHZ010003508.1	Cyp28d1	 2965    5.7  3.0  1.4  JAJJHZ010003508.1  1622893 1623318  (639966) + rnd-1_family-173   Unknown                1    433    (0) 227539  
+JAJJHZ010003508.1	Cyp28d1	  438   16.7  0.0  0.0  JAJJHZ010003508.1  1623324 1623395  (639889) + rnd-1_family-75    Unknown              110    181  (502) 227540  
+JAJJHZ010003508.1	Cyp28d1	  289    6.9  0.8  0.0  JAJJHZ010003508.1  1623396 1623761  (639523) + (ATGTCCGCT)n       Simple_repeat          1    369    (0) 227541  
+JAJJHZ010003508.1	Cyp28d1	 6954    3.9  2.6  1.6  JAJJHZ010003508.1  1617708 1618638  (644646) + rnd-1_family-185   Unknown                2    941   (26) 227533  
+JAJJHZ010003508.1	Cyp28d1	  808    7.3 11.5  2.5  JAJJHZ010003508.1  1618432 1618683  (644601) C rnd-1_family-185   Unknown             (17)    950    677 227534 *
+JAJJHZ010003508.1	Cyp28d1	 4994    3.0  1.2  0.2  JAJJHZ010003508.1  1618699 1619290  (643994) C rnd-1_family-185   Unknown            (367)    600      3 227534  
+JAJJHZ010003508.1	Cyp28d1	 3238    4.9  3.2  0.5  JAJJHZ010003508.1  1619621 1620053  (643231) C rnd-4_family-2495  DNA/hAT-Blackjack    (0)   1038    594 227535  
+JAJJHZ010003508.1	Cyp28d1	 2848    3.5  8.9  2.1  JAJJHZ010003508.1  1620052 1620456  (642828) C rnd-4_family-2495  DNA/hAT-Blackjack  (586)    452     21 227535 *
+JAJJHZ010003508.1	Cyp28d1	  309   18.9  0.0 15.4  JAJJHZ010003508.1  1622275 1622349  (640935) + rnd-1_family-67    RC/Helentron         416    480 (1284) 227536  
+JAJJHZ010003508.1	Cyp28d1	   12   16.7  4.5  4.5  JAJJHZ010003508.1  1622824 1622867  (640417) + (ATATTAA)n         Simple_repeat          1     44    (0) 227537  
+JAJJHZ010003508.1	Cyp28d1	  517    9.2  4.8  4.8  JAJJHZ010003508.1  1622875 1622977  (640307) C rnd-4_family-874   DNA/hAT-Blackjack   (60)    809    707 227538 *
+JAJJHZ010003508.1	Cyp28d1	 2965    5.7  3.0  1.4  JAJJHZ010003508.1  1622893 1623318  (639966) + rnd-1_family-173   Unknown                1    433    (0) 227539  
+JAJJHZ010003508.1	Cyp28d1	  438   16.7  0.0  0.0  JAJJHZ010003508.1  1623324 1623395  (639889) + rnd-1_family-75    Unknown              110    181  (502) 227540  
+JAJJHZ010003508.1	Cyp28d1	  289    6.9  0.8  0.0  JAJJHZ010003508.1  1623396 1623761  (639523) + (ATGTCCGCT)n       Simple_repeat          1    369    (0) 227541  
+JAJJHZ010003508.1	Cyp4ac1	   25   11.8  0.0  0.0  JAJJHZ010003508.1  1681027 1681063  (582221) + (A)n               Simple_repeat          1     37    (0) 227627  
+JAJJHZ010003508.1	Cyp4ac1	   12   19.2  2.1  6.7  JAJJHZ010003508.1  1682137 1682183  (581101) + (TGT)n             Simple_repeat          1     45    (0) 227628  
+JAJJHZ010003508.1	Cyp4ac1	   15   11.5  0.0  3.5  JAJJHZ010003508.1  1684463 1684492  (578792) + (TAA)n             Simple_repeat          1     29    (0) 227629  
+JAJJHZ010003508.1	Cyp4ac1	   16   17.8  0.0  2.6  JAJJHZ010003508.1  1685884 1685923  (577361) + (AATTA)n           Simple_repeat          1     39    (0) 227630  
+JAJJHZ010003508.1	Cyp4ac1	   11    7.4 10.3  0.0  JAJJHZ010003508.1  1687860 1687888  (575396) + (TTATGC)n          Simple_repeat          1     32    (0) 227631  
+JAJJHZ010003508.1	Cyp4ac1	   20   17.3  0.0  0.0  JAJJHZ010003508.1  1687927 1687967  (575317) + (CACTGT)n          Simple_repeat          1     41    (0) 227632  
+JAJJHZ010003508.1	Cyp4ac1	   17   19.9  7.9  0.0  JAJJHZ010003508.1  1689075 1689157  (574127) + (TATGTA)n          Simple_repeat          1     89    (0) 227633  
+JAJJHZ010003508.1	Cyp4ac1	   25   11.8  0.0  0.0  JAJJHZ010003508.1  1681027 1681063  (582221) + (A)n               Simple_repeat          1     37    (0) 227627  
+JAJJHZ010003508.1	Cyp4ac1	   12   19.2  2.1  6.7  JAJJHZ010003508.1  1682137 1682183  (581101) + (TGT)n             Simple_repeat          1     45    (0) 227628  
+JAJJHZ010003508.1	Cyp4ac1	   15   11.5  0.0  3.5  JAJJHZ010003508.1  1684463 1684492  (578792) + (TAA)n             Simple_repeat          1     29    (0) 227629  
+JAJJHZ010003508.1	Cyp4ac1	   16   17.8  0.0  2.6  JAJJHZ010003508.1  1685884 1685923  (577361) + (AATTA)n           Simple_repeat          1     39    (0) 227630  
+JAJJHZ010003508.1	Cyp4ac1	   11    7.4 10.3  0.0  JAJJHZ010003508.1  1687860 1687888  (575396) + (TTATGC)n          Simple_repeat          1     32    (0) 227631  
+JAJJHZ010003508.1	Cyp4ac1	   20   17.3  0.0  0.0  JAJJHZ010003508.1  1687927 1687967  (575317) + (CACTGT)n          Simple_repeat          1     41    (0) 227632  
+JAJJHZ010003508.1	Cyp4ac1	   17   19.9  7.9  0.0  JAJJHZ010003508.1  1689075 1689157  (574127) + (TATGTA)n          Simple_repeat          1     89    (0) 227633  
+JAJJHZ010003508.1	Cyp4ac1	   25   11.8  0.0  0.0  JAJJHZ010003508.1  1681027 1681063  (582221) + (A)n               Simple_repeat          1     37    (0) 227627  
+JAJJHZ010003508.1	Cyp4ac1	   12   19.2  2.1  6.7  JAJJHZ010003508.1  1682137 1682183  (581101) + (TGT)n             Simple_repeat          1     45    (0) 227628  
+JAJJHZ010003508.1	Cyp4ac1	   15   11.5  0.0  3.5  JAJJHZ010003508.1  1684463 1684492  (578792) + (TAA)n             Simple_repeat          1     29    (0) 227629  
+JAJJHZ010003508.1	Cyp4ac1	   16   17.8  0.0  2.6  JAJJHZ010003508.1  1685884 1685923  (577361) + (AATTA)n           Simple_repeat          1     39    (0) 227630  
+JAJJHZ010003508.1	Cyp4ac1	   11    7.4 10.3  0.0  JAJJHZ010003508.1  1687860 1687888  (575396) + (TTATGC)n          Simple_repeat          1     32    (0) 227631  
+JAJJHZ010003508.1	Cyp4ac1	   20   17.3  0.0  0.0  JAJJHZ010003508.1  1687927 1687967  (575317) + (CACTGT)n          Simple_repeat          1     41    (0) 227632  
+JAJJHZ010003508.1	Cyp4ac1	   17   19.9  7.9  0.0  JAJJHZ010003508.1  1689075 1689157  (574127) + (TATGTA)n          Simple_repeat          1     89    (0) 227633  
+JAJJHZ010003616.1	Cyp316a1	  234   22.5  8.4  0.0  JAJJHZ010003616.1  2246162 2246232  (504632) C rnd-4_family-515   Unknown             (36)    303    227 233308 *
+JAJJHZ010003616.1	Cyp316a1	  241   17.9  5.4  0.0  JAJJHZ010003616.1  2246195 2246250  (504614) C rnd-3_family-181   DNA/Maverick       (181)     85     27 233309  
+JAJJHZ010003616.1	Cyp316a1	   17   24.6  1.3  6.9  JAJJHZ010003616.1  2246251 2246326  (504538) + (TTG)n             Simple_repeat          1     72    (0) 233310  
+JAJJHZ010003616.1	Cyp316a1	   24    9.3  0.0  8.0  JAJJHZ010003616.1  2246417 2246470  (504394) + (TGCCGT)n          Simple_repeat          1     50    (0) 233311  
+JAJJHZ010003616.1	Cyp316a1	   15   18.9  0.0  0.0  JAJJHZ010003616.1  2247009 2247044  (503820) + (CGAGAGT)n         Simple_repeat          1     36    (0) 233312  
+JAJJHZ010003616.1	Cyp316a1	   20   13.3  0.0  4.7  JAJJHZ010003616.1  2247437 2247481  (503383) + (TGTATC)n          Simple_repeat          1     43    (0) 233313  
+JAJJHZ010003616.1	Cyp316a1	   14   18.0  2.5  2.5  JAJJHZ010003616.1  2247714 2247753  (503111) + (TTTA)n            Simple_repeat          1     40    (0) 233314  
+JAJJHZ010003616.1	Cyp316a1	  285   17.5  1.5  3.1  JAJJHZ010003616.1  2248335 2248399  (502465) C rnd-1_family-159   Unknown            (145)     64      1 233315 *
+JAJJHZ010003616.1	Cyp316a1	 1116   19.2  9.8  1.2  JAJJHZ010003616.1  2248345 2248649  (502215) C rnd-1_family-67    RC/Helentron       (635)   1129    799 233316  
+JAJJHZ010003616.1	Cyp316a1	  371   19.4  8.7  0.0  JAJJHZ010003616.1  2248562 2248664  (502200) C rnd-1_family-155   Unknown            (596)    477    366 233317 *
+JAJJHZ010003616.1	Cyp316a1	   13    8.4 10.0  2.3  JAJJHZ010003616.1  2250275 2250328  (500536) + (AATATTA)n         Simple_repeat          1     58    (0) 233318  
+JAJJHZ010003616.1	Cyp316a1	   13   15.4  0.0 10.0  JAJJHZ010003616.1  2251393 2251436  (499428) + A-rich             Low_complexity         1     40    (0) 233319  
+JAJJHZ010003616.1	Cyp316a1	  657    9.1 11.6  4.3  JAJJHZ010003616.1  2253152 2253323  (497541) C rnd-3_family-1153  Unknown            (457)    261     78 233320  
+JAJJHZ010003616.1	Cyp316a1	  327   18.9  0.0  5.0  JAJJHZ010003616.1  2254251 2254356  (496508) + rnd-4_family-433   Unknown               35    135   (62) 233321  
+JAJJHZ010003616.1	Cyp4d8	  285   17.5  1.5  3.1  JAJJHZ010003616.1  2248335 2248399  (502465) C rnd-1_family-159   Unknown            (145)     64      1 233315 *
+JAJJHZ010003616.1	Cyp4d8	 1116   19.2  9.8  1.2  JAJJHZ010003616.1  2248345 2248649  (502215) C rnd-1_family-67    RC/Helentron       (635)   1129    799 233316  
+JAJJHZ010003616.1	Cyp4d8	  371   19.4  8.7  0.0  JAJJHZ010003616.1  2248562 2248664  (502200) C rnd-1_family-155   Unknown            (596)    477    366 233317 *
+JAJJHZ010003616.1	Cyp4d8	   13    8.4 10.0  2.3  JAJJHZ010003616.1  2250275 2250328  (500536) + (AATATTA)n         Simple_repeat          1     58    (0) 233318  
+JAJJHZ010003616.1	Cyp4d8	   13   15.4  0.0 10.0  JAJJHZ010003616.1  2251393 2251436  (499428) + A-rich             Low_complexity         1     40    (0) 233319  
+JAJJHZ010003616.1	Cyp4d8	  657    9.1 11.6  4.3  JAJJHZ010003616.1  2253152 2253323  (497541) C rnd-3_family-1153  Unknown            (457)    261     78 233320  
+JAJJHZ010003616.1	Cyp4d8	  327   18.9  0.0  5.0  JAJJHZ010003616.1  2254251 2254356  (496508) + rnd-4_family-433   Unknown               35    135   (62) 233321  
+JAJJHZ010003616.1	Cyp4d8	   12   19.1  2.6  2.6  JAJJHZ010003616.1  2254639 2254676  (496188) + (AGATTAT)n         Simple_repeat          1     38    (0) 233322  
+JAJJHZ010003616.1	Cyp4d8	  337   15.5  0.0  0.0  JAJJHZ010003616.1  2255533 2255590  (495274) C rnd-1_family-67    RC/Helentron       (627)   1137   1080 233323  
+JAJJHZ010003616.1	Cyp4d8	  241   18.6  1.0  6.1  JAJJHZ010003616.1  2255650 2255752  (495112) C rnd-2_family-177   Unknown            (474)    221    124 233324  
+JAJJHZ010003616.1	Cyp4d8	   14   13.7  3.1  0.0  JAJJHZ010003616.1  2256213 2256245  (494619) + (TTTCTT)n          Simple_repeat          1     34    (0) 233325  
+JAJJHZ010003616.1	Cyp4d8	   14    3.7 10.7  0.0  JAJJHZ010003616.1  2256466 2256493  (494371) + (ATT)n             Simple_repeat          1     31    (0) 233326  
+JAJJHZ010003616.1	Cyp4d8	   21   19.4  0.0  0.0  JAJJHZ010003616.1  2256566 2256606  (494258) + GA-rich            Low_complexity         1     41    (0) 233327  
+JAJJHZ010003616.1	Cyp4d8	   23    9.4  8.2  3.1  JAJJHZ010003616.1  2256855 2256872  (493992) + (CAGAGAC)n         Simple_repeat          1     38   (26) 233328  
+JAJJHZ010003616.1	Cyp4d8	   18    3.5  0.0  6.5  JAJJHZ010003616.1  2256873 2256905  (493959) + (GAGACC)n          Simple_repeat          1     31    (0) 233329  
+JAJJHZ010003616.1	Cyp4d8	   23    9.4  8.2  3.1  JAJJHZ010003616.1  2256906 2256915  (493949) + (CAGAGAC)n         Simple_repeat         39     64    (0) 233328  
+JAJJHZ010003616.1	Cyp4d8	   17    0.0  4.0  0.0  JAJJHZ010003616.1  2256966 2256990  (493874) + (CGAGT)n           Simple_repeat          1     26    (0) 233330  
+JAJJHZ010003616.1	Cyp4d8	   35   18.1  4.9  0.0  JAJJHZ010003616.1  2257069 2257149  (493715) + (TG)n              Simple_repeat          1     85    (0) 233331  
+JAJJHZ010003616.1	Cyp4d8	   14   20.6  6.0  0.0  JAJJHZ010003616.1  2258014 2258063  (492801) + (AATATAA)n         Simple_repeat          1     53    (0) 233332  
+JAJJHZ010003672.1	Cyp313a1	  270   23.7  0.0  0.0  JAJJHZ010003672.1  1169621 1169679  (108819) + rnd-1_family-67    RC/Helentron        1071   1129  (635) 235954  
+JAJJHZ010003672.1	Cyp313a1	  337   26.2  0.0  1.9  JAJJHZ010003672.1  1170115 1170223  (108275) + rnd-4_family-321   Unknown                4    110   (51) 235956 *
+JAJJHZ010003672.1	Cyp313a1	  362   24.6  0.8  2.6  JAJJHZ010003672.1  1170141 1170257  (108241) + rnd-1_family-156   DNA/hAT-Blackjack    572    686  (564) 235957  
+JAJJHZ010003672.1	Cyp313a1	  268   24.5  5.4  4.0  JAJJHZ010003672.1  1170258 1170289  (108209) + rnd-1_family-67    RC/Helentron         901   1051  (713) 235958 *
+JAJJHZ010003672.1	Cyp313a1	 2974   10.6  8.9  1.7  JAJJHZ010003672.1  1170287 1170898  (107600) + rnd-1_family-67    RC/Helentron         415   1129  (635) 235959  
+JAJJHZ010003672.1	Cyp313a1	  283   20.4  0.0  5.8  JAJJHZ010003672.1  1170900 1170972  (107526) + rnd-1_family-155   Unknown             1002   1070    (3) 235960  
+JAJJHZ010003672.1	Cyp313a1	  305   25.6  8.2  6.8  JAJJHZ010003672.1  1171320 1171550  (106948) C rnd-1_family-156   DNA/hAT-Blackjack  (614)    636    403 235961  
+JAJJHZ010003672.1	Cyp313a1	  319   13.9  1.4  6.1  JAJJHZ010003672.1  1173828 1173896  (104602) C rnd-1_family-159   Unknown            (143)     66      1 235962 *
+JAJJHZ010003672.1	Cyp313a1	 4688    9.4  1.5  1.6  JAJJHZ010003672.1  1173842 1174568  (103930) C rnd-1_family-67    RC/Helentron       (635)   1129    404 235963  
+JAJJHZ010003672.1	Cyp313a1	   14   29.0  1.4  4.3  JAJJHZ010003672.1  1175600 1175671  (102827) + A-rich             Low_complexity         1     70    (0) 235964  
+JAJJHZ010003672.1	Cyp313a1	  247   18.1  8.9  5.8  JAJJHZ010003672.1  1176575 1176709  (101789) + rnd-2_family-177   Unknown               57    195  (500) 235965 *
+JAJJHZ010003672.1	Cyp313a1	  564   11.9 27.9  1.0  JAJJHZ010003672.1  1176600 1176760  (101738) + rnd-1_family-67    RC/Helentron         928   1131  (633) 235966  
+JAJJHZ010003672.1	Cyp313a1	  270   23.7  0.0  0.0  JAJJHZ010003672.1  1169621 1169679  (108819) + rnd-1_family-67    RC/Helentron        1071   1129  (635) 235954  
+JAJJHZ010003672.1	Cyp313a1	  337   26.2  0.0  1.9  JAJJHZ010003672.1  1170115 1170223  (108275) + rnd-4_family-321   Unknown                4    110   (51) 235956 *
+JAJJHZ010003672.1	Cyp313a1	  362   24.6  0.8  2.6  JAJJHZ010003672.1  1170141 1170257  (108241) + rnd-1_family-156   DNA/hAT-Blackjack    572    686  (564) 235957  
+JAJJHZ010003672.1	Cyp313a1	  268   24.5  5.4  4.0  JAJJHZ010003672.1  1170258 1170289  (108209) + rnd-1_family-67    RC/Helentron         901   1051  (713) 235958 *
+JAJJHZ010003672.1	Cyp313a1	 2974   10.6  8.9  1.7  JAJJHZ010003672.1  1170287 1170898  (107600) + rnd-1_family-67    RC/Helentron         415   1129  (635) 235959  
+JAJJHZ010003672.1	Cyp313a1	  283   20.4  0.0  5.8  JAJJHZ010003672.1  1170900 1170972  (107526) + rnd-1_family-155   Unknown             1002   1070    (3) 235960  
+JAJJHZ010003672.1	Cyp313a1	  305   25.6  8.2  6.8  JAJJHZ010003672.1  1171320 1171550  (106948) C rnd-1_family-156   DNA/hAT-Blackjack  (614)    636    403 235961  
+JAJJHZ010003672.1	Cyp313a1	  319   13.9  1.4  6.1  JAJJHZ010003672.1  1173828 1173896  (104602) C rnd-1_family-159   Unknown            (143)     66      1 235962 *
+JAJJHZ010003672.1	Cyp313a1	 4688    9.4  1.5  1.6  JAJJHZ010003672.1  1173842 1174568  (103930) C rnd-1_family-67    RC/Helentron       (635)   1129    404 235963  
+JAJJHZ010003672.1	Cyp313a1	   14   29.0  1.4  4.3  JAJJHZ010003672.1  1175600 1175671  (102827) + A-rich             Low_complexity         1     70    (0) 235964  
+JAJJHZ010003672.1	Cyp313a1	  247   18.1  8.9  5.8  JAJJHZ010003672.1  1176575 1176709  (101789) + rnd-2_family-177   Unknown               57    195  (500) 235965 *
+JAJJHZ010003672.1	Cyp313a1	  564   11.9 27.9  1.0  JAJJHZ010003672.1  1176600 1176760  (101738) + rnd-1_family-67    RC/Helentron         928   1131  (633) 235966  
+JAJJHZ010003672.1	Cyp313a1	  270   23.7  0.0  0.0  JAJJHZ010003672.1  1169621 1169679  (108819) + rnd-1_family-67    RC/Helentron        1071   1129  (635) 235954  
+JAJJHZ010003672.1	Cyp313a1	  337   26.2  0.0  1.9  JAJJHZ010003672.1  1170115 1170223  (108275) + rnd-4_family-321   Unknown                4    110   (51) 235956 *
+JAJJHZ010003672.1	Cyp313a1	  362   24.6  0.8  2.6  JAJJHZ010003672.1  1170141 1170257  (108241) + rnd-1_family-156   DNA/hAT-Blackjack    572    686  (564) 235957  
+JAJJHZ010003672.1	Cyp313a1	  268   24.5  5.4  4.0  JAJJHZ010003672.1  1170258 1170289  (108209) + rnd-1_family-67    RC/Helentron         901   1051  (713) 235958 *
+JAJJHZ010003672.1	Cyp313a1	 2974   10.6  8.9  1.7  JAJJHZ010003672.1  1170287 1170898  (107600) + rnd-1_family-67    RC/Helentron         415   1129  (635) 235959  
+JAJJHZ010003672.1	Cyp313a1	  283   20.4  0.0  5.8  JAJJHZ010003672.1  1170900 1170972  (107526) + rnd-1_family-155   Unknown             1002   1070    (3) 235960  
+JAJJHZ010003672.1	Cyp313a1	  305   25.6  8.2  6.8  JAJJHZ010003672.1  1171320 1171550  (106948) C rnd-1_family-156   DNA/hAT-Blackjack  (614)    636    403 235961  
+JAJJHZ010003672.1	Cyp313a1	  319   13.9  1.4  6.1  JAJJHZ010003672.1  1173828 1173896  (104602) C rnd-1_family-159   Unknown            (143)     66      1 235962 *
+JAJJHZ010003672.1	Cyp313a1	 4688    9.4  1.5  1.6  JAJJHZ010003672.1  1173842 1174568  (103930) C rnd-1_family-67    RC/Helentron       (635)   1129    404 235963  
+JAJJHZ010003672.1	Cyp313a1	   14   29.0  1.4  4.3  JAJJHZ010003672.1  1175600 1175671  (102827) + A-rich             Low_complexity         1     70    (0) 235964  
+JAJJHZ010003672.1	Cyp313a1	  247   18.1  8.9  5.8  JAJJHZ010003672.1  1176575 1176709  (101789) + rnd-2_family-177   Unknown               57    195  (500) 235965 *
+JAJJHZ010003672.1	Cyp313a1	  564   11.9 27.9  1.0  JAJJHZ010003672.1  1176600 1176760  (101738) + rnd-1_family-67    RC/Helentron         928   1131  (633) 235966  
+JAJJHZ010003672.1	Cyp313a1	  270   23.7  0.0  0.0  JAJJHZ010003672.1  1169621 1169679  (108819) + rnd-1_family-67    RC/Helentron        1071   1129  (635) 235954  
+JAJJHZ010003672.1	Cyp313a1	  337   26.2  0.0  1.9  JAJJHZ010003672.1  1170115 1170223  (108275) + rnd-4_family-321   Unknown                4    110   (51) 235956 *
+JAJJHZ010003672.1	Cyp313a1	  362   24.6  0.8  2.6  JAJJHZ010003672.1  1170141 1170257  (108241) + rnd-1_family-156   DNA/hAT-Blackjack    572    686  (564) 235957  
+JAJJHZ010003672.1	Cyp313a1	  268   24.5  5.4  4.0  JAJJHZ010003672.1  1170258 1170289  (108209) + rnd-1_family-67    RC/Helentron         901   1051  (713) 235958 *
+JAJJHZ010003672.1	Cyp313a1	 2974   10.6  8.9  1.7  JAJJHZ010003672.1  1170287 1170898  (107600) + rnd-1_family-67    RC/Helentron         415   1129  (635) 235959  
+JAJJHZ010003672.1	Cyp313a1	  283   20.4  0.0  5.8  JAJJHZ010003672.1  1170900 1170972  (107526) + rnd-1_family-155   Unknown             1002   1070    (3) 235960  
+JAJJHZ010003672.1	Cyp313a1	  305   25.6  8.2  6.8  JAJJHZ010003672.1  1171320 1171550  (106948) C rnd-1_family-156   DNA/hAT-Blackjack  (614)    636    403 235961  
+JAJJHZ010003672.1	Cyp313a1	  319   13.9  1.4  6.1  JAJJHZ010003672.1  1173828 1173896  (104602) C rnd-1_family-159   Unknown            (143)     66      1 235962 *
+JAJJHZ010003672.1	Cyp313a1	 4688    9.4  1.5  1.6  JAJJHZ010003672.1  1173842 1174568  (103930) C rnd-1_family-67    RC/Helentron       (635)   1129    404 235963  
+JAJJHZ010003672.1	Cyp313a1	   14   29.0  1.4  4.3  JAJJHZ010003672.1  1175600 1175671  (102827) + A-rich             Low_complexity         1     70    (0) 235964  
+JAJJHZ010003672.1	Cyp313a1	  247   18.1  8.9  5.8  JAJJHZ010003672.1  1176575 1176709  (101789) + rnd-2_family-177   Unknown               57    195  (500) 235965 *
+JAJJHZ010003672.1	Cyp313a1	  564   11.9 27.9  1.0  JAJJHZ010003672.1  1176600 1176760  (101738) + rnd-1_family-67    RC/Helentron         928   1131  (633) 235966  
+JAJJHZ010003672.1	Cyp313a1	  270   23.7  0.0  0.0  JAJJHZ010003672.1  1169621 1169679  (108819) + rnd-1_family-67    RC/Helentron        1071   1129  (635) 235954  
+JAJJHZ010003672.1	Cyp313a1	  337   26.2  0.0  1.9  JAJJHZ010003672.1  1170115 1170223  (108275) + rnd-4_family-321   Unknown                4    110   (51) 235956 *
+JAJJHZ010003672.1	Cyp313a1	  362   24.6  0.8  2.6  JAJJHZ010003672.1  1170141 1170257  (108241) + rnd-1_family-156   DNA/hAT-Blackjack    572    686  (564) 235957  
+JAJJHZ010003672.1	Cyp313a1	  268   24.5  5.4  4.0  JAJJHZ010003672.1  1170258 1170289  (108209) + rnd-1_family-67    RC/Helentron         901   1051  (713) 235958 *
+JAJJHZ010003672.1	Cyp313a1	 2974   10.6  8.9  1.7  JAJJHZ010003672.1  1170287 1170898  (107600) + rnd-1_family-67    RC/Helentron         415   1129  (635) 235959  
+JAJJHZ010003672.1	Cyp313a1	  283   20.4  0.0  5.8  JAJJHZ010003672.1  1170900 1170972  (107526) + rnd-1_family-155   Unknown             1002   1070    (3) 235960  
+JAJJHZ010003672.1	Cyp313a1	  305   25.6  8.2  6.8  JAJJHZ010003672.1  1171320 1171550  (106948) C rnd-1_family-156   DNA/hAT-Blackjack  (614)    636    403 235961  
+JAJJHZ010003672.1	Cyp313a1	  319   13.9  1.4  6.1  JAJJHZ010003672.1  1173828 1173896  (104602) C rnd-1_family-159   Unknown            (143)     66      1 235962 *
+JAJJHZ010003672.1	Cyp313a1	 4688    9.4  1.5  1.6  JAJJHZ010003672.1  1173842 1174568  (103930) C rnd-1_family-67    RC/Helentron       (635)   1129    404 235963  
+JAJJHZ010003672.1	Cyp313a1	   14   29.0  1.4  4.3  JAJJHZ010003672.1  1175600 1175671  (102827) + A-rich             Low_complexity         1     70    (0) 235964  
+JAJJHZ010003672.1	Cyp313a1	  247   18.1  8.9  5.8  JAJJHZ010003672.1  1176575 1176709  (101789) + rnd-2_family-177   Unknown               57    195  (500) 235965 *
+JAJJHZ010003672.1	Cyp313a1	  564   11.9 27.9  1.0  JAJJHZ010003672.1  1176600 1176760  (101738) + rnd-1_family-67    RC/Helentron         928   1131  (633) 235966  
+JAJJHZ010005006.1	Cyp309a2	   36    2.9  0.0  0.0  JAJJHZ010005006.1  1018394 1018428 (5425403) + (AC)n              Simple_repeat          1     35    (0) 268293  
+JAJJHZ010005006.1	Cyp309a2	   38    8.2  3.0  1.5  JAJJHZ010005006.1  1018510 1018576 (5425255) + (CA)n              Simple_repeat          1     68    (0) 268294  
+JAJJHZ010005006.1	Cyp309a2	  303   24.0  5.0  6.3  JAJJHZ010005006.1  1019853 1020012 (5423819) + rnd-4_family-11438 Unknown               96    253 (1178) 268295  
+JAJJHZ010005006.1	Cyp309a2	   16   21.3  0.0  0.0  JAJJHZ010005006.1  1022055 1022087 (5421744) + (T)n               Simple_repeat          1     33    (0) 268296  
+JAJJHZ010005006.1	Cyp309a2	   36    2.9  0.0  0.0  JAJJHZ010005006.1  1018394 1018428 (5425403) + (AC)n              Simple_repeat          1     35    (0) 268293  
+JAJJHZ010005006.1	Cyp309a2	   38    8.2  3.0  1.5  JAJJHZ010005006.1  1018510 1018576 (5425255) + (CA)n              Simple_repeat          1     68    (0) 268294  
+JAJJHZ010005006.1	Cyp309a2	  303   24.0  5.0  6.3  JAJJHZ010005006.1  1019853 1020012 (5423819) + rnd-4_family-11438 Unknown               96    253 (1178) 268295  
+JAJJHZ010005006.1	Cyp309a2	   16   21.3  0.0  0.0  JAJJHZ010005006.1  1022055 1022087 (5421744) + (T)n               Simple_repeat          1     33    (0) 268296  
+JAJJHZ010005031.1	Cyp310a1	   13   19.5  0.0  2.8  JAJJHZ010005031.1   994670  994706 (3146829) + (AGCAAC)n         Simple_repeat          1     36    (0) 281079  
+JAJJHZ010005031.1	Cyp310a1	   19   12.4  0.0  0.0  JAJJHZ010005031.1   997541  997575 (3143960) + (GTCTGA)n         Simple_repeat          1     35    (0) 281080  
+JAJJHZ010005031.1	Cyp310a1	   30   14.6  1.9  0.0  JAJJHZ010005031.1   997772  997824 (3143711) + (TC)n             Simple_repeat          1     54    (0) 281081  
+JAJJHZ010005031.1	Cyp310a1	   18   15.3  2.6  2.6  JAJJHZ010005031.1   997994  998031 (3143504) + (CT)n             Simple_repeat          1     38    (0) 281082  
+JAJJHZ010005031.1	Cyp310a1	   29    0.0  0.0  0.0  JAJJHZ010005031.1   998260  998284 (3143251) + (TC)n             Simple_repeat          1     25    (0) 281083  
+JAJJHZ010005031.1	Cyp310a1	  611   14.3  1.9  0.0  JAJJHZ010005031.1   999740  999844 (3141691) C rnd-1_family-67   RC/Helentron       (635)   1129   1023 281084  
+JAJJHZ010005031.1	Cyp310a1	  605   20.1  7.4 11.4  JAJJHZ010005031.1   999830 1000316 (3141219) C rnd-2_family-177  Unknown             (93)    602     16 281085 *
+JAJJHZ010005031.1	Cyp310a1	  256   22.8 11.0  3.1  JAJJHZ010005031.1  1000221 1000338 (3141197) C rnd-1_family-67   RC/Helentron       (715)   1049    923 281084 *
+JAJJHZ010005031.1	Cyp310a1	  630   13.6  1.0  1.0  JAJJHZ010005031.1  1000366 1000469 (3141066) C rnd-1_family-155  Unknown            (969)    104      1 281086  
+JAJJHZ010005410.1	Cyp6a2	   17   13.9  0.0  0.0  JAJJHZ010005410.1  1605493 1605524 (3410717) + (CAGCG)n           Simple_repeat          1     32    (0) 291401  
+JAJJHZ010005410.1	Cyp6a2	   19   17.0  0.0  0.0  JAJJHZ010005410.1  1605602 1605641 (3410600) + (TGCTGT)n          Simple_repeat          1     40    (0) 291402  
+JAJJHZ010005410.1	Cyp6a2	   34   17.6  1.4  0.0  JAJJHZ010005410.1  1605686 1605755 (3410486) + (ACAG)n            Simple_repeat          1     71    (0) 291403  
+JAJJHZ010005410.1	Cyp6a2	   31    0.0  0.0  0.0  JAJJHZ010005410.1  1606019 1606045 (3410196) + (TG)n              Simple_repeat          1     27    (0) 291404  
+JAJJHZ010005410.1	Cyp6a2	 9019   12.1  0.3  0.5  JAJJHZ010005410.1  1608571 1610004 (3406237) C rnd-4_family-11438 Unknown              (0)   1431      1 291405  
+JAJJHZ010005410.1	Cyp6a2	   51    2.0  0.0  1.9  JAJJHZ010005410.1  1610338 1610390 (3405851) + (AG)n              Simple_repeat          1     52    (0) 291406  
+JAJJHZ010005410.1	Cyp6a2	 2843   15.1  1.2  0.6  JAJJHZ010005410.1  1611391 1611884 (3404357) C rnd-4_family-11438 Unknown             (56)   1375    879 291407  
+JAJJHZ010005410.1	Cyp6a2	 1816    9.3  0.4  0.0  JAJJHZ010005410.1  1611878 1612146 (3404095) C rnd-4_family-11438 Unknown           (1161)    270      1 291407 *
+JAJJHZ010005410.1	Cyp6a2	  227   17.5  0.0  0.0  JAJJHZ010005410.1  1612604 1612643 (3403598) C rnd-4_family-2004  Unknown             (56)     43      4 291408  
+JAJJHZ010005410.1	Cyp6a2	   17   13.9  0.0  0.0  JAJJHZ010005410.1  1605493 1605524 (3410717) + (CAGCG)n           Simple_repeat          1     32    (0) 291401  
+JAJJHZ010005410.1	Cyp6a2	   19   17.0  0.0  0.0  JAJJHZ010005410.1  1605602 1605641 (3410600) + (TGCTGT)n          Simple_repeat          1     40    (0) 291402  
+JAJJHZ010005410.1	Cyp6a2	   34   17.6  1.4  0.0  JAJJHZ010005410.1  1605686 1605755 (3410486) + (ACAG)n            Simple_repeat          1     71    (0) 291403  
+JAJJHZ010005410.1	Cyp6a2	   31    0.0  0.0  0.0  JAJJHZ010005410.1  1606019 1606045 (3410196) + (TG)n              Simple_repeat          1     27    (0) 291404  
+JAJJHZ010005410.1	Cyp6a2	 9019   12.1  0.3  0.5  JAJJHZ010005410.1  1608571 1610004 (3406237) C rnd-4_family-11438 Unknown              (0)   1431      1 291405  
+JAJJHZ010005410.1	Cyp6a2	   51    2.0  0.0  1.9  JAJJHZ010005410.1  1610338 1610390 (3405851) + (AG)n              Simple_repeat          1     52    (0) 291406  
+JAJJHZ010005410.1	Cyp6a2	 2843   15.1  1.2  0.6  JAJJHZ010005410.1  1611391 1611884 (3404357) C rnd-4_family-11438 Unknown             (56)   1375    879 291407  
+JAJJHZ010005410.1	Cyp6a2	 1816    9.3  0.4  0.0  JAJJHZ010005410.1  1611878 1612146 (3404095) C rnd-4_family-11438 Unknown           (1161)    270      1 291407 *
+JAJJHZ010005410.1	Cyp6a2	  227   17.5  0.0  0.0  JAJJHZ010005410.1  1612604 1612643 (3403598) C rnd-4_family-2004  Unknown             (56)     43      4 291408  
+JAJJHZ010005410.1	Cyp9b1	   12   10.8  6.7  0.0  JAJJHZ010005410.1  3425398 3425427 (1590814) + (AATATG)n          Simple_repeat          1     32    (0) 294967  
+JAJJHZ010005410.1	Cyp9b1	   12   25.6  0.0  0.0  JAJJHZ010005410.1  3434316 3434352 (1581889) + (TATATT)n          Simple_repeat          1     37    (0) 294968  
+JAJJHZ010005410.1	Cyp9b1	   17   24.4  0.0  2.3  JAJJHZ010005410.1  3434744 3434788 (1581453) + (AT)n              Simple_repeat          1     44    (0) 294969  
+JAJJHZ010005410.1	Cyp9b1	   15   22.2  4.2  7.1  JAJJHZ010005410.1  3435075 3435162 (1581079) + (AT)n              Simple_repeat          1     85    (0) 294970  
+JAJJHZ010005410.1	Cyp9b1	   12   10.8  6.7  0.0  JAJJHZ010005410.1  3425398 3425427 (1590814) + (AATATG)n          Simple_repeat          1     32    (0) 294967  
+JAJJHZ010005410.1	Cyp9b1	   12   25.6  0.0  0.0  JAJJHZ010005410.1  3434316 3434352 (1581889) + (TATATT)n          Simple_repeat          1     37    (0) 294968  
+JAJJHZ010005410.1	Cyp9b1	   17   24.4  0.0  2.3  JAJJHZ010005410.1  3434744 3434788 (1581453) + (AT)n              Simple_repeat          1     44    (0) 294969  
+JAJJHZ010005410.1	Cyp9b1	   15   22.2  4.2  7.1  JAJJHZ010005410.1  3435075 3435162 (1581079) + (AT)n              Simple_repeat          1     85    (0) 294970  
+JAJJHZ010005410.1	Cyp6u1	   23    5.0  4.4  4.4  JAJJHZ010005410.1  4594267 4594311  (421930) + (AAC)n             Simple_repeat          1     45    (0) 297021  
+JAJJHZ010005410.1	Cyp6u1	  225   21.1  0.0  1.4  JAJJHZ010005410.1  4595018 4595089  (421152) C rnd-2_family-183   LINE/R1            (566)    270    200 297022  
+JAJJHZ010005410.1	Cyp6u1	   12    5.5  0.0  0.0  JAJJHZ010005410.1  4595520 4595538  (420703) + (ATC)n             Simple_repeat          1     19    (0) 297023  
+JAJJHZ010005410.1	Cyp6u1	   15    7.2  0.0  9.4  JAJJHZ010005410.1  4595634 4595668  (420573) + (TGT)n             Simple_repeat          1     32    (0) 297024  
+JAJJHZ010005410.1	Cyp6u1	   21   29.6  0.0  1.4  JAJJHZ010005410.1  4595859 4595930  (420311) + (GTT)n             Simple_repeat          1     71    (0) 297025  
+JAJJHZ010005410.1	Cyp6u1	   11   20.9  6.8  0.0  JAJJHZ010005410.1  4595944 4595987  (420254) + (TCACAA)n          Simple_repeat          1     47    (0) 297026  
+JAJJHZ010005410.1	Cyp6u1	  301   30.2  0.0  0.6  JAJJHZ010005410.1  4597794 4597953  (418288) + rnd-4_family-11438 Unknown              453    611  (820) 297027  
+JAJJHZ010005410.1	Cyp6u1	   17   28.4  0.0  2.0  JAJJHZ010005410.1  4600128 4600177  (416064) + (TA)n              Simple_repeat          1     49    (0) 297028  
+JAJJHZ010005410.1	Cyp6u1	  296   20.2  6.7  0.0  JAJJHZ010005410.1  4600264 4600352  (415889) + rnd-4_family-395   Unknown                6    100  (135) 297029  
