@@ -1,0 +1,19 @@
+flowchart TD
+    A["INPUT\nSpecies genome FASTA\n(Species_genome_file.fa / .fna)\none file per Drosophila species"]
+
+    A --> B["spinContainer.sh\n(docker run dfam/tetools:latest)"]
+    B --> C["BuildDatabase\n-name D_speciesname Species_genome_file.fa"]
+    C --> D["RepeatModeler\n-database D_speciesname -threads 10 -LTRStruct\n(runtime: ~8-26 hrs)"]
+    D --> E["OUTPUT\nconsensi.fa.classified  (TE library)\n+ families.stk, rmod.log, round-1..round-5\nfolder: spring26repeatmodeler/species/RM_date"]
+
+    E --> F["runMasker.sh\nRepeatMasker -lib consensi.fa.classified\n-pa 8  species_genome.fna"]
+    F --> G["OUTPUT\nspecies.rm.fna.out\n(RepeatMasker TE annotation of genome)"]
+
+    G --> H["VS Code Python scripts (manual 3-step run)\nReVamp_Final.py /\nNEW_Step_5_Replace_gff_Names_with_Dmelanogaster_1_9.py /\nbuild_tfbs_te_gff.py"]
+    H --> I["OUTPUT\nD_species_GenesAffectedByTE.txt\n+ Gff_Dataset#1/  and  Gff_Dataset#2/"]
+
+    I --> J["JBrowse\n1. Open New Genome FastaAdapter\n2. Add Track annotation file"]
+    J --> K["OUTPUT\nVisualized genome track\ne.g. Dmelanogaster_simulans_sechellia.jbrowse"]
+
+    I --> L["TFBS / Motif scripts\ncompare_te_cyp_cncc.py\ncompare_te_cyp_exposure.py\ncompare_te_cyp_xenobiotic.py\nuses jaspar_cache TF database"]
+    L --> M["OUTPUT\nTEandTFdata.xls + per-species results\nin RM2_RM_TFBS_Results/"]
