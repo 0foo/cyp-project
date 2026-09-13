@@ -11,17 +11,16 @@ flowchart TD
         B --> C["BuildDatabase<br/>(in dfam/tetools container)"]
         C --> D["RepeatModeler<br/>8-26 h per genome"]
         D --> E[["sample-families.fa<br/>de novo TE library"]]
+        E --> F["RepeatMasker<br/>-lib families.fa<br/>when RUN_MASKER=1"]
     end
 
     subgraph GAP["NOT IN THIS REPOSITORY"]
         direction TB
-        F["RepeatMasker<br/>-lib families.fa"]
         G["Gene annotation<br/>NCBI RefSeq / BRAKER / MAKER"]
         H["Ortholog renaming<br/>to D. melanogaster symbols"]
     end
 
-    E --> F
-    F --> I[["species.rm.fna.out<br/>every repeat, located"]]
+    F --> I[["sample.rm.out<br/>every repeat, located"]]
     G --> H
     H --> J[["annotation.gff<br/>Cyp symbols in Name="]]
 
@@ -76,21 +75,22 @@ flowchart TD
 
 ## The seam
 
-The dashed box is the important part of this diagram. **Two required steps have no code in
-this repository**: RepeatMasker, and gene annotation with ortholog renaming.
+The dashed box is the important part of this diagram — and it is smaller than it used to be.
 
-Stage 1 produces a TE *library* — a catalogue of repeat families found in a genome. It does
-not say where in the genome they are. Turning a library into per-locus coordinates is
-RepeatMasker's job, and RepeatMasker is invoked here only by `runMasker.sh`, a file known
-from the archive photographs (see `OCR docs/02`) but never committed.
+Stage 1 produces a TE *library*: a catalogue of repeat families found in a genome, which does
+not say where in the genome they are. Turning that library into per-locus coordinates is
+RepeatMasker's job, and **RepeatMasker is now run by the same workers**, as a second stage
+gated on `RUN_MASKER=1`. A genome FASTA therefore reaches `sample.rm.out` without leaving this
+repository. (The lab's own `runMasker.sh`, known from the archive photographs — see
+`OCR docs/02` — was never committed, and is superseded rather than recovered.)
 
-Likewise, Stage 2 needs an annotation GFF whose `Name=` attributes are already *D.
-melanogaster* Cyp symbols. Producing that was the job of `ReVamp_Final.py` /
-`NEW_Step_5_Replace_gff_Names_with_Dmelanogaster_1_9.py`, also not committed.
+**One required step still has no code here**: the annotation GFF whose `Name=` attributes are
+already *D. melanogaster* Cyp symbols. Producing that was the job of `ReVamp_Final.py` /
+`NEW_Step_5_Replace_gff_Names_with_Dmelanogaster_1_9.py`, neither of which was committed.
 
-So the pipeline as committed is two working halves with a manual bridge between them. If
-you have a `*.rm.fna.out` and a renamed `*.gff`, everything downstream runs. If you only
-have genomes, Stage 1 will run and then you will stop.
+So: with genomes alone you now get all the way to a located-repeat table. To go further you
+also need a renamed `*.gff` for that species — existing species have one, a new species would
+not.
 
 ## Where the data in this repository sits on that path
 

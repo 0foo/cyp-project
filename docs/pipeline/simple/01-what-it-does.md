@@ -94,24 +94,28 @@ Be aware of this before you try to run anything end to end:
 
 ```mermaid
 flowchart LR
-    A["Stage 1<br/>repeat-modeler-automation/"] -->|"❌ gap"| B["Stage 2<br/>RepeatMasker"]
-    B -->|"❌ gap"| C["Stage 3<br/>pipeline-scripts-output/"]
+    Z["Stage 0<br/>gene annotation renaming"] -->|"❌ gap"| C
+    A["Stages 1 and 2<br/>repeat-modeler-automation/"] --> C["Stage 3<br/>pipeline-scripts-output/"]
     C --> D["Stages 4-6<br/>analysis-pipeline/"]
 
+    style Z fill:#ffe0e0
     style A fill:#e6f7e6
-    style B fill:#ffe0e0
     style C fill:#e6f7e6
     style D fill:#e6f7e6
 ```
 
-**Stages 1, 3, 4, 5 and 6 have code here. Stage 2 does not**, and neither does the step that
-produces the gene annotation with *D. melanogaster* names. Those were done by scripts
-(`runMasker.sh`, `ReVamp_Final.py`) that were never committed and survive only as names in
-the lab notebook and log *(OCR docs 02, 04, 06)*.
+**Every stage from 1 onward has code here.** Stages 1 and 2 are both run by
+`repeat-modeler-automation/`, which takes a genome from raw FASTA to a RepeatMasker `.out`
+table in one pass.
 
-In practice this means: starting from raw genomes, you will get through stage 1 and then
-stop. Starting from an existing RepeatMasker `.out` file and an annotation GFF3, everything
-from stage 3 onward runs.
+**The one remaining gap is upstream of all of it**: the step that relabels each species' gene
+annotation with *D. melanogaster* ortholog names. That was done by scripts (`ReVamp_Final.py`,
+`NEW_Step_5_Replace_gff_Names_with_Dmelanogaster_1_9.py`) that were never committed and survive
+only as names in the lab notebook and log *(OCR docs 02, 04)*.
+
+In practice: with a genome FASTA you can get all the way to a `.out` table. To go further you
+also need an annotation GFF3 for that species with ortholog names already applied — existing
+species have one, a newly added species would not.
 
 There is a worked example of stages 3 onward already in the repository —
 `pipeline-scripts-output/` contains real *D. ananassae* inputs and outputs, and 29 completed

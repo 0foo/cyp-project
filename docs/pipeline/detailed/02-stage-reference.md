@@ -119,6 +119,9 @@ BuildDatabase -name <sample> <sample>.fa
 RepeatModeler -database <sample> <thread flag> [-LTRStruct]
 ```
 
+and then, when `RUN_MASKER=1`, continues straight into stage 2 on the same genome without
+releasing the claim — see [Stage 2](#stage-2--annotate-te-locations-genome-wide-).
+
 Differences from era 1 that matter:
 
 - **No `-engine` flag**, on either call. Current RepeatModeler (checked against 2.0.9) removed
@@ -162,15 +165,60 @@ documented starting point. `WORK_DIR` runs **20-80 GB per genome in flight**.
 
 ---
 
-## Stage 2 — Annotate TE locations genome-wide ❌
+## Stage 2 — Annotate TE locations genome-wide ✅
 
 **In:** the stage 1 library + the genome FASTA. **Out:** a RepeatMasker `.out` table.
+**Runtime:** typically an hour or two.
 
-**No code for this stage is in the repository.** It ran as `runMasker.sh`, on a collaborator's
-machine, and the script itself was never photographed. But the stage is *not* undocumented —
-two independent sources describe it, one giving the command and the other the procedure.
+### As it runs now — the committed automation
 
-### The command — lab notebook *(OCR doc 02, section 1)*
+Stage 2 is part of `repeat-modeler-automation/`, not a separate tool. Set `RUN_MASKER=1` in
+`rmodeler.conf` and each worker masks every genome straight after it models it, in the same job
+directory, using the library it just built:
+
+```
+RepeatMasker -lib <sample>-families.fa -pa $THREADS -xsmall <sample>.fa
+```
+
+| Flag | Why |
+|---|---|
+| `-lib` | Makes this a **custom library** run — the repeats annotated are the ones stage 1 discovered in this genome, not Dfam's stock set for the clade |
+| `-pa $THREADS` | RepeatMasker's own parallelism. Unlike RepeatModeler there is no `-threads` spelling to detect; the container's `--cpus` ceiling applies on top |
+| `-xsmall` | Soft-masks — repeats come back lowercased rather than replaced with `N`, so the masked FASTA is still usable as sequence for downstream motif scanning. No effect on the `.out` table |
+
+**Outputs**
+
+| Path | Meaning |
+|---|---|
+| `$OUT_DIR/<sample>.rm.out` | The annotation table. **This is what the rest of the project consumes.** It is RepeatMasker's own `<sample>.fa.out`, renamed on the way out so the role is visible |
+| `$OUT_DIR/<sample>.rm.tbl` | RepeatMasker's summary table |
+| `$OUT_DIR/<sample>.rm.masked.fa` | The soft-masked genome — only when `KEEP_MASKED_FASTA=1`, since it is as large as the genome |
+| `$STATE_DIR/masked/<sample>` | Marker: masking finished successfully |
+| `$LOG_DIR/<sample>.masker.log` | Full RepeatMasker output |
+
+**Stage independence.** `done/` (modelled) and `masked/` are separate markers, and this is the
+design point rather than an implementation detail:
+
+- Turning `RUN_MASKER=1` on **after** a modelling run re-runs only RepeatMasker over the
+  already-modelled genomes. The library is copied back from `$OUT_DIR`, which is the only place
+  it survives once the job directory is deleted.
+- A mask that fails keeps the `done/` marker and the library, so the retry costs one
+  RepeatMasker run rather than another 8-26 hours.
+- A SIGTERM mid-mask is an **abort**: no marker is written and the stage looks untouched next
+  pass. It is never recorded as a failure.
+- The stages log to separate files so a mask-only retry cannot truncate the RepeatModeler log
+  belonging to the library it is using.
+
+If the library is missing entirely — `done/` marker present but `<sample>-families.fa` gone —
+the worker fails that genome with an explicit message rather than silently re-modelling it.
+Clear `done/<sample>` to rebuild from scratch.
+
+### As it ran originally ❌ (for reference)
+
+The lab's own script, `runMasker.sh`, was never photographed and never committed, and the
+automation does not attempt to reproduce it line for line. Two sources record what it did.
+
+**The command** — lab notebook *(OCR doc 02, section 1)*:
 
 ```
 Repeatmasker:
@@ -181,83 +229,44 @@ Repeatmasker:
 • RepeatMasker -lib RM_#$date/consensi.fa.classified -pa 8  Drosophila_ .fna file
 ```
 
-Reconstructed, that is:
-
-```
-RepeatMasker -lib <RM_dated_dir>/consensi.fa.classified -pa 8 <species>.fna
-```
-
 `RM_#$date` stands for the dated RepeatModeler output directory — the real thing looks like
-`RM_235549.ThuJul92144222026` *(OCR doc 03c)* — and `-pa 8` is RepeatMasker's parallel
-search-process count. *"Copy & paste replace Drosophila_… w/ file"* is an instruction to
-substitute the actual species filename each time, which is the same hand-editing loop that
-stage 3 uses.
+`RM_235549.ThuJul92144222026` *(OCR doc 03c)*. "Copy & paste replace Drosophila_… w/ file" is an
+instruction to substitute the species filename by hand each time. **Treat the flag order as
+approximate**; it is a handwritten paraphrase.
 
-**Treat the flag order as approximate.** It is a handwritten paraphrase and has never been
-checked against the real script.
-
-### The procedure — Kaur write-up *(OCR doc 05, pages 2-3)*
+**The procedure** — Kaur write-up *(OCR doc 05, pages 2-3)*:
 
 > 1.) Copy the RepeatModeler output (consensi.fa.classified) into the RepeatMasker folder (it
 >     should already be there from when we ran RepeatModeler).
 > 2.) Run RepeatMasker using the custom repeat library and the genome FASTA file.
 > 3.) Save the output files for downstream analysis.
 
-The parenthetical in step 1 is the operationally significant detail: **RepeatMasker ran in the
+The parenthetical in step 1 is the operationally significant detail — RepeatMasker ran **in the
 same per-species working directory as RepeatModeler**, so the library was already in place and
-nothing was copied anywhere. This is consistent with era 1's container mount, which exposed
-exactly one species folder *(OCR doc 01)*, and it is why the stage 1 library and the stage 2
-`.out` file are siblings rather than living in separate trees.
-
-The write-up also states the stage's contract plainly: RepeatMasker *"uses the repeat library
-created by RepeatModeler to locate transposable elements throughout a genome"*, with
-`consensi.fa.classified` *"used as the custom library for this step"* — confirming the library
-is a **custom** `-lib`, not Dfam's stock database. That matters: the TEs found here are the
-ones stage 1 discovered in that species, not a reference set.
+nothing was copied anywhere. The automation does exactly the same thing, for the same reason.
 
 ### Which container did this run in?
 
-**The same image, not a separate one.** `dfam/tetools:latest` is the Dfam TE Tools image and
-bundles RepeatMasker alongside RepeatModeler, RECON, RepeatScout, TRF and rmblast. No second
-image is named anywhere in the archive, and none is needed. This is what makes the write-up's
-*"it should already be there from when we ran RepeatModeler"* true: same image, same mounted
-species folder.
+**The same image, not a separate one.** `dfam/tetools:latest` bundles RepeatMasker alongside
+RepeatModeler, RECON, RepeatScout, TRF and rmblast. No second image is named anywhere in the
+archive, and none is needed — which is what makes the write-up's *"it should already be there"*
+true. The committed worker relies on this too: it runs both stages out of `RM_IMAGE`.
 
-**A separate container instance, though, almost certainly.** `spinContainer.sh` runs with
-`-it --rm … bash`, so the container is destroyed the moment the shell exits. With RepeatModeler
-taking 8-26 hours and masking described as a subsequent step, any exit-and-return is a fresh
-container off the same image. And per the log, RepeatMasker processing was handed to a
-collaborator over OneDrive *(OCR doc 04)* — a different machine, so necessarily a different
-container.
+**A separate container instance, though.** Era 1's `spinContainer.sh` ran `-it --rm … bash`, so
+the container died when the shell exited; and per the log, masking was handed to a collaborator
+over OneDrive *(OCR doc 04)* — a different machine entirely. The committed worker also uses a
+separate container per stage, named `<sample>-db`, `<sample>-rm` and `<sample>-mask`, so each
+can be stopped by name on shutdown.
 
-**Note that the committed automation has no masking container at all.** `worker.sh` makes
-exactly two `docker_run` calls, `BuildDatabase` and `RepeatModeler`; the string "RepeatMasker"
-does not appear anywhere in `repeat-modeler-automation/`.
+> **Open question, now only of historical interest.** Whether `runMasker.sh` was its own
+> `docker run` wrapper or a script executed inside a shell started by `spinContainer.sh` is not
+> established, and the script was never photographed. It no longer blocks anything — the
+> automation supersedes both scripts — but it is the reason the original flag list cannot be
+> confirmed.
 
-> **Open question.** Whether `runMasker.sh` is its own `docker run` wrapper or a script executed
-> *inside* a shell already started by `spinContainer.sh` is **not established**. The naming
-> implies the latter division of labour — one script spins the container, the other runs the
-> tool in it — and the mount is `-v $(pwd):/Spring26RepeatModeler`, only the current species
-> folder, so a standalone `runMasker.sh` would have needed to set up its own mount. But the
-> script was never photographed, and both files sit in the mounted directory where host and
-> container see them alike, so nothing in the archive settles it. It matters if you rebuild
-> this stage: the answer decides whether you write a container wrapper or just a command.
-
-### What is actually missing
-
-Not the command and not the procedure — those are recorded above. What is missing is
-`runMasker.sh` itself, and with it: the exact flag order, whether any additional flags were
-used (`-species`, `-xsmall`, `-gff`, output directory handling), whether it looped over species
-or was invoked once per species by hand, and the container question above.
-
-**Outputs** are named `<species>.<accession>.rm.fna.out`, e.g.
-`Drosophila_ananassae.GCF_017639315.1.rm.fna.out` — 39 MB and 297,073 lines for *D. ananassae*.
-Committed examples are in `pipeline-scripts-output/DA_Files/` and
-`pipeline-scripts-output/AnalysisForAll/FilesFromMasker/`.
-
-**This is the stage to rebuild first** if the pipeline is to run end to end again. It is a
-single standard command; the difficulty is not the command but that the whole handoff around
-it — zip, upload, collect — was human.
+**Committed example outputs** from era 1 are in `pipeline-scripts-output/DA_Files/` and
+`pipeline-scripts-output/AnalysisForAll/FilesFromMasker/`, e.g.
+`Drosophila_ananassae.GCF_017639315.1.rm.fna.out` — 39 MB and 297,073 lines.
 
 ---
 

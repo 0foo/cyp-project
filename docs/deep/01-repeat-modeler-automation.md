@@ -1,5 +1,17 @@
 # `repeat-modeler-automation/` in depth
 
+> **⚠ Partially out of date.** This document was written against the worker as it stood
+> *before* RepeatMasker was added. Since then the per-genome work has been split into two
+> stages — `stage_model` and `stage_mask`, replacing the single `run_pipeline` — with a fourth
+> state marker (`masked/`), two new settings (`RUN_MASKER`, `KEEP_MASKED_FASTA`), a third
+> container suffix (`-mask`), and a second per-genome log (`<sample>.masker.log`).
+>
+> The structural claims below have been corrected for that change, **but every `file.sh:NNN`
+> line reference predates it and is now approximate.** For the current behaviour see
+> [`repeat-modeler-automation/README.md`](../../repeat-modeler-automation/README.md) and
+> [`docs/pipeline/detailed/02-stage-reference.md`](../pipeline/detailed/02-stage-reference.md).
+> A full refresh of this document is outstanding.
+
 Two standalone bash scripts and a mandatory config file. No shared library — the config
 reader is duplicated verbatim between them, deliberately.
 
@@ -22,12 +34,13 @@ consequences.
 
 `worker.sh:166-245`, duplicated at `rm-manager.sh:87-166`.
 
-Sixteen recognised keys:
+Eighteen recognised keys:
 
 ```
 IN_DIR WORK_DIR OUT_DIR STATE_DIR LOG_DIR RUN_DIR
 RM_IMAGE DOCKER THREADS MEM_LIMIT GLOB
 LTRSTRUCT KEEP_WORK RETRY_FAILED STOP_GRACE WORKERS
+RUN_MASKER KEEP_MASKED_FASTA
 ```
 
 Both scripts accept all sixteen even though each uses only a subset (`WORKERS` and `RUN_DIR`
@@ -70,7 +83,7 @@ config file therefore cannot execute shell commands — it can only set the sixt
 
 - nine path/name settings must be non-empty
 - `THREADS`, `WORKERS` must match `^[1-9][0-9]*$`
-- `LTRSTRUCT`, `KEEP_WORK`, `RETRY_FAILED` must be exactly `0` or `1`
+- `LTRSTRUCT`, `KEEP_WORK`, `RETRY_FAILED`, `RUN_MASKER`, `KEEP_MASKED_FASTA` must be exactly `0` or `1`
 - `STOP_GRACE` must be `^[0-9]+$` (zero permitted, unlike the two above)
 - `IN_DIR` must exist
 
@@ -111,8 +124,9 @@ state machine and the race sequence.
 
 ```
 $STATE_DIR/claimed/<sample>/owner    in progress
-$STATE_DIR/done/<sample>             finished OK
-$STATE_DIR/failed/<sample>           failed, scratch + log kept
+$STATE_DIR/done/<sample>             RepeatModeler finished OK
+$STATE_DIR/masked/<sample>           RepeatMasker finished OK (RUN_MASKER=1 only)
+$STATE_DIR/failed/<sample>           a stage failed, scratch + logs kept
 ```
 
 A genome named in none of the three is available. **That fourth state is not recorded
@@ -168,10 +182,10 @@ For each `claimed/*/`:
   script refuses to guess; clear it by hand once you are sure nothing is running.
 - `host` != this host → **skip**. Pid 4823 here tells you nothing about pid 4823 elsewhere,
   and releasing it would return a genome another box is actively working to the pool.
-- `kill -0 $pid` fails → **reap**: `docker rm -f "${cname}-db" "${cname}-rm"`, then unclaim.
+- `kill -0 $pid` fails → **reap**: `docker rm -f "${cname}-db" "${cname}-rm" "${cname}-mask"`, then unclaim.
 
-Note the suffixes. The owner file records the *base* container name; `run_pipeline` always
-launches `<base>-db` and `<base>-rm`, never the bare base. Both are removed; whichever
+Note the suffixes. The owner file records the *base* container name; the stages always
+launch `<base>-db`, `<base>-rm` and `<base>-mask`, never the bare base. All are removed; whichever
 doesn't exist errors harmlessly under the redirect.
 
 ### `shuf` is not cosmetic
@@ -239,7 +253,7 @@ no signal, it only tests existence.
 ### rc 130 — "aborted, not failed"
 
 The script's private convention (`worker.sh:494`). After **each** container call,
-`run_pipeline` checks `(( SHUTDOWN ))` before treating a non-zero exit as failure
+Each stage function checks `(( SHUTDOWN ))` before treating a non-zero exit as failure
 (`worker.sh:535`, `:550`), and also before committing to BuildDatabase after decompression
 (`worker.sh:518`) and between the two stages (`worker.sh:540`).
 
@@ -291,7 +305,7 @@ RepeatModeler writes **absolute paths into its round logs and errors**. Matching
 a trace you can follow on the host without translating.
 
 `safe_name()` (`worker.sh:381`) reduces a sample name to `[A-Za-z0-9_.-]`, capped at 100
-chars to leave room for the `-db`/`-rm` suffixes. It uses `printf` rather than a here-string
+chars to leave room for the `-db`/`-rm`/`-mask` suffixes. It uses `printf` rather than a here-string
 because a here-string appends its own newline, which `tr -c` would transliterate into a
 trailing `_` on every generated name.
 
@@ -409,7 +423,8 @@ ls state/done | wc -l                 # progress
 ls -l state/claimed/                  # what is running, and since when
 ls state/failed                       # what blew up
 cat logs/<sample>.log                 # why it blew up
-rm state/done/GCA_002110              # redo one genome
+rm state/done/GCA_002110              # redo one genome from scratch
+rm state/masked/GCA_002110            # redo just its RepeatMasker run
 rm state/failed/*                     # retry all failures on the next pass
 ```
 
@@ -450,5 +465,7 @@ RepeatModeler is I/O-bound enough in places that this hasn't mattered, but it is
 same as `--cpuset-cpus`.
 
 **`$LOG_DIR/<sample>.log` is truncated on retry.** `process_one` does `: > "$logf"`
+(the mask stage truncates its own separate `<sample>.masker.log` instead, so a mask-only
+retry no longer destroys the modelling log)
 (`worker.sh:585`). A retried genome loses the previous attempt's log. If you are debugging
 an intermittent failure, copy it aside before retrying.

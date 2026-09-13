@@ -9,9 +9,10 @@ decide what to work on next, so there is no file for workers to disagree about.
 stateDiagram-v2
     [*] --> Available: genome file exists in IN_DIR
 
-    Available: <b>available</b><br/>not named in claimed/, done/ or failed/<br/>(recomputed every pass, never recorded)
+    Available: <b>available</b><br/>has an unfinished stage, not claimed or failed<br/>(recomputed every pass, never recorded)
     Claimed: <b>claimed/&lt;sample&gt;/</b><br/>owner file records host + pid + container
-    Done: <b>done/&lt;sample&gt;</b><br/>families file is in OUT_DIR
+    Done: <b>done/&lt;sample&gt;</b><br/>families file is in OUT_DIR<br/>still available for the mask stage
+    Masked: <b>masked/&lt;sample&gt;</b><br/>sample.rm.out is in OUT_DIR
     Failed: <b>failed/&lt;sample&gt;</b><br/>scratch dir and log kept
 
     Available --> Claimed: mkdir succeeded<br/>(exactly one winner)
@@ -21,13 +22,21 @@ stateDiagram-v2
     Claimed --> Available: reap_stale_claims()<br/>owner pid is dead on this host
 
     Failed --> Available: RETRY_FAILED=1<br/>or rm failed/&lt;sample&gt;
+    Done --> Masked: RUN_MASKER=1<br/>RepeatMasker succeeded
     Done --> Available: rm done/&lt;sample&gt;
+    Masked --> Available: rm masked/&lt;sample&gt;<br/>re-masks, no re-modelling
 
     Done --> [*]
 ```
 
 The fourth state has no marker of its own — **available is the absence of the other three**.
-That is what makes `rm state/done/GCA_002110` a complete way to redo one genome.
+That is what makes `rm state/done/GCA_002110` a complete way to redo one genome — and
+`rm state/masked/GCA_002110` a way to redo only its RepeatMasker run, keeping the library that
+took 8-26 hours to build.
+
+Note that a genome in `done/` is **not** necessarily finished. With `RUN_MASKER=1` it stays
+available for the mask stage until `masked/` exists too, which is what lets you enable masking
+after a modelling run and have the existing genomes picked up without re-modelling them.
 
 ## Why `mkdir` is the lock
 
@@ -67,7 +76,7 @@ flowchart TD
     A["find IN_DIR -name GLOB | shuf"] --> B{"SHUTDOWN?"}
     B -->|yes| Z["exit 143"]
     B -->|no| C["strip .gz/.fna/.fa/.fasta/.rm<br/>→ sample name"]
-    C --> D{"done/sample<br/>exists?"}
+    C --> D{"nothing left to do?<br/>done/ and, if RUN_MASKER=1,<br/>masked/ both exist"}
     D -->|yes| A
     D -->|no| E{"failed/sample<br/>exists?"}
     E -->|"yes, RETRY_FAILED=0"| A
@@ -90,9 +99,19 @@ flowchart TD
     J3 -->|yes| R130
     J3 -->|no| R1
     M -->|ok| N{"families.fa<br/>non-empty?"}
-    N -->|no| R1["rc 1 → failed/<br/>keep scratch + log"]
-    N -->|yes| O["cp to OUT_DIR"]
-    O --> R0["rc 0 → done/<br/>delete scratch"]
+    N -->|no| R1["rc 1 → failed/<br/>keep scratch + logs"]
+    N -->|yes| O["cp to OUT_DIR<br/>write done/ marker"]
+    O --> MK{"RUN_MASKER=1<br/>and no masked/ marker?"}
+    MK -->|no| R0
+    MK -->|yes| MR["docker run … RepeatMasker<br/>-lib families.fa -pa N -xsmall"]
+    MR -->|nonzero| J4{"SHUTDOWN?"}
+    J4 -->|yes| R130
+    J4 -->|no| R1
+    MR -->|ok| MO{"sample.fa.out<br/>non-empty?"}
+    MO -->|no| R1
+    MO -->|yes| MC["cp to OUT_DIR as sample.rm.out<br/>write masked/ marker"]
+    MC --> R0
+    R0["rc 0 → all stages done<br/>delete scratch"]
 
     R130["rc 130 → no marker<br/>delete scratch<br/>genome looks untouched"]
 
@@ -141,7 +160,7 @@ flowchart LR
         W3["worker.sh"]
     end
 
-    STATE[("STATE_DIR<br/>claimed/ done/ failed/")]
+    STATE[("STATE_DIR<br/>claimed/ done/ masked/ failed/")]
 
     ST --> P1 & P2 & P3
     ST --> W1 & W2 & W3

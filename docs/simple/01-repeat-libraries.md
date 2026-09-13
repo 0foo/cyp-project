@@ -126,8 +126,8 @@ log per genome in `LOG_DIR`, kept whether it succeeded or not.
 ## What happens next
 
 The library goes to **RepeatMasker**, which scans the genome with it and produces a file
-listing every repeat copy and its coordinates. That step has no code in this repository —
-see [the end-to-end diagram](../diagrams/01-end-to-end.md) for exactly where the gap is.
+listing every repeat copy and its coordinates. The same workers do this too, as a second
+stage, when `RUN_MASKER=1` — you get `<sample>.rm.out` in `OUT_DIR` alongside the library.
 
 ---
 

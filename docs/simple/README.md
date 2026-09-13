@@ -47,10 +47,11 @@ Stages 3 and 4 are fast (seconds to minutes) and are ordinary analysis code.
 
 Two things are worth knowing before you dig in.
 
-**There's a hole in the middle.** Between stage 1 and stage 2, two steps have to happen that
-have no code here: running RepeatMasker, and labelling each species' genes with standard *D.
-melanogaster* names. Those were done by scripts that were never committed. If you're
-starting from raw genomes, you will get through stage 1 and then stop.
+**There's a hole near the start.** RepeatMasker is now automated alongside RepeatModeler
+(`RUN_MASKER=1`), so a raw genome gets all the way to a TE annotation table here. What still
+has no code is labelling each species' genes with standard *D. melanogaster* names — done by
+scripts that were never committed. Existing species already have relabelled annotations; a
+newly added species would not.
 
 **Five species is not many.** The comparison pools individual genes to get enough
 observations to test, and then says so, loudly, in every report it writes — because genes

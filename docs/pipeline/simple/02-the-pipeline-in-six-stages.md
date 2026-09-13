@@ -55,16 +55,18 @@ flowchart LR
     MASK --> OUT[".out table<br/>every TE copy, with coordinates"]
 ```
 
-**This stage has no code in this repository.** It was run by a script called `runMasker.sh`
-which was never photographed and never committed.
+**This stage is automated**, in the same `repeat-modeler-automation/` workers that run stage 1.
+Set `RUN_MASKER=1` and each genome is masked straight after its library is built, in the same
+job directory — which is exactly how the lab did it by hand *(OCR doc 05: the library "should
+already be there from when we ran RepeatModeler")*.
 
-The stage itself is well documented even so: the lab notebook records the command
-*(OCR doc 02)* and the write-up records the procedure *(OCR doc 05)* — including the detail
-that RepeatMasker ran in the **same per-species folder** as RepeatModeler, so the library was
-already sitting there and nothing had to be moved. What is missing is the script, not the
-knowledge of what it did.
+The two stages keep separate state markers, so they restart independently: turning masking on
+later re-runs only RepeatMasker over genomes that were already modelled, and a failed mask
+never costs you the day-long modelling run that produced the library.
 
-The `.out` files it produced are here, so everything downstream can be run and checked.
+The lab's original script for this, `runMasker.sh`, was never committed and its exact flags are
+known only from a handwritten paraphrase *(OCR doc 02)*. The automation does not reproduce it
+line for line; it runs the same tool with the same custom library.
 
 ---
 

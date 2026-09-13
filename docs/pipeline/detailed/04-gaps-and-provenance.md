@@ -7,37 +7,29 @@ of those claims comes from. Nothing here is speculation; anything inferred says 
 
 ## Part 1 — Gaps: the stages with no code
 
-### G1. RepeatMasker (stage 2) — the blocking gap
+### G1. RepeatMasker (stage 2) — **closed**
 
-`runMasker.sh` was never photographed and never committed.
+*Was the blocking gap; no longer is.* Stage 2 is now part of `repeat-modeler-automation/`:
+set `RUN_MASKER=1` and each worker masks every genome with the library it just built, in the
+same job directory, recording a separate `masked/` marker so the two stages restart
+independently. See [`02-stage-reference.md`](02-stage-reference.md).
 
-The stage is well described, though — the command is paraphrased in the lab notebook
-*(OCR doc 02)* and the procedure is set out independently in the write-up *(OCR doc 05)*,
-both reproduced in
-[`02-stage-reference.md`](02-stage-reference.md#stage-2--annotate-te-locations-genome-wide-):
+What remains unrecovered is the lab's own `runMasker.sh` — its exact flag list, and whether it
+wrapped its own container. Neither blocks anything now; the automation runs the same tool with
+the same custom library, and the notebook and write-up together record what the original did.
 
-```
-RepeatMasker -lib <RM_dated_dir>/consensi.fa.classified -pa 8 <species>.fna
-```
+**The pipeline can now be run from a genome FASTA to a RepeatMasker `.out` table without
+leaving this repository.** The remaining barrier to a full end-to-end run is G2 below.
 
-What is genuinely lost is the script: the exact flag order, any additional flags, and whether
-it looped over species or was run once per species by hand.
-
-**Impact:** the pipeline cannot be run end to end from raw genomes. Stage 1 completes and
-then stops.
-
-**Severity: low to fix, high to ignore.** This is one standard command against a standard tool.
-Rebuilding it as a second worker in `repeat-modeler-automation/` — same claim-based pattern,
-same container image — is the obvious move, since RepeatMasker is also slow and also per-species.
-
-### G2. Gene renaming (stage 0b) — the subtler gap
+### G2. Gene renaming (stage 0b) — the remaining gap
 
 Neither `ReVamp_Final.py` (Duy, Dataset #2) nor
 `NEW_Step_5_Replace_gff_Names_with_Dmelanogaster_1_9.py` (Ayush, Dataset #1) is committed
 *(OCR doc 04)*.
 
 **Impact:** you cannot add a new species to the study. Every existing species' annotation was
-already renamed; a new one cannot be, so it will match nothing in `Reg_Gene_Full.txt`.
+already renamed; a new one cannot be, so it will match nothing in `Reg_Gene_Full.txt`. With G1
+closed, this is now the only thing standing between a raw genome and a finished comparison.
 
 **Severity: harder than G1.** It needs both the code and the ortholog assignment behind it.
 The committed output shows the mapping came from hierarchical orthogroups (`hog=N1.HOG…`), so

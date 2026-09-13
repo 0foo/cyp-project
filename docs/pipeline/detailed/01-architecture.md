@@ -44,14 +44,13 @@ flowchart TB
 
     subgraph era2["ERA 2 — the committed code"]
         direction LR
-        E2A["repeat-modeler-automation/<br/>worker + manager"] --> E2B["?"]
-        E2B --> E2C["pipeline-scripts-output/<br/>same 3 scripts, committed"]
+        E2A["repeat-modeler-automation/<br/>worker + manager<br/>model + mask stages"] --> E2C["pipeline-scripts-output/<br/>same 3 scripts, committed"]
         E2C --> E2D["analysis-pipeline/<br/>merge + statistics"]
     end
 
     era1 -.->|"produced the data<br/>that era 2 analyses"| era2
 
-    style E2B fill:#ffe0e0
+    style E2A fill:#e6f7e6
 ```
 
 **Era 1** is the pipeline as the lab actually ran it, recorded only in photographs. It was
@@ -60,9 +59,11 @@ interactive, Windows-hosted, and manual at every step: a WSL terminal to start a
 Python steps with file paths pasted in one at a time *(OCR docs 02, 05)*. It produced all the
 real data in this repository.
 
-**Era 2** is what is committed: the same stage 1 rebuilt as unattended infrastructure, the
+**Era 2** is what is committed: stages 1 **and 2** rebuilt as unattended infrastructure, the
 same stage 3 scripts preserved as-is, and a substantial new analysis layer
-(`analysis-pipeline/`) that era 1 never had. It has a hole where stage 2 should be.
+(`analysis-pipeline/`) that era 1 never had. Era 1's two hand-run shell scripts,
+`spinContainer.sh` and `runMasker.sh`, are both superseded by the worker — which is why
+neither needed to be recovered.
 
 The two eras agree on the important conventions. Era 2's `worker.sh` uses the same container
 image (`dfam/tetools:latest`) and the same mount-at-a-fixed-path convention that era 1's
